@@ -1,0 +1,14 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="actionbars.lua"/>
+	<Script file="auras.lua"/>
+	<Script file="bags.lua"/>
+	<Script file="chat.lua"/>
+	<Script file="databars.lua"/>
+	<Script file="datatexts.lua"/>
+	<Script file="global_private.lua"/>
+	<Script file="movers.lua"/>
+	<Script file="nameplates.lua"/>
+	<Script file="theme.lua"/>
+	<Script file="tooltip.lua"/>
+	<Script file="unitframes.lua"/>
+</Ui>
