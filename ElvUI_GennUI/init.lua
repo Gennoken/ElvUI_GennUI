@@ -23,7 +23,7 @@ P['GNUI'] = {
 	['install_version'] = nil,
 }
 disctag = "Gennoken#4505"
-repolink = "http://repooo"
+repolink = "https://github.com/Gennoken/ElvUI_GennUI"
 
 --[[ Login Message ]]--
 E:Print(L["Hello,|r |r" ..UnitName("Player")..  "|r Welcome to |cffc31f3bGennUI |cffffffffby |cffc31f3bGennoken|cffffffff, please type in |cffc31f3b/gnui |cfffffffffor options, Thank you."])
