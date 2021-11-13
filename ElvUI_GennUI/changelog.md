@@ -1,6 +1,6 @@
-Changelog
+**Changelog
 
-v2.63 [12/11/2021]
+**v2.63 [13/11/2021]
 • GennUI is back again, too many people requests.
 • UI remade from scratch with some minor changes, addons profiles too.
 • Addons profiles removed: iPMythicTimer, NameplateAuras, NameplateCooldowns, Ability Team Tracker
