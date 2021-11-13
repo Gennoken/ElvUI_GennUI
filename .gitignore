@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Other files and folders
-.settings/
+# Folder config file
+Desktop.ini
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Mac crap
+.DS_Store
+
+# Misc
+*.zip
+
+# Luacheck's Cache
+.luacheckcache
+
+# Vscode local config
+.vscode
+
+# Other files.
+README.md
+.gitattributes
