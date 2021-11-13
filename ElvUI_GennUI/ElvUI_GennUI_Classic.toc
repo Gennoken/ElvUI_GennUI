@@ -5,7 +5,7 @@
 ## Notes: A Clean Minimalistic ElvUI Edit by |cffc31f3bGennoken.
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled
-## X-Tukui-ProjectID: 96
+## X-Tukui-ProjectID: 52
 ## X-Tukui-ProjectFolders: ElvUI_GennUI
 
 media\media.xml
