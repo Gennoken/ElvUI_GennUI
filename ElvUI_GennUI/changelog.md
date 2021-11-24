@@ -3,6 +3,8 @@
 **v2.64 []**
 - WindTools ItemBar minor fixes.
 - TopCenter Widget mover update.
+- Zone/Boss Clean Buttons.
+- Added GennUI version display to chat welcome message.
 
 **v2.63 [13/11/2021]**
 - GennUI is back again, too many people requests.
