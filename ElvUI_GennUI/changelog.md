@@ -4,6 +4,7 @@
 - WindTools ItemBar minor fixes.
 - TopCenter Widget mover update.
 - Zone/Boss Clean Buttons.
+- [gnuihmana] fix for party.
 - Added GennUI version display to chat welcome message.
 
 **v2.63 [13/11/2021]**
