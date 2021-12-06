@@ -28,6 +28,7 @@ E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "GennUI"
 E.db["general"]["minimap"]["icons"]["queueStatus"]["xOffset"] = 2
 E.db["general"]["minimap"]["icons"]["queueStatus"]["yOffset"] = 0
 E.db["general"]["minimap"]["locationFont"] = "GennUI"
+E.db["general"]["minimap"]["locationFontSize"] = 18
 E.db["general"]["minimap"]["locationText"] = "SHOW"
 E.db["general"]["minimap"]["size"] = 175
 E.db["general"]["talkingHeadFrameScale"] = 0.75
