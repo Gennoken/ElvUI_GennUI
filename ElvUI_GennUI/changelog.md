@@ -1,6 +1,6 @@
 # Changelog
 
-**v2.64 []**
+**v2.64 [13/12/2021]**
 - WindTools ItemBar minor fixes.
 - TopCenter Widget mover update.
 - Zone/Boss Clean Buttons.
