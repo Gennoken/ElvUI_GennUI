@@ -338,15 +338,15 @@ E.db["unitframe"]["units"]["party"]["customTexts"]["gHealth"]["text_format"] = "
 E.db["unitframe"]["units"]["party"]["customTexts"]["gHealth"]["xOffset"] = -10
 E.db["unitframe"]["units"]["party"]["customTexts"]["gHealth"]["yOffset"] = -8
 if GNUI.Retail then
-E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["attachTextTo"] = "Power"
+E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["attachTextTo"] = "Health"
 E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["enable"] = true
 E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["font"] = "GennUI"
 E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["fontOutline"] = "OUTLINE"
 E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["justifyH"] = "LEFT"
 E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["size"] = 12
 E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["text_format"] = "[manacolor][gnuihmana]"
-E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["xOffset"] = -30
-E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["yOffset"] = 0
+E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["xOffset"] = 32
+E.db["unitframe"]["units"]["party"]["customTexts"]["gMana"]["yOffset"] = -16
 end
 E.db["unitframe"]["units"]["party"]["customTexts"]["gName"]["attachTextTo"] = "Health"
 E.db["unitframe"]["units"]["party"]["customTexts"]["gName"]["enable"] = true

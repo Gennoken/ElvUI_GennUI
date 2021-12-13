@@ -1,7 +1,7 @@
 ## Interface: 90105
 ## Title: |cff1784d1ElvUI |cffc31f3bGennUI
-## Author: Gennoken (Gennoken#21969)
-## Version: 2.63
+## Author: Gennoken
+## Version: 2.64
 ## Notes: A Clean Minimalistic ElvUI Edit by |cffc31f3bGennoken.
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled

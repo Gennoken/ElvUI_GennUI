@@ -137,6 +137,7 @@ E.db["actionbar"]["barPet"]["hotkeyFont"] = "GennUI"
 E.db["actionbar"]["barPet"]["hotkeyFontOutline"] = "OUTLINE"
 E.db["actionbar"]["barPet"]["mouseover"] = true
 E.db["actionbar"]["barPet"]["point"] = "TOPLEFT"
+E.db["actionbar"]["extraActionButton"]["clean"] = true
 E.db["actionbar"]["extraActionButton"]["hotkeyFont"] = "GennUI"
 E.db["actionbar"]["extraActionButton"]["hotkeyFontOutline"] = "OUTLINE"
 E.db["actionbar"]["font"] = "GennUI"
@@ -153,4 +154,5 @@ E.db["actionbar"]["stanceBar"]["hotkeyFontOutline"] = "OUTLINE"
 E.db["actionbar"]["stanceBar"]["mouseover"] = true
 E.db["actionbar"]["useRangeColorText"] = true
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontOutline"] = "OUTLINE"
+E.db["actionbar"]["zoneActionButton"]["clean"] = true
 end
