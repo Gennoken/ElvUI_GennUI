@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.65 [23/01/2022]**
+- Bug fixes related to latest ElvUI updates.
+
 **v2.64 [13/12/2021]**
 - WindTools ItemBar minor fixes.
 - TopCenter Widget mover update.
