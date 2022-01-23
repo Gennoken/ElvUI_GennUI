@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.66 []**
+- 
+
 **v2.65 [23/01/2022]**
 - Bug fixes related to latest ElvUI updates.
 
