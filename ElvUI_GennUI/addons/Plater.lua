@@ -3196,7 +3196,7 @@ PlaterDB = {
 				["nameplateShowFriendlyTotems"] = "0",
 				["nameplateShowEnemyMinions"] = "0",
 				["nameplateShowFriendlyPets"] = "0",
-				["nameplateShowFriendlyNPCs"] = "0",
+				["nameplateShowFriendlyNPCs"] = "1",
 				["nameplateSelectedScale"] = "1",
 				["nameplateTargetRadialPosition"] = "1",
 				["nameplateResourceOnTarget"] = "0",
@@ -3371,7 +3371,7 @@ PlaterDB = {
 						0.1, -- [3]
 						1, -- [4]
 					},
-					["enabled"] = false,
+					["enabled"] = true,
 					["spellname_text_outline"] = "OUTLINE",
 					["click_through"] = false,
 					["level_text_font"] = "GennUI",
