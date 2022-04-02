@@ -18,7 +18,7 @@ E.db["nameplates"]["plateSize"]["personalWidth"] = 220
 E.db["nameplates"]["smoothbars"] = true
 E.db["nameplates"]["statusbar"] = "GennUI"
 E.db["nameplates"]["visibility"]["enemy"]["totems"] = true
-E.db["nameplates"]["visibility"]["friendly"]["npcs"] = false
+E.db["nameplates"]["visibility"]["friendly"]["npcs"] = true
 
 -- Colors
 E.db["nameplates"]["colors"]["castColor"]["b"] = 255 / 255
@@ -86,6 +86,7 @@ E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["numAuras"] = 2
 E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["priority"] = "Blacklist,RaidBuffsElvUI,TurtleBuffs,Dispellable,PlayerBuffs,CastByUnit"
 E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["size"] = 28
 E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["yOffset"] = 2
+E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["displayTarget"] = true
 E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["font"] = "GennUI"
 E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["fontSize"] = 12
 E.db["nameplates"]["units"]["ENEMY_NPC"]["castbar"]["height"] = 14
@@ -158,6 +159,7 @@ E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["numAuras"] = 2
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["priority"] = "Blacklist,blockNoDuration,TurtleBuffs,Personal"
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["size"] = 28
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["yOffset"] = 2
+E.db["nameplates"]["units"]["FRIENDLY_NPC"]["castbar"]["displayTarget"] = true
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["castbar"]["font"] = "GennUI"
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["castbar"]["fontSize"] = 12
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["castbar"]["height"] = 14
@@ -185,6 +187,9 @@ E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["fontSize"] = 14
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["format"] = "[namecolor][name:abbrev:medium]"
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["yOffset"] = -12
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["questIcon"]["font"] = "GennUI"
+E.db["nameplates"]["units"]["FRIENDLY_NPC"]["title"]["enable"] = true
+E.db["nameplates"]["units"]["FRIENDLY_NPC"]["title"]["font"] = "GennUI"
+E.db["nameplates"]["units"]["FRIENDLY_NPC"]["title"]["format"] = "[npctitle]"
 
 -- Friendly Player
 E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["buffs"]["countFont"] = "GennUI"
