@@ -1,7 +1,8 @@
 # Changelog
 
-**v2.66 []**
-- 
+**v2.66 [02/04/2022]**
+- Retail/TBC/Classic TOC update.
+- Minor tweaks
 
 **v2.65 [23/01/2022]**
 - Bug fixes related to latest ElvUI updates.
