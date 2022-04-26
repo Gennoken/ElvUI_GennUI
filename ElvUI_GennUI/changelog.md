@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.67 [26/04/2022]**
+- Chat code update.
+
 **v2.66 [02/04/2022]**
 - Retail/TBC/Classic TOC update.
 - Minor tweaks
