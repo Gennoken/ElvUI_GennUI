@@ -9,6 +9,9 @@ function GNUI:SetupTooltip()
 E.db["tooltip"]["cursorAnchor"] = true
 E.db["tooltip"]["font"] = "GennUI"
 E.db["tooltip"]["fontOutline"] = "OUTLINE"
+E.db["tooltip"]["headerFont"] = "GennUI"
+E.db["tooltip"]["headerFontOutline"] = "OUTLINE"
+E.db["tooltip"]["headerFontSize"] = 12
 E.db["tooltip"]["healthBar"]["font"] = "GennUI"
 E.db["tooltip"]["healthBar"]["fontSize"] = 12
 E.db["tooltip"]["healthBar"]["height"] = 1

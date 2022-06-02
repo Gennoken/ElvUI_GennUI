@@ -1,5 +1,10 @@
 # Changelog
 
+**v2.68 [02/06/2022]**
+- TOC update.
+- Tooltip header fix.
+- WindTools profile update.
+
 **v2.67 [26/04/2022]**
 - Chat code update.
 
