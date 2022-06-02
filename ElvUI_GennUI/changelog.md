@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.69 [02/06/2022]**
+- Fix corrupt TOC files
+
 **v2.68 [02/06/2022]**
 - TOC update.
 - Tooltip header fix.
