@@ -1,5 +1,9 @@
 # Changelog
 
+**v2.70 []**
+- WindTools/ProjectAzilroka small adjustements.
+- 
+
 **v2.69 [02/06/2022]**
 - Fix corrupt TOC files
 
