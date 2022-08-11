@@ -17,7 +17,7 @@
 
 # « Highly recommended »
 - [AddOnSkins](https://www.curseforge.com/wow/addons/addonskins)
-- [Shadow & Light](https://www.tukui.org/addons.php?id=38) and [WindTools](https://www.curseforge.com/wow/addons/elvui-windtools) (For Retails only)
+- [WindTools](https://www.curseforge.com/wow/addons/elvui-windtools) (For Retails only)
 
 # « Note »
 - The UI is optimized for 1920×1080 resolution and 0.64 UI Scale, if you have different settings you may want to move some things around.
@@ -42,6 +42,7 @@
 - Plater
 - ProjectAzilroka
 - Skada
+- WarpDeplete
 
 # « Special Thanks »
 - Skullflower and Naowh for inspiration.
