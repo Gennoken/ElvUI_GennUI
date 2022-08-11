@@ -24,6 +24,7 @@ ProjectAzilrokaDB = {
 			["SquareMinimapButtons"] = {
 				["Backdrop"] = false,
 				["Shadows"] = false,
+				["ButtonsPerRow"] = 8,
 			},
 			["DragonOverlay"] = {
 				["Enable"] = false,

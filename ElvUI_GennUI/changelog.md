@@ -1,5 +1,13 @@
 # Changelog
 
+**v2.70 [11/08/2022]**
+- **WARNING : Shadow & Light no longer supported, please remove it.**
+- Solved an issue where GennUI could not be loaded.
+- WindTools/ProjectAzilroka small tweaks.
+- BattleGround Enemies profile updated, now includes Arena Frames.
+- New AddOn profile support: WarpDeplete.
+- SL Season 4 Update.
+
 **v2.69 [02/06/2022]**
 - Fix corrupt TOC files
 

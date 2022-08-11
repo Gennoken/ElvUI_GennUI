@@ -6,16 +6,6 @@ local GNUI = E:GetModule("GennUI");
 local classColor = E:ClassColor(E.myclass, true)
 
 function GNUI:SetupAddons()
--- Diminish
-if IsAddOnLoaded('Diminish') then
-	GNUI:LoadDiminishProfile()
-	E:Print(L["'Diminish' profile has been set."])
-end
--- OmniBar
-if IsAddOnLoaded('OmniBar') then
-	GNUI:LoadOmniBarProfile()
-	E:Print(L["'OmniBar' profile has been set."])
-end
 -- BattleGround Enemies
 if IsAddOnLoaded('BattleGroundEnemies') then
 	GNUI:LoadBGEProfile()
@@ -46,6 +36,11 @@ if IsAddOnLoaded('Details') then
 	GNUI:LoadDetailsProfile()
 	E:Print(L["'Details' profile has been set."])
 end
+-- Diminish
+if IsAddOnLoaded('Diminish') then
+	GNUI:LoadDiminishProfile()
+	E:Print(L["'Diminish' profile has been set."])
+end
 -- Gladius
 if IsAddOnLoaded('Gladius') then
 	E.db["unitframe"]["units"]["arena"]["enable"] = false
@@ -68,6 +63,11 @@ if IsAddOnLoaded('MikScrollingBattleText') then
 	GNUI:LoadMSBTProfile()
 	E:Print(L["'MSBT' profile has been set."])
 end
+-- OmniBar
+if IsAddOnLoaded('OmniBar') then
+	GNUI:LoadOmniBarProfile()
+	E:Print(L["'OmniBar' profile has been set."])
+end
 -- OmniCD
 if IsAddOnLoaded('OmniCD') then
 	GNUI:LoadOmniCDProfile()
@@ -83,6 +83,11 @@ end
 if IsAddOnLoaded('Skada') then
 	GNUI:LoadSkadaProfile()
 	E:Print(L["'Skada' profile has been set."])
+end
+-- WarpDeplete
+if IsAddOnLoaded('WarpDeplete') then
+	GNUI:LoadWDProfile()
+	E:Print(L["'WarpDeplete' profile has been set."])
 end
 
 -- Update ElvUI

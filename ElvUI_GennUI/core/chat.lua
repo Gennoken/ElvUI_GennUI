@@ -77,7 +77,7 @@ function GNUI:SetupChat()
 	end
 	
 	-- keys added to TRADE
-	chatGroup = { 'SAY', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'GUILD', 'OFFICER', 'AFK', 'DND', 'IGNORED', 'BN_WHISPER', 'BN_INLINE_TOAST_ALERT', 'LOOT', 'CURRENCY', 'MONEY' }
+	chatGroup = { 'SAY', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'LOOT', 'CURRENCY', 'MONEY' }
 	ChatFrame_RemoveAllMessageGroups(_G.ChatFrame4)
 	for _, v in ipairs(chatGroup) do
 		ChatFrame_AddMessageGroup(_G.ChatFrame4, v)

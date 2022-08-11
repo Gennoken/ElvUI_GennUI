@@ -247,12 +247,6 @@ function GNUI:Initialize()
 	if E.private.install_complete == nil or E.private.install_complete ~= E.version then
 		E.private.install_complete = E.version
 	end
-	
-	--Force SLE Install to hide
-	if IsAddOnLoaded('ElvUI_SLE') then
-		local SLEver = GetAddOnMetadata("ElvUI_SLE", "Version")
-		E.private.sle.install_complete = SLEver
-	end
 
 	-- GennUI new install or update check
 	if E.db.GNUI.install_version == nil or E.db.GNUI.install_version < GNUI.Version then

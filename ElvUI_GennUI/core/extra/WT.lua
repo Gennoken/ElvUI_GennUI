@@ -9,8 +9,8 @@ function GNUI:LoadWTProfile()
 if IsAddOnLoaded('ElvUI_WindTools') then
 
 E.db["movers"]["WTCombatAlertFrameMover"] = "TOP,UIParent,TOP,0,-370"
-E.db["movers"]["WTExtraItemsBar1Mover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-347,197"
-E.db["movers"]["WTExtraItemsBar2Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-347,229"
+E.db["movers"]["WTExtraItemsBar1Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-302,18"
+E.db["movers"]["WTExtraItemsBar2Mover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-302,50"
 E.db["movers"]["WTGameBarAnchor"] = "TOP,ElvUIParent,TOP,0,-4"
 E.db["movers"]["WTRaidMarkersBarAnchor"] = "BOTTOM,ElvUIParent,BOTTOM,-342,378"
 E.db["WT"]["announcement"]["goodbye"]["enable"] = false
