@@ -64,8 +64,6 @@ function GNUI:SetupLayout()
 	GNUI:LoadASProfile()
 	-- ProjectAzilroka
 	GNUI:LoadPAProfile()
-	-- Shadow & Light
-	GNUI:LoadSLEProfile()
 	-- WindTools
 	GNUI:LoadWTProfile()
 
