@@ -8,6 +8,7 @@ local classColor = E:ClassColor(E.myclass, true)
 function GNUI:SetupAddons()
 -- BattleGround Enemies
 if IsAddOnLoaded('BattleGroundEnemies') then
+	E.db["unitframe"]["units"]["arena"]["enable"] = false
 	GNUI:LoadBGEProfile()
 	E:Print(L["'BattleGroundEnemies' profile has been set."])
 end

@@ -40,6 +40,7 @@ local GUILD_EVENT_LOG = GUILD_EVENT_LOG
 function GNUI:SetupChat()
 	FCF_ResetChatWindows()
 	FCF_OpenNewWindow(TRADE)
+	FCF_OpenNewWindow("Services")
 
 	for _, name in ipairs(_G.CHAT_FRAMES) do
 		local frame = _G[name]
@@ -62,6 +63,8 @@ function GNUI:SetupChat()
 			VoiceTranscriptionFrame_UpdateEditBox(frame)
 		elseif id == 4 then
 			FCF_SetWindowName(frame, TRADE)
+		elseif id == 5 then
+			FCF_SetWindowName(frame, "Services")
 		end
 
 		FCF_SetChatWindowFontSize(nil, frame, 12)
@@ -83,10 +86,20 @@ function GNUI:SetupChat()
 		ChatFrame_AddMessageGroup(_G.ChatFrame4, v)
 	end
 	
+	-- keys added to SERVICES
+	chatGroup = { 'SAY', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING' }
+	ChatFrame_RemoveAllMessageGroups(_G.ChatFrame5)
+	for _, v in ipairs(chatGroup) do
+		ChatFrame_AddMessageGroup(_G.ChatFrame5, v)
+	end
+	
 	-- Channels
+	ChatFrame_RemoveAllChannels(_G.ChatFrame1)
+	ChatFrame_RemoveAllChannels(_G.ChatFrame4)
+	ChatFrame_RemoveAllChannels(_G.ChatFrame5)
 	ChatFrame_AddChannel(_G.ChatFrame1, GENERAL)
-	ChatFrame_RemoveChannel(_G.ChatFrame1, TRADE)
 	ChatFrame_AddChannel(_G.ChatFrame4, TRADE)
+	ChatFrame_AddChannel(_G.ChatFrame5, "Services")
 
 	-- set the chat groups names in class color to enabled for all chat groups which players names appear
 	chatGroup = { 'SAY', 'EMOTE', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'INSTANCE_CHAT', 'INSTANCE_CHAT_LEADER', 'GUILD', 'OFFICER', 'ACHIEVEMENT', 'GUILD_ACHIEVEMENT', 'COMMUNITIES_CHANNEL' }

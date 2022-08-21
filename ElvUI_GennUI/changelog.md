@@ -1,5 +1,10 @@
 # Changelog
 
+**v2.71 [21/082022]**
+- Chat Update: The new "Services" Channel is now on a separate TAB.
+- Small tweaks.
+- 9.2.7 Update.
+
 **v2.70 [11/08/2022]**
 - **WARNING : Shadow & Light no longer supported, please remove it.**
 - Solved an issue where GennUI could not be loaded.
