@@ -1,11 +1,11 @@
-## Interface: 20504
-## Title: |cff1784d1ElvUI |cffc31f3bGennUI |cff1784d1TBC
+## Interface: 90207
+## Title: |cff1784d1ElvUI |cffc31f3bGennUI
 ## Author: Gennoken
 ## Version: 2.71
 ## Notes: A Clean Minimalistic ElvUI Edit by |cffc31f3bGennoken.
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled
-## X-Tukui-ProjectID: 30
+## X-Tukui-ProjectID: 221
 ## X-Tukui-ProjectFolders: ElvUI_GennUI
 
 media\media.xml
