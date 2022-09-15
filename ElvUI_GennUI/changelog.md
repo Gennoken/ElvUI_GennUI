@@ -1,6 +1,10 @@
 # Changelog
 
-**v2.71 [21/082022]**
+**v2.72 [15/09/2022]**
+- Following ElvUI 12.85+ Raid Frames changes.
+- Wrath TOC update.
+
+**v2.71 [21/08/2022]**
 - Chat Update: The new "Services" Channel is now on a separate TAB.
 - Small tweaks.
 - 9.2.7 Update.
