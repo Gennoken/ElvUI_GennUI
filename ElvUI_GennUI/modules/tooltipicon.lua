@@ -50,7 +50,7 @@ local function DefaultSavedVariables()
 	return {
 		version = VERSION,
 		versioninfo = VERSIONINFO,
-		mode = "frame",
+		mode = "inside",
 		options = {
 			item = true,
 			equipmentset = true,

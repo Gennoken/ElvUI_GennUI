@@ -1,7 +1,7 @@
-## Interface: 90205
-## Title: |cff1784d1ElvUI |cffc31f3bGennUI
+## Interface: 30400
+## Title: |cff1784d1ElvUI |cffc31f3bGennUI |cff1784d1Wrath
 ## Author: Gennoken
-## Version: 2.70
+## Version: 2.72
 ## Notes: A Clean Minimalistic ElvUI Edit by |cffc31f3bGennoken.
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled
