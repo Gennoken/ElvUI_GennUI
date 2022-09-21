@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.73 [21/09/2022]**
+- Fixed an install issue related to Aura Indicator.
+
 **v2.72 [15/09/2022]**
 - Following ElvUI 12.85+ Raid Frames changes.
 - Wrath TOC update.
