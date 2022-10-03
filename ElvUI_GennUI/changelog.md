@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.74 [03/10/2022]**
+- TooltipItemIcons fix (Thx to brykrys)
+
 **v2.73 [21/09/2022]**
 - Fixed an install issue related to Aura Indicator.
 
