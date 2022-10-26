@@ -155,4 +155,5 @@ E.db["actionbar"]["stanceBar"]["mouseover"] = true
 E.db["actionbar"]["useRangeColorText"] = true
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontOutline"] = "OUTLINE"
 E.db["actionbar"]["zoneActionButton"]["clean"] = true
+E.db["cooldown"]["targetAura"] = false
 end

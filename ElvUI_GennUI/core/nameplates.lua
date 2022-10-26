@@ -186,6 +186,7 @@ E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["font"] = "GennUI"
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["fontSize"] = 14
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["format"] = "[namecolor][name:abbrev:medium]"
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["name"]["yOffset"] = -12
+E.db["nameplates"]["units"]["FRIENDLY_NPC"]["nameOnly"] = true
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["questIcon"]["font"] = "GennUI"
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["title"]["enable"] = true
 E.db["nameplates"]["units"]["FRIENDLY_NPC"]["title"]["font"] = "GennUI"
@@ -224,6 +225,7 @@ E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["name"]["font"] = "GennUI"
 E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["name"]["fontSize"] = 14
 E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["name"]["format"] = "[namecolor][name:abbrev:medium]"
 E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["name"]["yOffset"] = -12
+E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["nameOnly"] = true
 E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["pvpclassificationindicator"]["enable"] = true
 E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["title"]["format"] = "[npctitle]"
 

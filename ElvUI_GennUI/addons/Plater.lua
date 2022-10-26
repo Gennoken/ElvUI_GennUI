@@ -85,6 +85,11 @@ PlaterDB = {
 			["source"] = "Wolf",
 			["npcID"] = 165189,
 		},
+		[167381] = {
+			["source"] = "Normal Tank Dummy",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 109096,
+		},
 		[79962] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
@@ -100,6 +105,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Xuen",
 			["npcID"] = 63508,
+		},
+		[167385] = {
+			["source"] = "Normal Tank Dummy",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 109096,
 		},
 		[152175] = {
 			["event"] = "SPELL_AURA_APPLIED",
@@ -208,6 +219,12 @@ PlaterDB = {
 						340544, -- [3]
 						342189, -- [4]
 						333227, -- [5]
+						163689, -- [6]
+						227931, -- [7]
+						233210, -- [8]
+						300207, -- [9]
+						301629, -- [10]
+						297133, -- [11]
 					},
 					["PlaterCore"] = 1,
 					["Options"] = {
@@ -760,6 +777,8 @@ PlaterDB = {
 						321061, -- [5]
 						320141, -- [6]
 						326171, -- [7]
+						163966, -- [8]
+						227966, -- [9]
 					},
 					["PlaterCore"] = 1,
 					["Options"] = {
@@ -969,6 +988,31 @@ PlaterDB = {
 						350554, -- [26]
 						348513, -- [27]
 						351779, -- [28]
+						328180, -- [29]
+						319898, -- [30]
+						166335, -- [31]
+						172810, -- [32]
+						172943, -- [33]
+						173148, -- [34]
+						163376, -- [35]
+						228011, -- [36]
+						228277, -- [37]
+						29928, -- [38]
+						228559, -- [39]
+						230050, -- [40]
+						374743, -- [41]
+						227615, -- [42]
+						229716, -- [43]
+						229083, -- [44]
+						299525, -- [45]
+						300514, -- [46]
+						285388, -- [47]
+						294324, -- [48]
+						294180, -- [49]
+						293827, -- [50]
+						297128, -- [51]
+						294015, -- [52]
+						291865, -- [53]
 					},
 					["PlaterCore"] = 1,
 					["Options"] = {
@@ -1989,6 +2033,32 @@ PlaterDB = {
 						320197, -- [20]
 						329608, -- [21]
 						350687, -- [22]
+						161090, -- [23]
+						156301, -- [24]
+						166341, -- [25]
+						163379, -- [26]
+						166923, -- [27]
+						172952, -- [28]
+						164426, -- [29]
+						163665, -- [30]
+						227578, -- [31]
+						228528, -- [32]
+						227789, -- [33]
+						227779, -- [34]
+						229608, -- [35]
+						227925, -- [36]
+						300129, -- [37]
+						296522, -- [38]
+						294349, -- [39]
+						293854, -- [40]
+						297834, -- [41]
+						299588, -- [42]
+						302682, -- [43]
+						291946, -- [44]
+						295169, -- [45]
+						285440, -- [46]
+						291613, -- [47]
+						283551, -- [48]
 					},
 					["PlaterCore"] = 1,
 					["Options"] = {
@@ -2448,6 +2518,9 @@ PlaterDB = {
 						"170234", -- [4]
 						"165905", -- [5]
 						"170452", -- [6]
+						80875, -- [7]
+						163746, -- [8]
+						152033, -- [9]
 					},
 				}, -- [14]
 				{
@@ -2538,6 +2611,40 @@ PlaterDB = {
 						294173, -- [40]
 						189200, -- [41]
 						352833, -- [42]
+						330403, -- [43]
+						166675, -- [44]
+						176127, -- [45]
+						166380, -- [46]
+						162058, -- [47]
+						167516, -- [48]
+						166923, -- [49]
+						178299, -- [50]
+						172982, -- [51]
+						163390, -- [52]
+						173384, -- [53]
+						173514, -- [54]
+						29513, -- [55]
+						227672, -- [56]
+						228603, -- [57]
+						227339, -- [58]
+						227493, -- [59]
+						241774, -- [60]
+						229611, -- [61]
+						229151, -- [62]
+						300188, -- [63]
+						299475, -- [64]
+						299502, -- [65]
+						300777, -- [66]
+						301681, -- [67]
+						298946, -- [68]
+						298940, -- [69]
+						300424, -- [70]
+						283422, -- [71]
+						294290, -- [72]
+						291973, -- [73]
+						293986, -- [74]
+						291878, -- [75]
+						292264, -- [76]
 					},
 					["PlaterCore"] = 1,
 					["Options"] = {
@@ -2712,6 +2819,37 @@ PlaterDB = {
 						350421, -- [59]
 						352158, -- [60]
 						349985, -- [61]
+						164192, -- [62]
+						176032, -- [63]
+						166335, -- [64]
+						166387, -- [65]
+						162066, -- [66]
+						163689, -- [67]
+						227592, -- [68]
+						228254, -- [69]
+						227999, -- [70]
+						227987, -- [71]
+						232115, -- [72]
+						29580, -- [73]
+						227616, -- [74]
+						241828, -- [75]
+						228606, -- [76]
+						227800, -- [77]
+						228239, -- [78]
+						229706, -- [79]
+						294884, -- [80]
+						301629, -- [81]
+						284219, -- [82]
+						301689, -- [83]
+						300650, -- [84]
+						297835, -- [85]
+						300171, -- [86]
+						300087, -- [87]
+						300414, -- [88]
+						300436, -- [89]
+						301088, -- [90]
+						293729, -- [91]
+						291928, -- [92]
 					},
 					["PlaterCore"] = 1,
 					["Options"] = {
@@ -3081,6 +3219,7 @@ PlaterDB = {
 						"162099", -- [4]
 						"162329", -- [5]
 						"164558", -- [6]
+						150159, -- [7]
 					},
 				}, -- [20]
 				{
@@ -3116,6 +3255,322 @@ PlaterDB = {
 					["NpcNames"] = {
 					},
 				}, -- [21]
+				{
+					["ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    \n    function envTable.CheckUnit(unitFrame, envTable)\n        if (envTable._NpcID == 185680) then\n            --haste\n            envTable.SetColor(unitFrame, \"haste\")\n            \n        elseif (envTable._NpcID == 185683) then\n            --movement speed\n            envTable.SetColor(unitFrame, \"ms\")\n            \n        elseif (envTable._NpcID == 185685) then\n            --cooldown reduction\n            envTable.SetColor(unitFrame, \"cdr\")\n            \n        end\n    end\n    \n    function envTable.SetColor(unitFrame, bonusType)\n        \n        local r, g, b, a, name\n        \n        if (bonusType == \"haste\") then\n            name = scriptTable.config.hasteName\n            r, g, b, a = DetailsFramework:ParseColors(scriptTable.config.hasteColor)\n            \n        elseif (bonusType == \"ms\") then\n            name = scriptTable.config.msName\n            r, g, b, a = DetailsFramework:ParseColors(scriptTable.config.msColor)\n            \n        elseif (bonusType == \"cdr\") then\n            name = scriptTable.config.cdrName\n            r, g, b, a = DetailsFramework:ParseColors(scriptTable.config.cdrColor)\n        end\n        \n        Plater.SetNameplateColor(unitFrame, r, g, b, a)\n        if (scriptTable.config.canChangeSize) then\n            Plater.SetNameplateSize(unitFrame, scriptTable.config.width, scriptTable.config.height)\n        end\n        \n        --border\n        if (scriptTable.config.showBorder) then\n            r, g, b, a = r+0.2, g+0.2, b+0.2\n            Plater.SetBorderColor(unitFrame, r, g, b)\n        end\n        \n        --name\n        unitFrame.healthBar.unitName:SetText(name)\n    end\nend\n\n\n--185685 cooldown reduction\n--185680 haste\n--185683 movement speed\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					["OnHideCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    \nend\n\n\n",
+					["ScriptType"] = 3,
+					["UpdateCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    envTable.CheckUnit(unitFrame, envTable)\nend\n\n\n",
+					["Time"] = 1647994498,
+					["url"] = "",
+					["Icon"] = 4263293,
+					["Enabled"] = true,
+					["Revision"] = 70,
+					["semver"] = "",
+					["Author"] = "Ditador-Azralon",
+					["Initialization"] = "function (scriptTable)\n    --insert code here\n    \nend\n\n\n",
+					["Desc"] = "Make more easy to distinguish relics within dungeons in 9.2 patch",
+					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    envTable.CheckUnit(unitFrame, envTable)\n    \nend",
+					["SpellIds"] = {
+					},
+					["PlaterCore"] = 1,
+					["Options"] = {
+						{
+							["Type"] = 5,
+							["Name"] = "ColorSettingsAnchor",
+							["Value"] = "Color Settings",
+							["Key"] = "option1",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "Adjust the nameplate color for each mob",
+						}, -- [1]
+						{
+							["Type"] = 1,
+							["Name"] = "Haste Color",
+							["Value"] = {
+								0.4549019607843137, -- [1]
+								0.2156862745098039, -- [2]
+								0.5490196078431373, -- [3]
+								1, -- [4]
+							},
+							["Key"] = "hasteColor",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "haste color",
+						}, -- [2]
+						{
+							["Type"] = 1,
+							["Key"] = "msColor",
+							["Value"] = {
+								0.3098039215686275, -- [1]
+								0.5215686274509804, -- [2]
+								0.2588235294117647, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "Moviment Speep Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "moviment speep color",
+						}, -- [3]
+						{
+							["Type"] = 1,
+							["Name"] = "Cooldown Reduction Color",
+							["Value"] = {
+								0.1725490196078431, -- [1]
+								0.2823529411764706, -- [2]
+								0.5215686274509804, -- [3]
+								1, -- [4]
+							},
+							["Key"] = "cdrColor",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "cooldown reduction color",
+						}, -- [4]
+						{
+							["Type"] = 6,
+							["Name"] = "Option 5",
+							["Value"] = 0,
+							["Key"] = "option5",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [5]
+						{
+							["Type"] = 5,
+							["Name"] = "SizeSettingsAnchor",
+							["Value"] = "Size Settings",
+							["Key"] = "option6",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [6]
+						{
+							["Type"] = 4,
+							["Key"] = "canChangeSize",
+							["Value"] = false,
+							["Name"] = "Change Nameplate Size",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "If this is checked, the nameplate size is changed to the values below",
+						}, -- [7]
+						{
+							["Type"] = 2,
+							["Max"] = 200,
+							["Desc"] = "total width of the nameplate",
+							["Min"] = 50,
+							["Key"] = "width",
+							["Value"] = 100,
+							["Name"] = "Width",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Fraction"] = false,
+						}, -- [8]
+						{
+							["Type"] = 2,
+							["Max"] = 40,
+							["Desc"] = "total height of the nameplate",
+							["Min"] = 2,
+							["Fraction"] = false,
+							["Value"] = 12,
+							["Key"] = "height",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Name"] = "Height",
+						}, -- [9]
+						{
+							["Type"] = 6,
+							["Name"] = "Option 9",
+							["Value"] = 0,
+							["Key"] = "option9",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [10]
+						{
+							["Type"] = 5,
+							["Name"] = "BorderSettingsAnchor",
+							["Value"] = "Border Settings",
+							["Key"] = "option10",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [11]
+						{
+							["Type"] = 4,
+							["Name"] = "Paint Border",
+							["Value"] = true,
+							["Key"] = "showBorder",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "When enabled, the color of the border will have the same color as the nameplate",
+						}, -- [12]
+						{
+							["Type"] = 6,
+							["Name"] = "Option 12",
+							["Value"] = 0,
+							["Key"] = "option12",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [13]
+						{
+							["Type"] = 5,
+							["Name"] = "NameSettings",
+							["Value"] = "Name Settings",
+							["Key"] = "option13",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [14]
+						{
+							["Type"] = 3,
+							["Name"] = "Haste Name",
+							["Value"] = "HASTE",
+							["Key"] = "hasteName",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "",
+						}, -- [15]
+						{
+							["Type"] = 3,
+							["Key"] = "cdrName",
+							["Value"] = "CDR",
+							["Name"] = "Cooldown Reduction Name",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "",
+						}, -- [16]
+						{
+							["Type"] = 3,
+							["Name"] = "Movement Speed Name",
+							["Value"] = "MS",
+							["Key"] = "msName",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "",
+						}, -- [17]
+					},
+					["version"] = -1,
+					["Name"] = "Relics 9.2 M Dungeons",
+					["NpcNames"] = {
+						"185685", -- [1]
+						"185680", -- [2]
+						"185683", -- [3]
+					},
+				}, -- [22]
+				{
+					["ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    \nend\n\n\n",
+					["OnHideCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    local unitPowerBar = unitFrame.powerBar\n    unitPowerBar:Hide()\nend\n\n\n",
+					["ScriptType"] = 1,
+					["UpdateCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    if (WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE) then\n        return \n    end\n    \n    local continuationToken\n    local slots\n    local foundAura = false\n    \n    repeat    \n        slots = { UnitAuraSlots(unitId, \"HELPFUL\", BUFF_MAX_DISPLAY, continuationToken) }\n        continuationToken = slots[1]\n        numSlots = #slots\n        \n        for i = 2, numSlots do\n            local slot = slots[i]\n            local name, texture, count, actualAuraType, duration, expirationTime, caster, canStealOrPurge, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, isCastByPlayer, nameplateShowAll, timeMod, auraAmount = UnitAuraBySlot(unitId, slot) \n            \n            if (spellId == envTable._SpellID) then --need to get the trigger spellId\n                --Ablative Shield\n                local unitPowerBar = unitFrame.powerBar\n                if (not unitPowerBar:IsShown()) then\n                    unitPowerBar:SetUnit(unitId)\n                end\n                \n                foundAura = true\n                return\n            end\n        end\n        \n    until continuationToken == nil\n    \n    if (not foundAura) then\n        local unitPowerBar = unitFrame.powerBar\n        if (unitPowerBar:IsShown()) then\n            unitPowerBar:Hide()\n        end\n    end\nend",
+					["Time"] = 1660259323,
+					["url"] = "",
+					["Icon"] = 610472,
+					["Enabled"] = true,
+					["Revision"] = 52,
+					["semver"] = "",
+					["Author"] = "Keyspell-Azralon",
+					["Initialization"] = "		function (scriptTable)\n			--insert code here\n			\n		end\n	",
+					["Desc"] = "Show power bar where its value is the buff value (usualy shown in the buff tooltip)",
+					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    \nend\n\n\n",
+					["SpellIds"] = {
+						227548, -- [1]
+					},
+					["PlaterCore"] = 1,
+					["Options"] = {
+					},
+					["version"] = -1,
+					["Name"] = "Aura is Shield [P]",
+					["NpcNames"] = {
+					},
+				}, -- [23]
+				{
+					["ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    \nend\n\n\n",
+					["OnHideCode"] = "		function (self, unitId, unitFrame, envTable, scriptTable)\n			--insert code here\n			\n		end\n	",
+					["ScriptType"] = 1,
+					["UpdateCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    if (UnitIsUnit(unitId .. \"target\", \"player\")) then\n        Plater.SetNameplateColor(unitFrame, scriptTable.config.nameplateColor)\n    else\n        Plater.RefreshNameplateColor(unitFrame)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n",
+					["Time"] = 1660340256,
+					["url"] = "",
+					["Icon"] = "Interface\\ICONS\\Ability_Fixated_State_Red",
+					["Enabled"] = true,
+					["Revision"] = 25,
+					["semver"] = "",
+					["Author"] = "Ditador-Azralon",
+					["Initialization"] = "		function (scriptTable)\n			--insert code here\n			\n		end\n	",
+					["Desc"] = "Alert about a unit fixated on the player by using a buff on the enemy unit.",
+					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    \nend\n\n\n",
+					["SpellIds"] = {
+						285388, -- [1]
+					},
+					["PlaterCore"] = 1,
+					["Options"] = {
+						{
+							["Type"] = 1,
+							["Key"] = "nameplateColor",
+							["Value"] = {
+								0, -- [1]
+								0.5568627450980392, -- [2]
+								0.03529411764705882, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "Nameplate Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "Change the enemy nameplate color to this color when fixating you!",
+						}, -- [1]
+					},
+					["version"] = -1,
+					["Name"] = "Fixate by Unit Buff [P]",
+					["NpcNames"] = {
+					},
+				}, -- [24]
+				{
+					["ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    local castBar = unitFrame.castBar\n    local castBarPortion = castBar:GetWidth()/scriptTable.config.segmentsAmount\n    local castBarHeight = castBar:GetHeight()\n    \n    unitFrame.felAnimation = unitFrame.felAnimation or {}\n    \n    if (not unitFrame.felAnimation.textureStretched) then\n        unitFrame.felAnimation.textureStretched = castBar:CreateTexture(nil, \"overlay\", nil, 5)\n    end\n    \n    if (not unitFrame.felAnimation.Textures) then\n        unitFrame.felAnimation.Textures = {}\n        \n        for i = 1, scriptTable.config.segmentsAmount do\n            local texture = castBar:CreateTexture(nil, \"overlay\", nil, 6)\n            unitFrame.felAnimation.Textures[i] = texture            \n            \n            texture.animGroup = texture.animGroup or texture:CreateAnimationGroup()\n            local animationGroup = texture.animGroup\n            animationGroup:SetToFinalAlpha(true)            \n            animationGroup:SetLooping(\"NONE\")\n            \n            texture:SetTexture([[Interface\\COMMON\\XPBarAnim]])\n            texture:SetTexCoord(0.2990, 0.0010, 0.0010, 0.4159)\n            texture:SetBlendMode(\"ADD\")\n            \n            texture.scale = animationGroup:CreateAnimation(\"SCALE\")\n            texture.scale:SetTarget(texture)\n            \n            texture.alpha = animationGroup:CreateAnimation(\"ALPHA\")\n            texture.alpha:SetTarget(texture)\n            \n            texture.alpha2 = animationGroup:CreateAnimation(\"ALPHA\")\n            texture.alpha2:SetTarget(texture)\n        end\n    end\n    \n    \n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					["OnHideCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    for i = 1, scriptTable.config.segmentsAmount  do\n        local texture = unitFrame.felAnimation.Textures[i]\n        texture:Hide()\n    end\n    \n    local textureStretched = unitFrame.felAnimation.textureStretched\n    textureStretched:Hide()    \n    \nend\n\n\n\n\n\n\n",
+					["ScriptType"] = 2,
+					["UpdateCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    local castBar = unitFrame.castBar\n    \n    local textures = unitFrame.felAnimation.Textures\n    \n    if (envTable._CastPercent > envTable.NextPercent) then\n        local nextPercent = 100  / scriptTable.config.segmentsAmount\n        \n        textures[envTable.CurrentTexture]:Show()\n        textures[envTable.CurrentTexture].animGroup:Play()\n        envTable.NextPercent = envTable.NextPercent + nextPercent \n        envTable.CurrentTexture = envTable.CurrentTexture + 1\n        \n        if (envTable.CurrentTexture == #textures) then\n            envTable.NextPercent = 98\n        elseif (envTable.CurrentTexture > #textures) then\n            envTable.NextPercent = 999\n        end\n    end\n    \n    local normalizedPercent = envTable._CastPercent / 100\n    local textureStretched = unitFrame.felAnimation.textureStretched\n    local point = DetailsFramework:GetBezierPoint(normalizedPercent, 0, 0.001, 1)\n    textureStretched:SetPoint(\"left\", castBar, \"left\", point * envTable.castBarWidth, 0)\nend",
+					["Time"] = 1660511537,
+					["url"] = "",
+					["Icon"] = "Interface\\AddOns\\Plater\\images\\cast_bar_glow",
+					["Enabled"] = true,
+					["Revision"] = 341,
+					["semver"] = "",
+					["Author"] = "Terciob",
+					["Initialization"] = "		function (scriptTable)\n			--insert code here\n			\n		end\n	",
+					["Desc"] = "Show a different animation for the cast bar.",
+					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    local castBar = unitFrame.castBar\n    envTable.castBarWidth = castBar:GetWidth()\n    castBar.Spark:SetVertexColor(DetailsFramework:ParseColors(scriptTable.config.sparkColor))\n    \n    local textureStretched = unitFrame.felAnimation.textureStretched\n    textureStretched:Show()\n    textureStretched:SetVertexColor(DetailsFramework:ParseColors(scriptTable.config.glowColor))\n    textureStretched:SetAtlas(\"XPBarAnim-OrangeTrail\")\n    textureStretched:ClearAllPoints()\n    textureStretched:SetPoint(\"right\", castBar.Spark, \"center\", 0, 0)\n    textureStretched:SetHeight(castBar:GetHeight())\n    textureStretched:SetBlendMode(\"ADD\") \n    textureStretched:SetAlpha(0.5)\n    textureStretched:SetDrawLayer(\"overlay\", 7)\n    \n    for i = 1, scriptTable.config.segmentsAmount  do\n        local texture = unitFrame.felAnimation.Textures[i]\n        --texture:SetVertexColor(DetailsFramework:ParseColors(scriptTable.config.trailColor))\n        texture:SetVertexColor(1, 1, 1, 1)\n        texture:SetDesaturated(true)\n        \n        local castBarPortion = castBar:GetWidth()/scriptTable.config.segmentsAmount\n        \n        texture:SetSize(castBarPortion+5, castBar:GetHeight())\n        texture:SetDrawLayer(\"overlay\", 6)\n        \n        texture:ClearAllPoints()\n        if (i == scriptTable.config.segmentsAmount) then\n            texture:SetPoint(\"right\", castBar, \"right\", 0, 0)\n        else\n            texture:SetPoint(\"left\", castBar, \"left\", (i-1)*castBarPortion, 2)\n        end\n        \n        texture:SetAlpha(0)\n        texture:Hide()\n        \n        texture.scale:SetOrder(1)\n        texture.scale:SetDuration(0.5)\n        texture.scale:SetFromScale(0.2, 1)\n        texture.scale:SetToScale(1, 1.5)\n        texture.scale:SetOrigin(\"right\", 0, 0)\n        \n        local durationTime = DetailsFramework:GetBezierPoint(i / scriptTable.config.segmentsAmount, 0.2, 0.01, 0.6)\n        local duration = abs(durationTime-0.6)\n        \n        texture.alpha:SetOrder(1)\n        texture.alpha:SetDuration(0.05)\n        texture.alpha:SetFromAlpha(0)\n        texture.alpha:SetToAlpha(0.4)\n        \n        texture.alpha2:SetOrder(1)\n        texture.alpha2:SetDuration(duration) --0.6\n        texture.alpha2:SetStartDelay(duration)\n        texture.alpha2:SetFromAlpha(0.5)\n        texture.alpha2:SetToAlpha(0)\n    end\n    \n    envTable.CurrentTexture = 1\n    envTable.NextPercent  = 100  / scriptTable.config.segmentsAmount\nend\n\n\n\n\n\n\n\n\n",
+					["SpellIds"] = {
+						373429, -- [1]
+					},
+					["PlaterCore"] = 1,
+					["Options"] = {
+						{
+							["Type"] = 2,
+							["Max"] = 20,
+							["Desc"] = "Need a /reload",
+							["Min"] = 5,
+							["Name"] = "Amount of Segments",
+							["Value"] = 7,
+							["Fraction"] = false,
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Key"] = "segmentsAmount",
+						}, -- [1]
+						{
+							["Type"] = 1,
+							["Key"] = "sparkColor",
+							["Value"] = {
+								0.9568627450980391, -- [1]
+								1, -- [2]
+								0.9882352941176471, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "Spark Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "",
+						}, -- [2]
+						{
+							["Type"] = 1,
+							["Key"] = "glowColor",
+							["Value"] = {
+								0.8588235294117647, -- [1]
+								0.4313725490196079, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "Glow Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "",
+						}, -- [3]
+					},
+					["version"] = -1,
+					["Name"] = "Cast - Glowing [P]",
+					["NpcNames"] = {
+					},
+				}, -- [25]
+			},
+			["saved_cvars_last_change"] = {
+				["nameplateShowFriendlyNPCs"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:9802",
 			},
 			["target_shady_enabled"] = false,
 			["aura2_y_offset"] = 5,
@@ -3127,37 +3582,44 @@ PlaterDB = {
 				0.08627450980392157, -- [3]
 				1, -- [4]
 			},
-			["aura_width2"] = 20,
+			["cast_statusbar_fadeout_time"] = 0.2000000029802322,
 			["aura_stack_size"] = 8,
-			["script_auto_imported"] = {
-				["Unit - Important"] = 11,
-				["Aura - Buff Alert"] = 13,
-				["Cast - Very Important"] = 12,
-				["Cast - Alert + Timer [P]"] = 2,
-				["Aura - Debuff Alert"] = 11,
-				["Cast - Castbar is Timer [P]"] = 2,
-				["Cast - Ultra Important"] = 11,
-				["Cast - Big Alert"] = 12,
-				["Cast - Small Alert"] = 11,
-				["Auto Set Skull"] = 11,
-				["Fixate On You"] = 11,
-				["Unit - Main Target"] = 11,
-				["Aura - Blink Time Left"] = 13,
-				["Explosion Affix M+"] = 11,
-				["Countdown"] = 11,
-				["Unit - Health Markers"] = 12,
-				["Cast - Frontal Cone"] = 11,
-				["Fixate"] = 11,
-				["Cast - Tank Interrupt"] = 12,
-				["Spiteful Affix"] = 3,
-				["Cast - Important Target [P]"] = 1,
-				["Unit - Show Energy"] = 11,
+			["aura_height2"] = 20,
+			["class_colors"] = {
+				["DEATHKNIGHT"] = {
+					["colorStr"] = "ffc31d3a",
+				},
+				["WARRIOR"] = {
+					["colorStr"] = "ffc69a6d",
+				},
+				["PALADIN"] = {
+					["colorStr"] = "fff48bb9",
+				},
+				["WARLOCK"] = {
+					["colorStr"] = "ff8687ed",
+				},
+				["DEMONHUNTER"] = {
+					["colorStr"] = "ffa22fc8",
+				},
+				["SHAMAN"] = {
+					["colorStr"] = "ff006fdd",
+				},
+				["DRUID"] = {
+					["colorStr"] = "ffff7c09",
+				},
+				["EVOKER"] = {
+					["colorStr"] = "ff33937e",
+				},
+				["ROGUE"] = {
+					["colorStr"] = "fffff467",
+				},
 			},
 			["aura_frame2_anchor"] = {
 				["side"] = 1,
 			},
-			["cast_statusbar_texture"] = "GennUI",
+			["aura_alpha"] = 1,
 			["castbar_icon_x_offset"] = 2,
+			["extra_icon_height"] = 30,
 			["extra_icon_show_purge"] = true,
 			["aura_consolidate"] = true,
 			["health_statusbar_texture"] = "GennUI",
@@ -3166,14 +3628,14 @@ PlaterDB = {
 				["Dont Have Aura"] = 1,
 				["Players Targetting Amount"] = 4,
 				["Color Automation"] = 1,
-				["Hide Neutral Units"] = 1,
+				["Combo Points"] = 6,
 				["Cast Bar Icon Config"] = 2,
 				["Attacking Specific Unit"] = 2,
-				["Extra Border"] = 2,
+				["Hide Neutral Units"] = 1,
 				["Execute Range"] = 1,
 				["Target Color"] = 3,
 				["Aura Reorder"] = 3,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 			},
 			["castbar_target_text_size"] = 8,
 			["aura_frame1_anchor"] = {
@@ -3184,6 +3646,7 @@ PlaterDB = {
 			["extra_icon_stack_font"] = "GennUI",
 			["aura_height"] = 20,
 			["cast_statusbar_bgtexture"] = "GennUI",
+			["aura2_x_offset"] = 0,
 			["target_indicator"] = "Pins",
 			["castbar_target_notank"] = true,
 			["saved_cvars"] = {
@@ -3200,22 +3663,22 @@ PlaterDB = {
 				["nameplateSelectedScale"] = "1",
 				["nameplateTargetRadialPosition"] = "1",
 				["nameplateResourceOnTarget"] = "0",
-				["nameplateShowEnemyGuardians"] = "1",
+				["nameplatePersonalHideDelaySeconds"] = "0.2",
 				["clampTargetNameplateToScreen"] = "1",
 				["nameplateShowAll"] = "1",
 				["nameplateMaxDistance"] = "100",
 				["nameplateOtherTopInset"] = "0.085",
-				["nameplatePersonalHideDelaySeconds"] = "0.2",
 				["ShowNamePlateLoseAggroFlash"] = "1",
 				["nameplateMinScale"] = "1",
-				["nameplateShowFriendlyGuardians"] = "0",
-				["nameplateOccludedAlphaMult"] = "0.39999997615814",
-				["NamePlateHorizontalScale"] = "1",
 				["nameplateTargetBehindMaxDistance"] = "30",
+				["nameplateShowFriendlyGuardians"] = "0",
+				["NamePlateHorizontalScale"] = "1",
+				["nameplateOccludedAlphaMult"] = "0.39999997615814",
+				["nameplateShowEnemyGuardians"] = "1",
 				["nameplateShowFriendlyMinions"] = "0",
 				["NamePlateVerticalScale"] = "1",
 			},
-			["login_counter"] = 3,
+			["login_counter"] = 6,
 			["click_space_friendly"] = {
 				150, -- [1]
 			},
@@ -3234,6 +3697,7 @@ PlaterDB = {
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["friendlyplayer"] = {
+					["actorname_use_friends_color"] = false,
 					["spellpercent_text_font"] = "GennUI",
 					["level_text_size"] = 8,
 					["actorname_use_class_color"] = true,
@@ -3246,6 +3710,7 @@ PlaterDB = {
 						0.4, -- [2]
 						0.1, -- [3]
 					},
+					["percent_text_show_decimals"] = false,
 					["spellname_text_outline"] = "OUTLINE",
 					["click_through"] = false,
 					["big_actorname_text_shadow_color"] = {
@@ -3280,14 +3745,17 @@ PlaterDB = {
 						0, -- [3]
 						1, -- [4]
 					},
+					["only_thename"] = true,
 					["big_actortitle_text_font"] = "GennUI",
-					["percent_text_ooc"] = true,
 					["level_text_outline"] = "OUTLINE",
-					["percent_text_show_decimals"] = false,
+					["big_actorname_text_color"] = {
+						0.5, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+					},
 					["level_text_anchor"] = {
 						["y"] = 0,
 					},
-					["big_actorname_text_font"] = "GennUI",
 					["big_actortitle_text_shadow_color_offset"] = {
 						1, -- [1]
 						-1, -- [2]
@@ -3296,14 +3764,7 @@ PlaterDB = {
 						150, -- [1]
 						10, -- [2]
 					},
-					["level_text_alpha"] = 1,
-					["big_actorname_text_color"] = {
-						0.5, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-					},
-					["quest_enabled"] = true,
-					["quest_color_enabled"] = true,
+					["big_actortitle_text_size"] = 10,
 					["spellname_text_anchor"] = {
 						["side"] = 10,
 					},
@@ -3313,65 +3774,61 @@ PlaterDB = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["big_actortitle_text_size"] = 10,
-					["big_actorname_text_size"] = 12,
 					["spellname_text_font"] = "GennUI",
 					["big_actorname_text_outline"] = "OUTLINE",
-					["castbar_offset"] = -4,
 					["quest_color_neutral"] = {
 						1, -- [1]
 						0.65, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["percent_text_enabled"] = true,
-					["actorname_use_friends_color"] = false,
-					["use_playerclass_color"] = true,
-					["percent_show_health"] = true,
-					["percent_text_size"] = 10,
-					["percent_show_percent"] = false,
-					["percent_text_font"] = "GennUI",
-					["buff_frame_y_offset"] = 0,
 					["mana"] = {
 						nil, -- [1]
 						4, -- [2]
 					},
+					["percent_text_enabled"] = true,
+					["use_playerclass_color"] = true,
+					["big_actorname_text_size"] = 12,
+					["percent_show_health"] = true,
+					["percent_text_size"] = 10,
+					["percent_text_ooc"] = true,
+					["percent_text_font"] = "GennUI",
+					["buff_frame_y_offset"] = 0,
+					["quest_enabled"] = true,
+					["level_text_alpha"] = 1,
+					["castbar_offset"] = -4,
+					["quest_color_enabled"] = true,
 					["health_incombat"] = {
 						150, -- [1]
 					},
 					["health"] = {
 						150, -- [1]
 					},
-					["spellpercent_text_enabled"] = true,
 					["actorname_text_anchor"] = {
-						["y"] = 0,
 						["side"] = 1,
 					},
+					["big_actorname_text_font"] = "GennUI",
+					["spellpercent_text_enabled"] = true,
+					["percent_show_percent"] = false,
 					["level_text_enabled"] = true,
 				},
 				["global_health_width"] = 150,
 				["friendlynpc"] = {
-					["big_actorname_text_size"] = 10,
+					["castbar_offset"] = -4,
 					["spellpercent_text_font"] = "GennUI",
-					["actorname_friend_color"] = {
-						0.71, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
+					["show_guild_name"] = false,
 					["level_text_size"] = 8,
 					["actorname_use_class_color"] = true,
 					["cast"] = {
 						150, -- [1]
 					},
-					["big_actortitle_text_size"] = 8,
 					["fixed_class_color"] = {
 						1, -- [1]
 						0.4, -- [2]
 						0.1, -- [3]
 						1, -- [4]
 					},
-					["enabled"] = true,
+					["percent_text_show_decimals"] = false,
 					["spellname_text_outline"] = "OUTLINE",
 					["click_through"] = false,
 					["level_text_font"] = "GennUI",
@@ -3379,6 +3836,7 @@ PlaterDB = {
 					["actorname_use_guild_color"] = false,
 					["actorname_text_outline"] = "OUTLINE",
 					["actorname_text_spacing"] = 9,
+					["only_damaged"] = false,
 					["quest_color_enemy"] = {
 						1, -- [1]
 						0.369, -- [2]
@@ -3387,21 +3845,22 @@ PlaterDB = {
 					},
 					["only_thename"] = false,
 					["big_actortitle_text_font"] = "GennUI",
-					["percent_text_ooc"] = true,
-					["level_text_outline"] = "OUTLINE",
-					["spellpercent_text_enabled"] = true,
-					["actorname_use_friends_color"] = false,
 					["level_text_anchor"] = {
 						["y"] = -2,
 					},
-					["show_guild_name"] = false,
-					["only_damaged"] = false,
 					["cast_incombat"] = {
 						150, -- [1]
 						10, -- [2]
 					},
+					["level_text_outline"] = "OUTLINE",
 					["spellname_text_anchor"] = {
 						["side"] = 10,
+					},
+					["actorname_friend_color"] = {
+						0.71, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
 					},
 					["spellname_text_font"] = "GennUI",
 					["quest_color_neutral"] = {
@@ -3410,13 +3869,16 @@ PlaterDB = {
 						0, -- [3]
 						1, -- [4]
 					},
+					["big_actorname_text_font"] = "GennUI",
 					["percent_text_enabled"] = true,
-					["castbar_offset"] = -4,
-					["percent_show_percent"] = false,
 					["use_playerclass_color"] = true,
-					["level_text_alpha"] = 1,
-					["percent_show_health"] = true,
+					["big_actorname_text_size"] = 10,
+					["actorname_text_anchor"] = {
+						["y"] = -2,
+						["side"] = 1,
+					},
 					["percent_text_size"] = 10,
+					["percent_text_ooc"] = true,
 					["percent_text_font"] = "GennUI",
 					["actorname_guild_color"] = {
 						0.498039, -- [1]
@@ -3424,11 +3886,8 @@ PlaterDB = {
 						0.2, -- [3]
 						1, -- [4]
 					},
-					["percent_text_show_decimals"] = false,
-					["actorname_text_anchor"] = {
-						["y"] = -2,
-						["side"] = 1,
-					},
+					["percent_show_percent"] = false,
+					["big_actortitle_text_size"] = 8,
 					["health_incombat"] = {
 						150, -- [1]
 						2, -- [2]
@@ -3437,7 +3896,10 @@ PlaterDB = {
 						150, -- [1]
 						2, -- [2]
 					},
-					["big_actorname_text_font"] = "GennUI",
+					["actorname_use_friends_color"] = false,
+					["percent_show_health"] = true,
+					["level_text_alpha"] = 1,
+					["spellpercent_text_enabled"] = true,
 					["level_text_enabled"] = true,
 				},
 				["enemyplayer"] = {
@@ -3448,7 +3910,7 @@ PlaterDB = {
 					["cast"] = {
 						150, -- [1]
 					},
-					["big_actortitle_text_size"] = 10,
+					["percent_text_show_decimals"] = false,
 					["spellname_text_outline"] = "OUTLINE",
 					["level_text_font"] = "GennUI",
 					["actorname_text_font"] = "GennUI",
@@ -3462,7 +3924,6 @@ PlaterDB = {
 						1, -- [4]
 					},
 					["big_actortitle_text_font"] = "GennUI",
-					["level_text_outline"] = "OUTLINE",
 					["level_text_anchor"] = {
 						["y"] = -2,
 					},
@@ -3470,8 +3931,6 @@ PlaterDB = {
 						150, -- [1]
 						10, -- [2]
 					},
-					["quest_enabled"] = true,
-					["quest_color_enabled"] = true,
 					["spellname_text_anchor"] = {
 						["side"] = 10,
 					},
@@ -3484,11 +3943,13 @@ PlaterDB = {
 					},
 					["actorname_text_size"] = 10,
 					["big_actorname_text_font"] = "GennUI",
+					["level_text_outline"] = "OUTLINE",
 					["level_text_alpha"] = 1,
 					["percent_text_size"] = 10,
+					["big_actortitle_text_size"] = 10,
 					["percent_text_font"] = "GennUI",
-					["percent_show_percent"] = false,
-					["percent_text_show_decimals"] = false,
+					["quest_enabled"] = true,
+					["quest_color_enabled"] = true,
 					["health_incombat"] = {
 						150, -- [1]
 						12, -- [2]
@@ -3500,6 +3961,7 @@ PlaterDB = {
 						["y"] = -2,
 						["side"] = 1,
 					},
+					["percent_show_percent"] = false,
 				},
 				["enemynpc"] = {
 					["big_actorname_text_size"] = 12,
@@ -3507,11 +3969,13 @@ PlaterDB = {
 					["cast"] = {
 						150, -- [1]
 					},
+					["percent_text_show_decimals"] = false,
 					["level_text_font"] = "GennUI",
 					["actorname_text_font"] = "GennUI",
 					["actorname_text_outline"] = "OUTLINE",
 					["actorname_text_spacing"] = 9,
 					["big_actortitle_text_font"] = "GennUI",
+					["spellpercent_text_size"] = 10,
 					["level_text_anchor"] = {
 						["y"] = -2,
 					},
@@ -3529,24 +3993,34 @@ PlaterDB = {
 					["spellname_text_font"] = "GennUI",
 					["big_actorname_text_font"] = "GennUI",
 					["level_text_outline"] = "OUTLINE",
-					["spellpercent_text_size"] = 10,
-					["actorname_text_anchor"] = {
-						["y"] = -2,
-						["side"] = 1,
-					},
+					["level_text_alpha"] = 1,
 					["percent_text_size"] = 10,
-					["percent_text_show_decimals"] = false,
 					["percent_text_font"] = "GennUI",
 					["percent_show_percent"] = false,
-					["level_text_alpha"] = 1,
 					["spellname_text_size"] = 10,
 					["health"] = {
 						150, -- [1]
 					},
 					["actorname_text_size"] = 10,
+					["actorname_text_anchor"] = {
+						["y"] = -2,
+						["side"] = 1,
+					},
 				},
 			},
 			["aura_y_offset"] = 4,
+			["cast_statusbar_bgcolor"] = {
+				0.1137254901960784, -- [1]
+				0.1137254901960784, -- [2]
+				0.1137254901960784, -- [3]
+				0.8900000005960464, -- [4]
+			},
+			["indicator_spec"] = false,
+			["resources_settings"] = {
+				["chr"] = {
+					["Player-2073-0655867C"] = "Runes",
+				},
+			},
 			["border_color"] = {
 				nil, -- [1]
 				nil, -- [2]
@@ -3554,7 +4028,6 @@ PlaterDB = {
 				1, -- [4]
 			},
 			["castbar_icon_size"] = "same as castbar plus healthbar",
-			["bossmod_cooldown_text_size"] = 12,
 			["hook_data"] = {
 				{
 					["Enabled"] = false,
@@ -3570,7 +4043,7 @@ PlaterDB = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
 					},
-					["Name"] = "Color Automation [Plater]",
+					["Time"] = 1547392935,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -3596,7 +4069,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\color_bar",
-					["Time"] = 1547392935,
+					["Name"] = "Color Automation [Plater]",
 				}, -- [1]
 				{
 					["Enabled"] = false,
@@ -3617,7 +4090,7 @@ PlaterDB = {
 						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.ShowNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.OnlyInOpenWorld = true;\n    envTable.ShowInCombat = true;\n    \n    --consts\n    envTable.REACTION_NEUTRAL = 4;\n    \n    --functions to hide and show the healthBar\n    function envTable.HideNameplate (unitFrame)\n        Plater.HideHealthBar (unitFrame)\n        Plater.DisableHighlight (unitFrame)\n        envTable.IsHidden = true\n    end\n    \n    function envTable.ShowNameplate (unitFrame)\n        Plater.ShowHealthBar (unitFrame)\n        Plater.EnableHighlight (unitFrame)\n        envTable.IsHidden = false\n    end\n    \nend\n\n\n\n\n",
 					},
-					["Name"] = "Hide Neutral Units [Plater]",
+					["Time"] = 1541606242,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -3643,10 +4116,11 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 1990989,
-					["Time"] = 1541606242,
+					["Name"] = "Hide Neutral Units [Plater]",
 				}, -- [2]
 				{
-					["LastHookEdited"] = "",
+					["HooksTemp"] = {
+					},
 					["Hooks"] = {
 						["Nameplate Added"] = "\n\n-- exported function Plater.UpdatePlateSize() from Plater.lua\n--this is for advanced users which wants to reorder the nameplate frame at their desire\n\n\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --check if there's a type of unit on this nameplate\n    local plateFrame = unitFrame:GetParent()\n    if (not plateFrame.actorType) then\n        return\n    end\n    \n    --get all the frames and cache some variables\n    local ACTORTYPE_ENEMY_PLAYER = \"enemyplayer\"\n    local profile = Plater.db.profile\n    local DB_PLATE_CONFIG = profile.plate_config\n    local isInCombat = Plater.IsInCombat()\n    local actorType = plateFrame.actorType\n    \n    local unitFrame = plateFrame.unitFrame\n    local healthBar = unitFrame.healthBar\n    local castBar = unitFrame.castBar\n    local powerBar = unitFrame.powerBar\n    local buffFrame1 = unitFrame.BuffFrame\n    local buffFrame2 = unitFrame.BuffFrame2\n    \n    --use in combat bars when in pvp\n    if (plateFrame.actorType == ACTORTYPE_ENEMY_PLAYER) then\n        if ((Plater.ZoneInstanceType == \"pvp\" or Plater.ZoneInstanceType == \"arena\") and DB_PLATE_CONFIG.player.pvp_always_incombat) then\n            isInCombat = true\n        end\n    end\n    \n    --get the config for this actor type\n    local plateConfigs = DB_PLATE_CONFIG [actorType]\n    --get the config key based if the player is in combat\n    local castBarConfigKey, healthBarConfigKey, manaConfigKey = Plater.GetHashKey (isInCombat)\n    \n    --get the width and height from what the user set in the options panel\n    local healthBarWidth, healthBarHeight = unitFrame.customHealthBarWidth or plateConfigs [healthBarConfigKey][1], unitFrame.customHealthBarHeight or plateConfigs [healthBarConfigKey][2]\n    local castBarWidth, castBarHeight = unitFrame.customCastBarWidth or plateConfigs [castBarConfigKey][1], unitFrame.customCastBarHeight or plateConfigs [castBarConfigKey][2]\n    local powerBarWidth, powerBarHeight = unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][1], unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][2]\n    \n    --calculate the offset for the cast bar, this is done due to the cast bar be anchored to topleft and topright\n    local castBarOffSetX = (healthBarWidth - castBarWidth) / 2\n    local castBarOffSetY = plateConfigs.castbar_offset\n    \n    --calculate offsets for the power bar\n    local powerBarOffSetX = (healthBarWidth - powerBarWidth) / 2\n    local powerBarOffSetY = 0\n    \n    --calculate the size deviation for pets\n    local unitType = Plater.GetUnitType (plateFrame)\n    if (unitType == \"pet\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.pet_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.pet_width_scale\n        \n    elseif (unitType == \"minus\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.minor_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.minor_width_scale\n    end\n    \n    --unit frame - is set to be the same size as the plateFrame\n    unitFrame:ClearAllPoints()\n    unitFrame:SetAllPoints()\n    \n    --calculates the health bar anchor points\n    --it will always be placed in the center of the nameplate area (where it accepts mouse clicks) \n    local xOffSet = (plateFrame:GetWidth() - healthBarWidth) / 2\n    local yOffSet = (plateFrame:GetHeight() - healthBarHeight) / 2\n    \n    --set the health bar point\n    healthBar:ClearAllPoints()\n    PixelUtil.SetPoint (healthBar, \"topleft\", unitFrame, \"topleft\", xOffSet + profile.global_offset_x, -yOffSet + profile.global_offset_y)\n    PixelUtil.SetPoint (healthBar, \"bottomright\", unitFrame, \"bottomright\", -xOffSet + profile.global_offset_x, yOffSet + profile.global_offset_y)\n    \n    --set the cast bar point and size\n    castBar:ClearAllPoints()\n    PixelUtil.SetPoint (castBar, \"topleft\", healthBar, \"bottomleft\", castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetPoint (castBar, \"topright\", healthBar, \"bottomright\", -castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetHeight (castBar, castBarHeight)\n    PixelUtil.SetSize (castBar.Icon, castBarHeight, castBarHeight)\n    PixelUtil.SetSize (castBar.BorderShield, castBarHeight * 1.4, castBarHeight * 1.4)\n    \n    --set the power bar point and size\n    powerBar:ClearAllPoints()\n    PixelUtil.SetPoint (powerBar, \"topleft\", healthBar, \"bottomleft\", powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetPoint (powerBar, \"topright\", healthBar, \"bottomright\", -powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetHeight (powerBar, powerBarHeight)\n    \n    --power bar are hidden by default, show it if there's a custom size for it\n    if (unitFrame.customPowerBarWidth and unitFrame.customPowerBarHeight) then\n        powerBar:SetUnit (unitFrame.unit)\n    end\n    \n    --aura frames\n    local bf1Anchor = Plater.db.profile.aura_frame1_anchor\n    Plater.SetAnchor (buffFrame1, {side = bf1Anchor.side, x = bf1Anchor.x, y = bf1Anchor.y + plateConfigs.buff_frame_y_offset}, unitFrame.healthBar, (Plater.db.profile.aura_grow_direction or 2) == 2)\n    \n    local bf2Anchor = Plater.db.profile.aura_frame2_anchor\n    Plater.SetAnchor (buffFrame2, {side = bf2Anchor.side, x = bf2Anchor.x, y = bf2Anchor.y + plateConfigs.buff_frame_y_offset}, unitFrame.healthBar, (Plater.db.profile.aura2_grow_direction or 2) == 2)\n    \nend\n\n\n",
 					},
@@ -3677,16 +4151,15 @@ PlaterDB = {
 					["Icon"] = 574574,
 					["Enabled"] = false,
 					["Revision"] = 93,
-					["semver"] = "",
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Function Plater.UpdatePlateSize from Plater.lua exported to scritps.",
-					["Name"] = "Reorder Nameplate [Plater]",
-					["PlaterCore"] = 1,
 					["Options"] = {
 					},
-					["HooksTemp"] = {
-					},
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Function Plater.UpdatePlateSize from Plater.lua exported to scritps.",
 					["version"] = -1,
+					["PlaterCore"] = 1,
+					["semver"] = "",
+					["LastHookEdited"] = "",
+					["Name"] = "Reorder Nameplate [Plater]",
 				}, -- [3]
 				{
 					["Enabled"] = false,
@@ -3702,7 +4175,7 @@ PlaterDB = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --do nothing if the player isn't in combat\n    if (not Plater.IsInCombat()) then\n        return \n    end\n    \n    --do nothing if the unit isn't in combat\n    if (not unitFrame.InCombat) then\n        return\n    end\n    \n    --do nothing if the unit is the player it self\n    if (unitFrame.IsSelf) then\n        return\n    end\n    \n    --check the auras\n    local hasAura = false\n    \n    for auraName, _ in pairs (envTable.TrackingAuras) do\n        if (Plater.NameplateHasAura (unitFrame, auraName)) then\n            hasAura = true\n            break\n        end\n    end\n    \n    if (not hasAura) then\n        Plater.SetNameplateColor (unitFrame, envTable.NameplateColor)\n    else\n        if (envTable.ForceRefreshNameplateColor) then\n            Plater.RefreshNameplateColor (unitFrame) \n        end\n    end    \n    \nend",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --Important: lines starting with double dashes are comments and are not part of the script\n    \n    --set this to true if you are not using threat colors in the health bar\n    envTable.ForceRefreshNameplateColor = true\n    \n    --if the unit does not have any of the following auras, it will be painted with the color listed below\n    --list of spells to track, can be the spell name (case-sensitive) or the spellID\n    envTable.TrackingAuras = {\n        --[\"Nightblade\"] = true, --this is an example using the spell name\n        --[195452] = true, --this is an example using the spellID\n        \n    }\n    \n    --which color the nameplate wil be changed\n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    --you may also use /plater colors\n    envTable.NameplateColor = \"pink\"\n    \nend",
 					},
-					["Name"] = "Don't Have Aura [Plater]",
+					["Time"] = 1554138845,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -3728,7 +4201,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 136207,
-					["Time"] = 1554138845,
+					["Name"] = "Don't Have Aura [Plater]",
 				}, -- [4]
 				{
 					["Enabled"] = false,
@@ -3748,7 +4221,7 @@ PlaterDB = {
 						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if can show the amount of targets\n    envTable.CanShow = envTable.CanShowTargetAmount();\n    \n    if (not envTable.CanShow) then\n        envTable.TargetAmount:SetText (\"\") \n    end\nend\n\n\n\n\n",
 						["Constructor"] = "--all gray text like this are comments and do not run as code\n--build the settings and basic functions for the hook\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --declare setting variables:\n    local textColor = \"orange\";\n    local textSize = 12;\n    \n    local showInRaid = true;\n    local showInDungeon = true;\n    local showInArena = false;\n    local showInBattleground = false;\n    local showInOpenWorld = true;\n    \n    envTable.UpdateInterval = 2; --each 2 updates in the nameplate it'll update the amount of targets\n    \n    local anchor = {\n        side = 6, --1 = topleft 2 = left 3 = bottomleft 4 = bottom 5 = bottom right 6 = right 7 = topright 8 = top\n        x = 4, --x offset\n        y = 0, --y offset\n    };\n    \n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------\n    \n    \n    --frames:\n    \n    --create the text that will show the amount of people targeting the unit\n    if (not  unitFrame.healthBar.TargetAmount) then\n        envTable.TargetAmount = Plater:CreateLabel (unitFrame.healthBar, \"\", textSize, textColor);\n        Plater.SetAnchor (envTable.TargetAmount, anchor);\n        unitFrame.healthBar.TargetAmount = envTable.TargetAmount\n    end\n    \n    --in case Plater wipes the envTable\n    envTable.TargetAmount = unitFrame.healthBar.TargetAmount\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --private variables (they will be used in the other scripts within this hook)\n    envTable.CanShow = false;\n    envTable.UpdateCooldown = 0;\n    envTable.InRaid = false;\n    envTable.InParty = false;\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --functions\n    \n    --update the InRaid or InParty proprieties\n    function envTable.UpdateGroupType()\n        if (IsInRaid()) then\n            envTable.InRaid = true;\n            envTable.InParty = false;     \n            \n        elseif (IsInGroup()) then\n            envTable.InRaid = false;\n            envTable.InParty = true;   \n            \n        else\n            envTable.InRaid = false;            \n            envTable.InParty = false;\n        end\n    end\n    \n    --this function controls if the amount of targets can show following the settings in the top of this script\n    function envTable.CanShowTargetAmount()\n        \n        local _, instanceType, difficultyID, _, _, _, _, instanceMapID, instanceGroupSize = GetInstanceInfo()\n        \n        if (showInRaid and instanceType == \"raid\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInDungeon and instanceType == \"party\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInArena and instanceType == \"arena\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInBattleground and instanceType == \"pvp\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInOpenWorld and instanceType == \"none\") then\n            envTable.UpdateGroupType()\n            if (envTable.InRaid or envTable.InParty) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    --get the amount of player targetting the unit in raid or party\n    function envTable.NumTargetsInRaid (unitFrame)\n        local amount = 0\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        return amount\n    end\n    \n    function envTable.NumTargetsInParty()\n        local amount = 0\n        for i = 1, GetNumGroupMembers() - 1 do\n            local unit = \"party\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        local unit = \"playertarget\"\n        if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n            amount = amount + 1\n        end        \n        \n        return amount\n    end\n    \nend",
 					},
-					["Name"] = "Players Targeting a Target [Plater]",
+					["Time"] = 1548278227,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -3774,7 +4247,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 1966587,
-					["Time"] = 1548278227,
+					["Name"] = "Players Targeting a Target [Plater]",
 				}, -- [5]
 				{
 					["Enabled"] = false,
@@ -3793,7 +4266,7 @@ PlaterDB = {
 						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BorderFrame:Hide()\n    \nend\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border color\n    local borderColor = \"yellow\"\n    \n    --size of the border\n    local borderSize = 1\n    \n    --transparency\n    local borderAlpha = 1\n    \n    --enabled (set to false it you only want to use the extra border in other scripts)\n    local isEnabled = true\n    \n    --export border (allow the border to be used by other scripts)\n    --other scripts can use:\n    --unitFrame.healthBar.extraBorder:Show()\n    --unitFrame.healthBar.extraBorder:SetVertexColor (r, g, b)\n    --unitFrame.healthBar.extraBorder:SetBorderSizes (borderSize)\n    local canExportBorder = true\n    \n    --do not add the border to personal bar\n    local noPersonalBar = true\n    \n    --private\n    do\n        \n        local newBorder = CreateFrame (\"frame\", nil, unitFrame.healthBar, \"NamePlateFullBorderTemplate\")\n        envTable.BorderFrame = newBorder\n        \n        newBorder:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n        newBorder:UpdateSizes()\n        \n        local r, g, b = DetailsFramework:ParseColors (borderColor)\n        newBorder:SetVertexColor (r, g, b, borderAlpha)\n        \n        envTable.ShowOnPersonalBar = not noPersonalBar\n        \n        if (canExportBorder) then\n            unitFrame.healthBar.extraBorder = newBorder\n        end\n        \n        if (not isEnabled) then\n            envTable.IsEnabled = false\n        else\n            envTable.IsEnabled = true\n        end\n    end\n    \nend\n\n\n",
 					},
-					["Name"] = "Extra Border [Plater]",
+					["Time"] = 1547409079,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -3819,7 +4292,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 133689,
-					["Time"] = 1547409079,
+					["Name"] = "Extra Border [Plater]",
 				}, -- [6]
 				{
 					["Enabled"] = false,
@@ -3837,7 +4310,7 @@ PlaterDB = {
 						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --usage: color name e.g \"red\" \"yellow\"; color table e.g {1, 0, 0} {1, 1, 0}; hex string e.g. \"#FF0000\" \"FFFF00\"\n    \n    envTable.TargetColor = \"purple\"\n    --envTable.TargetColor = \"#FF00FF\"\n    --envTable.TargetColor = {252/255, 0/255, 254/255}\n    \n    function envTable.UpdateColor (unitFrame)\n        --do not change the color of the personal bar\n        if (not unitFrame.IsSelf) then\n            \n            --if this nameplate the current target of the player?\n            if (unitFrame.namePlateIsTarget) then\n                Plater.SetNameplateColor (unitFrame, envTable.TargetColor)  --rgb\n            else\n                --refresh the nameplate color\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n        end\n    end\n    \nend\n\n\n\n\n",
 					},
-					["Name"] = "Current Target Color [Plater]",
+					["Time"] = 1552354619,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -3863,10 +4336,11 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 878211,
-					["Time"] = 1552354619,
+					["Name"] = "Current Target Color [Plater]",
 				}, -- [7]
 				{
-					["LastHookEdited"] = "",
+					["HooksTemp"] = {
+					},
 					["Hooks"] = {
 						["Initialization"] = "function (modTable)\n    \n    --ATTENTION: after enabling this mod, you may have to adjust the anchor point at the Buff Settings tab\n    \n    local sortByTime = false\n    local invertSort = false\n    \n    --which auras goes first, assign a value (any number), bigger value goes first\n    local priority = {\n        [\"Vampiric Touch\"] = 50,\n        [\"Shadow Word: Pain\"] = 22,\n        [\"Mind Flay\"] = 5,\n        [\"Pistol Shot\"] = 50,\n        [\"Marked for Death\"] = 99,\n    }\n    \n    -- Sort function - do not touch\n    Plater.db.profile.aura_sort = true\n    \n    \n    function Plater.AuraIconsSortFunction (aura1, aura2)\n        local p1 = priority[aura1.SpellId] or priority[aura1.SpellName] or 1\n        local p2 = priority[aura2.SpellId] or priority[aura2.SpellName] or 1\n        \n        if sortByTime and p1 == p2 then\n            if invertSort then\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) > (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            else\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) < (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            end\n        else\n            if invertSort then\n                 return p1 < p2\n            else\n                return p1 > p2\n            end\n        end\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 					},
@@ -3897,19 +4371,19 @@ PlaterDB = {
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_aura_reorder",
 					["Enabled"] = false,
 					["Revision"] = 356,
-					["semver"] = "",
-					["Author"] = "Ditador-Azralon",
-					["Desc"] = "Reorder buffs and debuffs following the settings set in the constructor.",
-					["Name"] = "Aura Reorder [Plater]",
-					["PlaterCore"] = 1,
 					["Options"] = {
 					},
-					["HooksTemp"] = {
-					},
+					["Author"] = "Ditador-Azralon",
+					["Desc"] = "Reorder buffs and debuffs following the settings set in the constructor.",
 					["version"] = -1,
+					["PlaterCore"] = 1,
+					["semver"] = "",
+					["LastHookEdited"] = "",
+					["Name"] = "Aura Reorder [Plater]",
 				}, -- [8]
 				{
-					["LastHookEdited"] = "",
+					["HooksTemp"] = {
+					},
 					["Hooks"] = {
 						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    self.ThrottleUpdate = -1\n    \nend\n\n\n",
 						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.castBar.BorderShield:SetDrawLayer(\"artwork\")\n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
@@ -3942,11 +4416,6 @@ PlaterDB = {
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\castbar_icon",
 					["Enabled"] = false,
 					["Revision"] = 348,
-					["semver"] = "",
-					["Author"] = "Ditador-Azralon",
-					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
-					["Name"] = "Cast Bar Icon Settings [P]",
-					["PlaterCore"] = 1,
 					["Options"] = {
 						{
 							["Type"] = 5,
@@ -4100,9 +4569,13 @@ PlaterDB = {
 							["Fraction"] = true,
 						}, -- [16]
 					},
-					["HooksTemp"] = {
-					},
+					["Author"] = "Ditador-Azralon",
+					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
 					["version"] = -1,
+					["PlaterCore"] = 1,
+					["semver"] = "",
+					["LastHookEdited"] = "",
+					["Name"] = "Cast Bar Icon Settings [P]",
 				}, -- [9]
 				{
 					["Enabled"] = false,
@@ -4118,7 +4591,7 @@ PlaterDB = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        if (healthBar.CurrentHealth / healthBar.CurrentHealthMax <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame)\n        end        \n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = false\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * envTable.ExecutePercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
 					},
-					["Name"] = "Execute Range [Plater]",
+					["Time"] = 1547406548,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -4144,10 +4617,11 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 135358,
-					["Time"] = 1547406548,
+					["Name"] = "Execute Range [Plater]",
 				}, -- [10]
 				{
-					["LastHookEdited"] = "",
+					["HooksTemp"] = {
+					},
 					["Hooks"] = {
 						["Initialization"] = "function (modTable)\n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    modTable.changeBarColor = modTable.config.changeBarColor\n    modTable.changeBorderColor = modTable.config.changeBorderColor\n    modTable.resetColors = modTable.config.resetColors\n    \n    modTable.ListOfNpcs = {\n        [61146] = modTable.config.color, --\"olive\", --monk statue npcID\n        [103822] = modTable.config.color, --\"olive\", --druid treant npcID\n        [15352] = modTable.config.color, --\"olive\", --shaman elemental\n        [95072] = modTable.config.color, --\"olive\", --shaman greater earth elemental npcID\n        [61056] = modTable.config.color, --\"olive\", --shaman primal earth elemental npcID\n        \n    }\nend\n\n\n",
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    if not unitId then\n        return\n    end\n    --get the GUID of the target of the unit\n    local targetGUID = UnitGUID (unitId .. \"target\")\n    \n    if (targetGUID) then\n        \n        --get the npcID of the target\n        local npcID = Plater.GetNpcIDFromGUID (targetGUID)\n        local unitName = UnitName (unitId .. \"target\")\n        local unitNameLower = string.lower (unitName)\n        \n        --check if the npcID of this unit is in the npc list \n        local color = modTable.ListOfNpcs [npcID] or modTable.ListOfNpcs [unitName] or modTable.ListOfNpcs [unitNameLower]\n        \n        if color then\n            if modTable.changeBarColor then\n                Plater.SetNameplateColor (unitFrame, color)\n            end\n            if modTable.changeBorderColor then\n                Plater.SetBorderColor (unitFrame, color)\n            end\n            unitFrame.attackingSpecificUnitFromMod = true\n        elseif unitFrame.attackingSpecificUnitFromMod and modTable.resetColors then\n            if modTable.changeBorderColor then\n                Plater.SetBorderColor (unitFrame)\n            end\n            if modTable.changeBarColor then\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n            unitFrame.attackingSpecificUnitFromMod = false\n        end\n    end\nend",
@@ -4179,11 +4653,6 @@ PlaterDB = {
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_attacking_unit",
 					["Enabled"] = false,
 					["Revision"] = 363,
-					["semver"] = "",
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Change the nameplate color if the unit is attacking a specific unit like Monk's Ox Statue or Druid's Treants. You may edit which units it track in the constructor script.",
-					["Name"] = "Attacking Specific Unit [Plater]",
-					["PlaterCore"] = 1,
 					["Options"] = {
 						{
 							["Type"] = 1,
@@ -4223,12 +4692,17 @@ PlaterDB = {
 							["Desc"] = "",
 						}, -- [4]
 					},
-					["HooksTemp"] = {
-					},
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Change the nameplate color if the unit is attacking a specific unit like Monk's Ox Statue or Druid's Treants. You may edit which units it track in the constructor script.",
 					["version"] = -1,
+					["PlaterCore"] = 1,
+					["semver"] = "",
+					["LastHookEdited"] = "",
+					["Name"] = "Attacking Specific Unit [Plater]",
 				}, -- [11]
 				{
-					["LastHookEdited"] = "",
+					["HooksTemp"] = {
+					},
 					["Hooks"] = {
 						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    --constructor is executed only once when any script of the hook runs.\n    \nend\n\n\n",
 						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if need update the amount of combo points shown\n    if (envTable.LastPlayerTalentUpdate > envTable.LastUpdate) then\n        envTable.UpdateComboPointAmount()\n    end    \n    \n    if (unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.ComboPointFrame:Show()\n        envTable.UpdateComboPoints()\n        \n    else\n        envTable.ComboPointFrame:Hide()\n    end    \n    \nend\n\n\n",
@@ -4271,27 +4745,36 @@ PlaterDB = {
 					["Icon"] = 135426,
 					["Enabled"] = false,
 					["Revision"] = 284,
-					["semver"] = "",
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Show combo points above the nameplate for Druid Feral and Rogues.",
-					["Name"] = "Combo Points [Plater]",
-					["PlaterCore"] = 1,
 					["Options"] = {
 					},
-					["HooksTemp"] = {
-					},
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Show combo points above the nameplate for Druid Feral and Rogues.",
 					["version"] = -1,
+					["PlaterCore"] = 1,
+					["semver"] = "",
+					["LastHookEdited"] = "",
+					["Name"] = "Combo Points [Plater]",
 				}, -- [12]
 			},
 			["auras_per_row_auto"] = false,
 			["extra_icon_caster_outline"] = "OUTLINE",
 			["auras_per_row_amount2"] = 2,
 			["aura_width"] = 20,
-			["health_statusbar_bgcolor"] = {
-				0.1137254901960784, -- [1]
-				0.1137254901960784, -- [2]
-				0.1137254901960784, -- [3]
-				1, -- [4]
+			["ghost_auras"] = {
+				["auras"] = {
+					["PRIEST"] = {
+						[3] = {
+							[589] = true,
+							[34914] = true,
+						},
+					},
+					["WARLOCK"] = {
+						{
+							[172] = true,
+							[980] = true,
+						}, -- [1]
+					},
+				},
 			},
 			["pet_width_scale"] = 0.9999999403953552,
 			["extra_icon_stack_outline"] = "OUTLINE",
@@ -4300,16 +4783,19 @@ PlaterDB = {
 			},
 			["aura2_grow_direction"] = 3,
 			["range_check_in_range_or_target_alpha_friendlies"] = 1,
-			["extra_icon_show_enrage"] = true,
 			["pet_height_scale"] = 0.9999999403953552,
 			["aura_x_offset"] = 0,
 			["first_run3"] = true,
 			["ui_parent_scale_tune"] = 1.406249965948519,
-			["aura_height2"] = 20,
+			["bossmod_cooldown_text_size"] = 12,
 			["health_statusbar_bgtexture"] = "GennUI",
 			["aura_tracker"] = {
 				["buff_tracked"] = {
+					[227931] = true,
+					[233210] = true,
 					[209859] = true,
+					[163689] = true,
+					[297133] = true,
 				},
 			},
 			["extra_icon_caster_font"] = "GennUI",
@@ -4320,29 +4806,24 @@ PlaterDB = {
 				0.3254901960784314, -- [3]
 				0.9600000008940697, -- [4]
 			},
-			["focus_indicator_enabled"] = false,
 			["use_ui_parent"] = true,
+			["focus_indicator_enabled"] = false,
 			["extra_icon_timer_font"] = "GennUI",
-			["cast_statusbar_fadeout_time"] = 0.2000000029802322,
 			["use_health_animation"] = true,
-			["aura2_x_offset"] = 0,
-			["cast_statusbar_bgcolor"] = {
+			["aura_width2"] = 20,
+			["aura_grow_direction"] = 1,
+			["castbar_icon_attach_to_side"] = "right",
+			["patch_version"] = 20,
+			["range_check_in_range_or_target_alpha"] = 1,
+			["aura_timer_text_size"] = 12,
+			["number_region_first_run"] = true,
+			["castbar_target_font"] = "GennUI",
+			["health_statusbar_bgcolor"] = {
 				0.1137254901960784, -- [1]
 				0.1137254901960784, -- [2]
 				0.1137254901960784, -- [3]
-				0.8900000005960464, -- [4]
+				1, -- [4]
 			},
-			["indicator_spec"] = false,
-			["aura_grow_direction"] = 1,
-			["castbar_icon_attach_to_side"] = "right",
-			["cast_statusbar_color_interrupted"] = {
-				0.0196078431372549, -- [1]
-				0.1843137254901961, -- [2]
-				0.3176470588235294, -- [3]
-			},
-			["patch_version"] = 17,
-			["range_check_in_range_or_target_alpha"] = 1,
-			["aura_timer_text_size"] = 12,
 			["script_data_trash"] = {
 				{
 					["ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --castbar color (when can be interrupted)\n    envTable.CastbarColor = scriptTable.config.castbarColor\n    \n    --flash duration\n    local CONFIG_BACKGROUND_FLASH_DURATION = scriptTable.config.flashDuration\n    \n    --add this value to the cast bar height\n    envTable.CastBarHeightAdd = scriptTable.config.castBarHeight\n    \n    --create a fast flash above the cast bar\n    envTable.FullBarFlash = envTable.FullBarFlash or Plater.CreateFlash (self, 0.05, 1, \"white\")\n    \n    --create a camera shake for the nameplate\n    envTable.FrameShake = Plater:CreateFrameShake (unitFrame, scriptTable.config.shakeDuration, scriptTable.config.shakeAmplitude, scriptTable.config.shakeFrequency, false, false, 0, 1, 0.05, 0.1, Plater.GetPoints (unitFrame))\n    \n    --create a texture to use for a flash behind the cast bar\n    local backGroundFlashTexture = Plater:CreateImage (self, [[Interface\\ACHIEVEMENTFRAME\\UI-Achievement-Alert-Glow]], self:GetWidth()+60, self:GetHeight()+50, \"background\", {0, 400/512, 0, 170/256})\n    backGroundFlashTexture:SetBlendMode (\"ADD\", 7)\n    backGroundFlashTexture:SetDrawLayer(\"OVERLAY\", 7)\n    backGroundFlashTexture:SetPoint (\"center\", self, \"center\")\n    backGroundFlashTexture:Hide()\n    \n    --create the animation hub to hold the flash animation sequence\n    envTable.BackgroundFlash = envTable.BackgroundFlash or Plater:CreateAnimationHub (backGroundFlashTexture, \n        function()\n            backGroundFlashTexture:Show()\n        end,\n        function()\n            backGroundFlashTexture:Hide()\n        end\n    )\n    \n    --create the flash animation sequence\n    envTable.BackgroundFlash.fadeIn = envTable.BackgroundFlash.fadeIn or Plater:CreateAnimation (envTable.BackgroundFlash, \"ALPHA\", 1, CONFIG_BACKGROUND_FLASH_DURATION/2, 0, .75)\n    envTable.BackgroundFlash.fadeIn:SetDuration(CONFIG_BACKGROUND_FLASH_DURATION/2)\n    \n    envTable.BackgroundFlash.fadeOut = envTable.BackgroundFlash.fadeOut or Plater:CreateAnimation (envTable.BackgroundFlash, \"ALPHA\", 2, CONFIG_BACKGROUND_FLASH_DURATION/2, 1, 0)    \n    envTable.BackgroundFlash.fadeOut:SetDuration(CONFIG_BACKGROUND_FLASH_DURATION/2)\n    \n    --envTable.BackgroundFlash:Play() --envTable.BackgroundFlash:Stop()    \n    \n    \n    \n    \n    \nend\n\n\n\n\n",
@@ -4509,16 +4990,42 @@ PlaterDB = {
 					},
 				}, -- [1]
 			},
-			["number_region_first_run"] = true,
 			["extra_icon_timer_outline"] = "OUTLINE",
 			["castbar_target_anchor"] = {
 				["y"] = -1,
 				["side"] = 4,
 			},
-			["castbar_target_font"] = "GennUI",
-			["aura_alpha"] = 1,
+			["script_auto_imported"] = {
+				["Unit - Important"] = 11,
+				["Aura - Buff Alert"] = 13,
+				["Cast - Very Important"] = 12,
+				["Cast - Alert + Timer [P]"] = 2,
+				["Aura - Debuff Alert"] = 11,
+				["Aura is Shield [P]"] = 1,
+				["Cast - Castbar is Timer [P]"] = 2,
+				["Cast - Ultra Important"] = 11,
+				["Cast - Big Alert"] = 12,
+				["Fixate On You"] = 11,
+				["Cast - Small Alert"] = 11,
+				["Relics 9.2 M Dungeons"] = 2,
+				["Explosion Affix M+"] = 11,
+				["Spiteful Affix"] = 3,
+				["Cast - Glowing [P]"] = 1,
+				["Unit - Main Target"] = 11,
+				["Aura - Blink Time Left"] = 13,
+				["Fixate by Unit Buff [P]"] = 1,
+				["Countdown"] = 11,
+				["Unit - Health Markers"] = 12,
+				["Cast - Frontal Cone"] = 11,
+				["Fixate"] = 11,
+				["Cast - Tank Interrupt"] = 12,
+				["Auto Set Skull"] = 11,
+				["Cast - Important Target [P]"] = 1,
+				["Unit - Show Energy"] = 11,
+			},
+			["extra_icon_show_enrage"] = true,
+			["cast_statusbar_texture"] = "GennUI",
 			["indicator_faction"] = false,
-			["extra_icon_height"] = 30,
 			["range_check_alpha_friendlies"] = 0.6499999761581421,
 			["cast_statusbar_color_finished"] = {
 				0.1372549019607843, -- [1]
@@ -4526,10 +5033,16 @@ PlaterDB = {
 				0.1294117647058823, -- [3]
 				0.9600000008940697, -- [4]
 			},
+			["cast_statusbar_color_interrupted"] = {
+				0.0196078431372549, -- [1]
+				0.1843137254901961, -- [2]
+				0.3176470588235294, -- [3]
+			},
 		},
 	},
 	["profileKeys"] = {
 		["Gennui - Outland"] = "Default",
+		["Dæthlørd - Stormscale"] = "Default",
 	},
 	["captured_casts"] = {
 		[345495] = {
@@ -4543,6 +5056,9 @@ PlaterDB = {
 		},
 		[352520] = {
 			["npcID"] = 178601,
+		},
+		[167385] = {
+			["npcID"] = 109096,
 		},
 		[205231] = {
 			["npcID"] = 103673,

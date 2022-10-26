@@ -25,7 +25,7 @@ if GNUI.Retail then
 	ElvUF.Tags.Methods['gnuihmana'] = function(unit)
 		local min = UnitPower(unit, SPELL_POWER_MANA)
 		local max = UnitPowerMax(unit, SPELL_POWER_MANA)
-		local CurPercent = (min/max)*100
+		local CurPercent = (min/(max+1))*100
 		local CurRole = UnitGroupRolesAssigned(unit)
 		
 		if CurRole == 'HEALER' and min ~= 0 and min ~= max then

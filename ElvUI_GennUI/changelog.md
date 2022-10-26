@@ -1,5 +1,9 @@
 # Changelog
 
+**v2.75 [26/10/2022]**
+- Initial Dragonflight Pre-Patch support.
+- Various Pre-Patch bug fixes.
+
 **v2.74 [03/10/2022]**
 - TooltipItemIcons fix (Thx to brykrys)
 
