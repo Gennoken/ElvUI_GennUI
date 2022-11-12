@@ -24,6 +24,7 @@ E.db["general"]["bottomPanel"] = false
 E.db["general"]["font"] = "GennUI"
 E.db["general"]["interruptAnnounce"] = "SAY"
 E.db["general"]["itemLevel"]["itemLevelFont"] = "GennUI"
+E.db["general"]["loginmessage"] = false
 E.db["general"]["lootRoll"]["nameFont"] = "GennUI"
 E.db["general"]["lootRoll"]["statusBarTexture"] = "GennUI"
 E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "GennUI"
@@ -60,7 +61,9 @@ E.global.unitframe.aurafilters.Blacklist.spells[124273] = { enable = false, prio
 E.global.unitframe.aurafilters.Blacklist.spells[206150] = { enable = true, priority = 0 }
 --> Challenger's Burden
 E.global.unitframe.aurafilters.Blacklist.spells[206151] = { enable = true, priority = 0 }
---> Adaptive Swarm (Druid - Necrolord)
-E.global.unitframe.aurawatch.DRUID[325748] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = -30, yOffset = -2 }
+--> Adaptive Swarm
+E.global.unitframe.aurawatch.DRUID[391891] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = -30, yOffset = -2 }
+--> Cenarion Ward
+E.global.unitframe.aurawatch.DRUID[102352] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = 0, yOffset = -2 }
 
 end

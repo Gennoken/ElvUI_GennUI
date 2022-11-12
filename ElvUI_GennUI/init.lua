@@ -10,6 +10,7 @@ local MyPluginName = "GennUI"
 local EP = LibStub("LibElvUIPlugin-1.0")
 local GNUI = E:NewModule(MyPluginName, "AceConsole-3.0", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
 GNUI.Version = GetAddOnMetadata("ElvUI_GennUI", "Version")
+GNUI.ESupportedVersion = 13.01
 GNUI.Config = {}
 
 GNUI.Retail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
@@ -24,9 +25,6 @@ P['GNUI'] = {
 }
 disctag = "Gennoken#4505"
 repolink = "https://github.com/Gennoken/ElvUI_GennUI"
-
---[[ Login Message ]]--
-E:Print(L["Hello,|r |r" ..UnitName("Player")..  "|r Welcome to |cffc31f3bGennUI |cffffffffv|cffc31f3b" ..GNUI.Version.. "|cffffffff by |cffc31f3bGennoken|cffffffff, please type in |cffc31f3b/gnui |cfffffffffor options, Thank you."])
 
 --[[ Installer Data ]]--
 local function InstallComplete()
@@ -178,7 +176,7 @@ function GNUI:ConfigTable()
 				name = "Install/Reset",
 				width = "full",
 				desc = "Run the full install process to reset |cffc31f3bGennUI |cffffffffto it's default settings.",
-				func = function() E:GetModule("PluginInstaller"):Queue(InstallerData); E:ToggleOptionsUI(); end,
+				func = function() E:GetModule("PluginInstaller"):Queue(InstallerData); E:ToggleOptions(); end,
 			},
 			installheaederspac2 = {
 				order = 10,
@@ -233,7 +231,7 @@ end
 
 --[[ Slash Commands ]]--
 function GNUI:LoadOptions()
-	E:ToggleOptionsUI(); LibStub("AceConfigDialog-3.0-ElvUI"):SelectGroup("ElvUI", "GNUI")
+	E:ToggleOptions(); LibStub("AceConfigDialog-3.0-ElvUI"):SelectGroup("ElvUI", "GNUI")
 end
 
 function GNUI:LoadCommands()
@@ -243,18 +241,27 @@ end
 --[[ Initialization ]]--
 function GNUI:Initialize()
 
-	-- Force ElvUI Install to hide
+	-- ElvUI Version Check
+	if E.version < GNUI.ESupportedVersion then
+	E:Print(L["|cffc31f3bGennUI |cffffffff is not loaded, please update your |cff1784d1ElvUI |cffffffffto version |cffc31f3b" ..GNUI.ESupportedVersion.. "|cffffffff or later, thank you."])
+	return end
+
+	-- Force ElvUI Install to Hide
 	if E.private.install_complete == nil or E.private.install_complete ~= E.version then
 		E.private.install_complete = E.version
 	end
 
-	-- GennUI new install or update check
+	-- GennUI New Install or Update Check
 	if E.db.GNUI.install_version == nil or E.db.GNUI.install_version < GNUI.Version then
 		E:GetModule("PluginInstaller"):Queue(InstallerData)
 	end
 	
 	EP:RegisterPlugin(addon, GNUI.ConfigTable)
 	GNUI:LoadCommands()
+	
+	-- Welcome Message
+	E:Print(L["Hello,|r |r" ..UnitName("Player")..  "|r Welcome to |cffc31f3bGennUI |cffffffffv|cffc31f3b" ..GNUI.Version.. "|cffffffff by |cffc31f3bGennoken|cffffffff, please type in |cffc31f3b/gnui |cfffffffffor options, Thank you."])
+	
 end
 
 local function CallbackInitialize()
