@@ -1,5 +1,11 @@
 # Changelog
 
+**v2.76 [12/11/2022]**
+- Follow ElvUI 13.01 changes.
+- GennUI now requires ElvUI v13.01 or later.
+- Remove TBC TOC file, no longer playable.
+- Small fixes/tweaks.
+
 **v2.75 [26/10/2022]**
 - Initial Dragonflight Pre-Patch support.
 - Various Pre-Patch bug fixes.

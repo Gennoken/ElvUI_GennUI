@@ -1,5 +1,5 @@
 local E, L, V, P, G, _ = unpack(ElvUI) --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB, Localize Underscore
-local ElvUF = ElvUI.oUF
+local ElvUF = E.oUF
 local UF = E:GetModule('UnitFrames');
 local GNUI = E:GetModule("GennUI");
 

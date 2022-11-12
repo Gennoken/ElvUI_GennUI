@@ -83,6 +83,7 @@ E.private["WT"]["maps"]["minimapButtons"]["backdrop"] = false
 E.private["WT"]["maps"]["minimapButtons"]["backdropSpacing"] = 0
 E.private["WT"]["maps"]["minimapButtons"]["buttonSize"] = 20
 E.private["WT"]["maps"]["minimapButtons"]["buttonsPerRow"] = 8
+E.private["WT"]["maps"]["worldMap"]["scale"]["enable"] = false
 E.private["WT"]["misc"]["lfgList"]["line"]["tex"] = "GennUI"
 E.private["WT"]["misc"]["moveSpeed"] = true
 E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["offsetY"] = -13
