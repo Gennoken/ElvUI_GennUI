@@ -260,7 +260,7 @@ function GNUI:Initialize()
 	GNUI:LoadCommands()
 	
 	-- Welcome Message
-	E:Print(L["Hello,|r |r" ..UnitName("Player")..  "|r Welcome to |cffc31f3bGennUI |cffffffffv|cffc31f3b" ..GNUI.Version.. "|cffffffff by |cffc31f3bGennoken|cffffffff, please type in |cffc31f3b/gnui |cfffffffffor options, Thank you."])
+	E:Print(L["Hello,|r |r" ..UnitName("Player")..  ",|r Welcome to |cffc31f3bGennUI |cffffffffv|cffc31f3b" ..GNUI.Version.. "|cffffffff by |cffc31f3bGennoken|cffffffff, please type in |cffc31f3b/gnui |cfffffffffor options, Thank you."])
 	
 end
 
