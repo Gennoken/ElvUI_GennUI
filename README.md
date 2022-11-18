@@ -13,7 +13,7 @@
 - Set up supported AddOns automatically, matching the UI style.
 
 # « Requirements »
-- [ElvUI](https://www.tukui.org/download.php?ui=elvui)
+- [ElvUI](https://www.tukui.org/download.php?ui=elvui) v13.01+
 
 # « Highly recommended »
 - [AddOnSkins](https://www.curseforge.com/wow/addons/addonskins)
