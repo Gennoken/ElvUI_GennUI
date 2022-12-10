@@ -1,5 +1,10 @@
 # Changelog
 
+**v2.78 [10/12/2022]**
+- Dragonflight Release fixes.
+- WindTools minor profile updates.
+- AddOns Profiles updated: BattleGroundEnemies
+
 **v2.77 [18/11/2022]**
 - Patch 10.0.2 fixes and TOC update
 - Evoker support.

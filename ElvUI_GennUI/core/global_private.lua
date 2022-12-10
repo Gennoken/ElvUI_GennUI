@@ -64,6 +64,6 @@ E.global.unitframe.aurafilters.Blacklist.spells[206151] = { enable = true, prior
 --> Adaptive Swarm
 E.global.unitframe.aurawatch.DRUID[391891] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = -30, yOffset = -2 }
 --> Cenarion Ward
-E.global.unitframe.aurawatch.DRUID[102352] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = 0, yOffset = -2 }
+E.global.unitframe.aurawatch.DRUID[102352] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = 30, yOffset = -2 }
 
 end
