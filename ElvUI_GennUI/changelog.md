@@ -1,5 +1,10 @@
 # Changelog
 
+**v2.79 [05/02/2022]**
+- 10.0.5 & 3.4.1 Update.
+- AddOns Profiles updated: OmniCD, Plater
+- Screenshots updated for DF.
+
 **v2.78 [10/12/2022]**
 - Dragonflight Release fixes.
 - WindTools minor profile updates.

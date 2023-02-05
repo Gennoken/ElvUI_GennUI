@@ -18,6 +18,12 @@ E.db["datatexts"]["panels"]["LeftChatDataPanel"]["backdrop"] = false
 E.db["datatexts"]["panels"]["LeftChatDataPanel"]["enable"] = false
 E.db["datatexts"]["panels"]["MinimapPanel"][1] = "Guild"
 E.db["datatexts"]["panels"]["MinimapPanel"][2] = "Friends"
+if IsAddOnLoaded('gmGuild') then
+	E.db["datatexts"]["panels"]["MinimapPanel"][1] = "LDB_gmGuild"
+end
+if IsAddOnLoaded('gmFriends') then
+	E.db["datatexts"]["panels"]["MinimapPanel"][2] = "LDB_gmFriends"
+end
 E.db["datatexts"]["panels"]["MinimapPanel"]["backdrop"] = false
 E.db["datatexts"]["panels"]["RightChatDataPanel"][1] = ""
 E.db["datatexts"]["panels"]["RightChatDataPanel"][2] = ""

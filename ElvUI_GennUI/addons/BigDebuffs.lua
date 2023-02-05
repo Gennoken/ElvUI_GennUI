@@ -33,7 +33,7 @@ BigDebuffsDB = {
 				["enemyAnchor"] = {
 					["anchor"] = "RIGHT",
 					["x"] = 2,
-					["size"] = 36,
+					["size"] = 32,
 				},
 			},
 			["unitFrames"] = {
