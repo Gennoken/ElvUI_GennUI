@@ -383,7 +383,7 @@ E.db["unitframe"]["units"]["party"]["customTexts"]["gName"]["yOffset"] = 16
 E.db["unitframe"]["units"]["party"]["debuffs"]["clickThrough"] = true
 E.db["unitframe"]["units"]["party"]["debuffs"]["countFont"] = "GennUI"
 E.db["unitframe"]["units"]["party"]["debuffs"]["perrow"] = 1
-E.db["unitframe"]["units"]["party"]["debuffs"]["priority"] = "Blacklist,Boss,CCDebuffs,RaidDebuffs,Dispellable,Whitelist"
+E.db["unitframe"]["units"]["party"]["debuffs"]["priority"] = "Blacklist,Boss,CCDebuffs,RaidDebuffs,Dispellable,Whitelist,nonPersonal"
 E.db["unitframe"]["units"]["party"]["debuffs"]["sizeOverride"] = 32
 E.db["unitframe"]["units"]["party"]["debuffs"]["xOffset"] = 1
 E.db["unitframe"]["units"]["party"]["healPrediction"]["enable"] = true
@@ -516,11 +516,12 @@ E.db["unitframe"]["units"]["raid1"]["rdebuffs"]["onlyMatchSpellID"] = false
 E.db["unitframe"]["units"]["raid1"]["rdebuffs"]["size"] = 24
 E.db["unitframe"]["units"]["raid1"]["rdebuffs"]["yOffset"] = 4
 E.db["unitframe"]["units"]["raid1"]["roleIcon"]["damager"] = false
+E.db["unitframe"]["units"]["raid1"]["roleIcon"]["enable"] = true
 E.db["unitframe"]["units"]["raid1"]["roleIcon"]["size"] = 12
 E.db["unitframe"]["units"]["raid1"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["raid1"]["verticalSpacing"] = 0
 
--- Raid
+-- Raid 2
 E.db["unitframe"]["units"]["raid2"]["classbar"]["altPowerTextFormat"] = ""
 E.db["unitframe"]["units"]["raid2"]["classbar"]["fill"] = "spaced"
 E.db["unitframe"]["units"]["raid2"]["classbar"]["height"] = 3
@@ -538,6 +539,7 @@ E.db["unitframe"]["units"]["raid2"]["rdebuffs"]["onlyMatchSpellID"] = false
 E.db["unitframe"]["units"]["raid2"]["rdebuffs"]["size"] = 24
 E.db["unitframe"]["units"]["raid2"]["rdebuffs"]["yOffset"] = 4
 E.db["unitframe"]["units"]["raid2"]["roleIcon"]["damager"] = false
+E.db["unitframe"]["units"]["raid2"]["roleIcon"]["enable"] = true
 E.db["unitframe"]["units"]["raid2"]["roleIcon"]["size"] = 12
 E.db["unitframe"]["units"]["raid2"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["raid2"]["verticalSpacing"] = 0

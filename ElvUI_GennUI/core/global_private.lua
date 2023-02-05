@@ -62,8 +62,10 @@ E.global.unitframe.aurafilters.Blacklist.spells[206150] = { enable = true, prior
 --> Challenger's Burden
 E.global.unitframe.aurafilters.Blacklist.spells[206151] = { enable = true, priority = 0 }
 --> Adaptive Swarm
-E.global.unitframe.aurawatch.DRUID[391891] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = -30, yOffset = -2 }
+E.global.unitframe.aurawatch.DRUID[391891] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 391891, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = -30, yOffset = -2 }
 --> Cenarion Ward
-E.global.unitframe.aurawatch.DRUID[102352] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 325748, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = 30, yOffset = -2 }
+E.global.unitframe.aurawatch.DRUID[102352] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 102352, point = 'CENTER', style = 'texturedIcon', sizeOffset = 12, xOffset = 30, yOffset = -2 }
+--> Focused Growth
+E.global.unitframe.aurawatch.DRUID[347621] = { enabled = true, color = { r = 0.13, g = 0.42, b = 0.13 }, id = 347621, point = 'CENTER', style = 'texturedIcon', sizeOffset = 6, xOffset = -50, yOffset = -2 }
 
 end
