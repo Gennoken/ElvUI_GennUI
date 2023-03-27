@@ -1,5 +1,9 @@
 # Changelog
 
+**v2.80 [27/03/2022]**
+- Tooltips are now hidden in combat, Press CTRL to show.
+- 10.0.7 TOC Update
+
 **v2.79 [05/02/2022]**
 - 10.0.5 & 3.4.1 Update.
 - AddOns Profiles updated: OmniCD, Plater
