@@ -1,7 +1,7 @@
 # GennUI
 ## _A clean minimalistic ElvUI edit_
 
-[![N|Solid](https://www.tukui.org/addons/Gennoken/1636820075/screenshot.png)](https://www.tukui.org/addons.php?id=221)
+[![N|Solid](https://cdn-wow.mmoui.com/preview/pvw75596.jpg)](https://www.tukui.org/addons.php?id=221)
 
 [More screenshots on the ElvUI website](https://www.tukui.org/addons.php?id=221)
 

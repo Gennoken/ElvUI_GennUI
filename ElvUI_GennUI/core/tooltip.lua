@@ -18,4 +18,5 @@ E.db["tooltip"]["healthBar"]["height"] = 1
 E.db["tooltip"]["healthBar"]["statusPosition"] = "TOP"
 E.db["tooltip"]["itemCount"] = "BOTH"
 E.db["tooltip"]["showMount"] = false
+E.db["tooltip"]["visibility"]["combatOverride"] = "CTRL"
 end
