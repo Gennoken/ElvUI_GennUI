@@ -3,9 +3,8 @@ local MyPluginName = "GennUI"
 local GNUI = E:GetModule("GennUI");
 
 --[[ Credit: brykrys, Alason, Freddy, Amavana, Resike, Merathilis ]]--
-local ttiiv = 1.8
-local VERSION = tonumber(GetAddOnMetadata("TooltipItemIcon", "Version")) or 0
-local VERSIONINFO = GetAddOnMetadata("TooltipItemIcon", "X-Release") or "Alpha"
+local VERSION = 1.821
+local VERSIONINFO = "X-Release"
 
 local NEWTOOLTIPS = (TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall) and true or false
 
@@ -1105,6 +1104,19 @@ local function OnEvent(frame) -- only event is VARIABLES_LOADED
 		TooltipItemIcon_HookFrame(AtlasLootTooltip)
 	end
 
+	--[[
+		New style Tooltip processing introduced in WoW 10.0.2
+		Basic implementation:
+		OnTooltipSetItem, OnTooltipSetSpell, OnTooltipSetEquipmentSet scripts no longer exist
+		Emulate them using the new API
+		Note that the callbacks occur for ALL tooltips, not just the ones we have registered, so need nil check
+	--]]
+	if NEWTOOLTIPS then
+		TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, HookItem)
+		TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Spell, HookSpell)
+		TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.EquipmentSet, HookEquipmentSet)
+	end
+
 	-- slash commands
 	SLASH_TOOLTIPITEMICON1 = "/tooltipitemicon"
 	SLASH_TOOLTIPITEMICON2 = "/ttii"
@@ -1118,18 +1130,6 @@ local eventframe = CreateFrame("Frame")
 eventframe:SetScript("OnEvent", OnEvent)
 eventframe:RegisterEvent("VARIABLES_LOADED")
 
---[[
-	New style Tooltip processing introduced in WoW 10.0.2
-	Basic implementation:
-	OnTooltipSetItem, OnTooltipSetSpell, OnTooltipSetEquipmentSet scripts no longer exist
-	Emulate them using the new API
-	Note that the callbacks occur for ALL tooltips, not just the ones we have registered, so need nil check
---]]
-if NEWTOOLTIPS then
-	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, HookItem)
-	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Spell, HookSpell)
-	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.EquipmentSet, HookEquipmentSet)
-end
 
 --------------------------------------------------------------------------------
 -- EXPORTS
