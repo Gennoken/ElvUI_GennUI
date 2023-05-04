@@ -10,9 +10,9 @@ if IsAddOnLoaded('ElvUI_WindTools') then
 
 E.db["movers"]["WTCombatAlertFrameMover"] = "TOP,UIParent,TOP,0,-370"
 E.db["movers"]["WTExtraItemsBar1Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-302,18"
-E.db["movers"]["WTExtraItemsBar2Mover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-302,50"
+E.db["movers"]["WTExtraItemsBar2Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,492,372"
 E.db["movers"]["WTGameBarAnchor"] = "TOP,ElvUIParent,TOP,0,-4"
-E.db["movers"]["WTRaidMarkersBarAnchor"] = "BOTTOM,ElvUIParent,BOTTOM,-342,378"
+E.db["movers"]["WTRaidMarkersBarAnchor"] = "BOTTOM,ElvUIParent,BOTTOM,-340,280"
 E.db["WT"]["announcement"]["goodbye"]["enable"] = false
 E.db["WT"]["announcement"]["interrupt"]["enable"] = false
 E.db["WT"]["announcement"]["interrupt"]["player"]["channel"]["instance"] = "SAY"
@@ -39,9 +39,10 @@ E.db["WT"]["item"]["extraItemsBar"]["bar1"]["bindFont"]["name"] = "GennUI"
 E.db["WT"]["item"]["extraItemsBar"]["bar1"]["buttonHeight"] = 28
 E.db["WT"]["item"]["extraItemsBar"]["bar1"]["buttonWidth"] = 28
 E.db["WT"]["item"]["extraItemsBar"]["bar1"]["countFont"]["name"] = "GennUI"
-E.db["WT"]["item"]["extraItemsBar"]["bar1"]["include"] = "QUEST,UTILITY,OPENABLE,FOODDF,FOODVENDOR,MAGEFOOD"
+E.db["WT"]["item"]["extraItemsBar"]["bar1"]["include"] = "QUEST,UTILITY,OPENABLE,FOODDF,FOODVENDOR,MAGEFOOD,CUSTOM"
 E.db["WT"]["item"]["extraItemsBar"]["bar1"]["numButtons"] = 6
 E.db["WT"]["item"]["extraItemsBar"]["bar1"]["spacing"] = 2
+E.db["WT"]["item"]["extraItemsBar"]["bar2"]["anchor"] = "TOPRIGHT"
 E.db["WT"]["item"]["extraItemsBar"]["bar2"]["backdrop"] = false
 E.db["WT"]["item"]["extraItemsBar"]["bar2"]["backdropSpacing"] = 1
 E.db["WT"]["item"]["extraItemsBar"]["bar2"]["bindFont"]["name"] = "GennUI"

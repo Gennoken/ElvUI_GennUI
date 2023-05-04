@@ -70,6 +70,7 @@ BigDebuffsDB = {
 					["anchorPoint"] = "RIGHT",
 					["x"] = 36,
 					["matchFrameHeight"] = false,
+					["enabled"] = false,
 					["size"] = 36,
 				},
 				["arena"] = {

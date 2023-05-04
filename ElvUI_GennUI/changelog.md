@@ -1,5 +1,12 @@
 # Changelog
 
+**v2.81 [04/05/2022]**
+- Initial 10.1 Update
+- Small Changes to Raid2 Frames.
+- WindTools: ItemBar2 update.
+- AddOns Profiles updated: Plater.
+- Modules update: TooltipItemIcon.
+
 **v2.80 [27/03/2022]**
 - Tooltips are now hidden in combat, Press CTRL to show.
 - 10.0.7 TOC Update
