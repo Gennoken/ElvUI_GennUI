@@ -147,6 +147,7 @@ E.db["unitframe"]["font"] = "GennUI"
 E.db["unitframe"]["fontOutline"] = "OUTLINE"
 E.db["unitframe"]["fontSize"] = 12
 E.db["unitframe"]["smartRaidFilter"] = false
+E.db["unitframe"]["maxAllowedGroups"] = false
 E.db["unitframe"]["smoothbars"] = true
 E.db["unitframe"]["statusbar"] = "GennUI"
 

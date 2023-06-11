@@ -1,17 +1,22 @@
 # Changelog
 
-**v2.81 [04/05/2022]**
+**v2.82 [11/06/2023]**
+- Keeping up with some ElvUI changes.
+- AddOn Profile updated: Plater, WarpDeplete.
+- Module update: TooltipItemIcon.
+
+**v2.81 [04/05/2023]**
 - Initial 10.1 Update
 - Small Changes to Raid2 Frames.
 - WindTools: ItemBar2 update.
 - AddOns Profiles updated: Plater.
 - Modules update: TooltipItemIcon.
 
-**v2.80 [27/03/2022]**
+**v2.80 [27/03/2023]**
 - Tooltips are now hidden in combat, Press CTRL to show.
 - 10.0.7 TOC Update
 
-**v2.79 [05/02/2022]**
+**v2.79 [05/02/2023]**
 - 10.0.5 & 3.4.1 Update.
 - AddOns Profiles updated: OmniCD, Plater
 - Screenshots updated for DF.

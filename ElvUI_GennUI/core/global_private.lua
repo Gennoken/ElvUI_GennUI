@@ -12,6 +12,8 @@ E.db["convertPages"] = true
 E.db["general"]["valuecolor"]["r"] = classColor.r
 E.db["general"]["valuecolor"]["g"] = classColor.g
 E.db["general"]["valuecolor"]["b"] = classColor.b
+E.db["general"]["addonCompartment"]["font"] = "GennUI"
+E.db["general"]["addonCompartment"]["hide"] = true
 E.db["general"]["altPowerBar"]["statusBarColor"]["b"] = classColor.b
 E.db["general"]["altPowerBar"]["statusBarColor"]["g"] = classColor.g
 E.db["general"]["altPowerBar"]["statusBarColor"]["r"] = classColor.r
@@ -27,13 +29,16 @@ E.db["general"]["itemLevel"]["itemLevelFont"] = "GennUI"
 E.db["general"]["loginmessage"] = false
 E.db["general"]["lootRoll"]["nameFont"] = "GennUI"
 E.db["general"]["lootRoll"]["statusBarTexture"] = "GennUI"
-E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "GennUI"
-E.db["general"]["minimap"]["icons"]["queueStatus"]["xOffset"] = 2
-E.db["general"]["minimap"]["icons"]["queueStatus"]["yOffset"] = 0
+E.db["general"]["queueStatus"]["font"] = "GennUI"
+E.db["general"]["queueStatus"]["xOffset"] = 2
+E.db["general"]["queueStatus"]["yOffset"] = 0
 E.db["general"]["minimap"]["locationFont"] = "GennUI"
 E.db["general"]["minimap"]["locationFontSize"] = 12
 E.db["general"]["minimap"]["locationText"] = "SHOW"
+E.db["general"]["minimap"]["timeFont"] = "GennUI"
 E.db["general"]["minimap"]["size"] = 175
+E.db["general"]["queueStatus"]["font"] = "GennUI"
+E.db["general"]["queueStatus"]["scale"] = 0.4
 E.db["general"]["talkingHeadFrameScale"] = 0.75
 
 -- Private
@@ -52,6 +57,9 @@ E.global["general"]["commandBarSetting"] = "DISABLED"
 E.global["general"]["mapAlphaWhenMoving"] = 0.4
 E.global["uiScaleInformed"] = true
 E.global["general"]["UIScale"] = 0.64
+
+-- Other
+E.db["WeakAuras"]["cooldown"]["override"] = true
 
 -- Filters
 --> Heavy Stagger
