@@ -7,6 +7,7 @@ local classColor = E:ClassColor(E.myclass, true)
 
 function GNUI:SetupMovers()
 E.db["movers"] = E.db["movers"] or {}
+E.db["movers"]["AddonCompartmentMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-160,-6"
 E.db["movers"]["AlertFrameMover"] = "TOP,UIParent,TOP,0,-306"
 E.db["movers"]["AltPowerBarMover"] = "TOP,UIParent,TOP,0,-202"
 E.db["movers"]["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-382,403"
@@ -45,6 +46,8 @@ E.db["movers"]["PetAB"] = "TOPRIGHT,UIParent,TOPRIGHT,-37,-484"
 E.db["movers"]["PlayerChoiceToggle"] = "TOP,UIParent,TOP,0,-342"
 E.db["movers"]["PlayerPowerBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,636,336"
 E.db["movers"]["PowerBarContainerMover"] = "BOTTOM,UIParent,BOTTOM,-338,429"
+E.db["movers"]["PrivateAurasMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-184,-236"
+E.db["movers"]["QueueStatusMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-5,-156"
 E.db["movers"]["ReputationBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,21"
 E.db["movers"]["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,1,98"
 E.db["movers"]["TalkingHeadFrameMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,187"

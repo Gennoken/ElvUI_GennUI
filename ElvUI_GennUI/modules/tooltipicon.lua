@@ -1,9 +1,10 @@
 local E, L, V, P, G = unpack(ElvUI)
 local MyPluginName = "GennUI"
 local GNUI = E:GetModule("GennUI");
+local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
 
 --[[ Credit: brykrys, Alason, Freddy, Amavana, Resike, Merathilis ]]--
-local VERSION = 1.821
+local VERSION = 1.83
 local VERSIONINFO = "X-Release"
 
 local NEWTOOLTIPS = (TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall) and true or false
