@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.83 [13/07/2023]**
+- 10.1.5 and Wrath 3.4.2 Update.
+
 **v2.82 [11/06/2023]**
 - Keeping up with some ElvUI changes.
 - AddOn Profile updated: Plater, WarpDeplete.
