@@ -28,7 +28,7 @@ local ChatFrame_AddChannel = ChatFrame_AddChannel
 local ChatFrame_RemoveChannel = ChatFrame_RemoveChannel
 local ChatFrame_AddMessageGroup = ChatFrame_AddMessageGroup
 local ChatFrame_RemoveAllMessageGroups = ChatFrame_RemoveAllMessageGroups
-local ToggleChatColorNamesByClassGroup = ToggleChatColorNamesByClassGroup
+local SetChatColorNameByClass = SetChatColorNameByClass
 local VoiceTranscriptionFrame_UpdateEditBox = VoiceTranscriptionFrame_UpdateEditBox
 local VoiceTranscriptionFrame_UpdateVisibility = VoiceTranscriptionFrame_UpdateVisibility
 local VoiceTranscriptionFrame_UpdateVoiceTab = VoiceTranscriptionFrame_UpdateVoiceTab
@@ -106,6 +106,16 @@ function GNUI:SetupChat()
 	for i = 1, _G.MAX_WOW_CHAT_CHANNELS do
 		tinsert(chatGroup, 'CHANNEL'..i)
 	end
+	local function ToggleChatColorNamesByClassGroup(checked, group)
+	local info = _G.ChatTypeGroup[group]
+	if info then
+		for _, value in next, info do
+			SetChatColorNameByClass(strsub(value, 10), checked)
+		end
+	else
+		SetChatColorNameByClass(group, checked)
+	end
+end
 	for _, v in ipairs(chatGroup) do
 		ToggleChatColorNamesByClassGroup(true, v)
 	end

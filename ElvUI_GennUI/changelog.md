@@ -1,5 +1,9 @@
 # Changelog
 
+**v2.84 [10/09/2023]**
+- 10.1.7 / 1.14.4 update.
+- Small fixes/changes following ElvUI.
+
 **v2.83 [13/07/2023]**
 - 10.1.5 and Wrath 3.4.2 Update.
 
