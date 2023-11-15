@@ -10,7 +10,8 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DBM-Core"] = true,
+			["Font"] = "GennUI",
+			["SilverDragon"] = false,
 			["DBMSkinHalf"] = true,
 		},
 	},

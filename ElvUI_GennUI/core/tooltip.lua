@@ -13,10 +13,12 @@ E.db["tooltip"]["headerFont"] = "GennUI"
 E.db["tooltip"]["headerFontOutline"] = "OUTLINE"
 E.db["tooltip"]["headerFontSize"] = 12
 E.db["tooltip"]["healthBar"]["font"] = "GennUI"
+E.db["tooltip"]["healthBar"]["fontOutline"] = "OUTLINE"
 E.db["tooltip"]["healthBar"]["fontSize"] = 12
 E.db["tooltip"]["healthBar"]["height"] = 1
 E.db["tooltip"]["healthBar"]["statusPosition"] = "TOP"
 E.db["tooltip"]["itemCount"] = "BOTH"
+E.db["tooltip"]["role"] = false
 E.db["tooltip"]["showMount"] = false
 E.db["tooltip"]["visibility"]["combatOverride"] = "CTRL"
 end

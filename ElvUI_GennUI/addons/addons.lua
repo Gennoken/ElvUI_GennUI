@@ -48,17 +48,6 @@ if IsAddOnLoaded('Gladius') then
 	GNUI:LoadGladiusProfile()
 	E:Print(L["'Gladius' profile has been set. Note: ElvUI Arena Frames have been disabled"])
 end
--- GladiusEx
-if IsAddOnLoaded('GladiusEx') then
-	E.db["unitframe"]["units"]["arena"]["enable"] = false
-	GNUI:LoadGladiusExProfile()
-	E:Print(L["'GladiusEx' profile has been set. Note: ElvUI Arena Frames have been disabled"])
-end
--- GottaGoFast
-if IsAddOnLoaded('GottaGoFast') then
-	GNUI:LoadGGFProfile()
-	E:Print(L["'GottaGoFast' profile has been set."])
-end
 -- Mik's Scrolling Battle Text
 if IsAddOnLoaded('MikScrollingBattleText') then
 	GNUI:LoadMSBTProfile()
@@ -79,11 +68,6 @@ if IsAddOnLoaded('Plater') then
 	E.private["nameplates"]["enable"] = false
 	GNUI:LoadPlaterProfile()
 	E:Print(L["'Plater' profile has been set. Note: ElvUI NamePlates have been disabled"])
-end
--- Skada
-if IsAddOnLoaded('Skada') then
-	GNUI:LoadSkadaProfile()
-	E:Print(L["'Skada' profile has been set."])
 end
 -- WarpDeplete
 if IsAddOnLoaded('WarpDeplete') then

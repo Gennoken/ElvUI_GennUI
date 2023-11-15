@@ -1,5 +1,11 @@
 # Changelog
 
+**v2.85 [15/11/2023]**
+- Many "small" changes to various elements of the UI.
+- AddOns profiles no longer supported: GladiusEx, GottaGoFast, Skada.
+- AddOns profiles updated: BigDebuffs, BattleGround Enemies, Details, Diminish, Gladius, OmniBar, OmniCD, Plater.
+- 10.2 / 3.4.3 TOC update.
+ 
 **v2.84 [10/09/2023]**
 - 10.1.7 / 1.14.4 update.
 - Small fixes/changes following ElvUI.

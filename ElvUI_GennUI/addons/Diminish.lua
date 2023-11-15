@@ -9,47 +9,22 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["timerSwipe"] = true,
 			["timerColors"] = false,
-			["timerText"] = true,
-			["border"] = {
-				["layer"] = "BORDER",
-				["edgeSize"] = 1.5,
-				["name"] = "Bright",
-				["edgeFile"] = "Interface\\BUTTONS\\WHITE8X8",
-			},
+			["categoryTextMaxLines"] = 2,
+			["trackNPCs"] = true,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
-					["iconPadding"] = 7,
+					["iconPadding"] = 10,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Taunts"] = false,
+						["Taunts"] = true,
 					},
 					["timerTextSize"] = 12,
 					["offsetX"] = -33,
 					["growDirection"] = "RIGHT",
 					["iconSize"] = 22,
 					["offsetY"] = 71,
-					["zones"] = {
-						["party"] = true,
-						["scenario"] = true,
-						["pvp"] = true,
-						["raid"] = true,
-						["arena"] = true,
-						["none"] = true,
-					},
-					["isEnabledForZone"] = false,
-				},
-				["player"] = {
-					["enabled"] = false,
-					["anchorUIParent"] = false,
-					["growDirection"] = "RIGHT",
-					["iconPadding"] = 7,
-					["watchFriendly"] = true,
-					["disabledCategories"] = {
-						["Taunts"] = true,
-					},
 					["zones"] = {
 						["party"] = false,
 						["scenario"] = true,
@@ -58,49 +33,68 @@ DiminishDB = {
 						["arena"] = true,
 						["none"] = true,
 					},
-					["offsetX"] = -6,
+					["isEnabledForZone"] = false,
+				},
+				["player"] = {
+					["enabled"] = false,
+					["anchorUIParent"] = false,
+					["zones"] = {
+						["party"] = false,
+						["scenario"] = true,
+						["pvp"] = true,
+						["raid"] = false,
+						["arena"] = true,
+						["none"] = true,
+					},
+					["iconPadding"] = 10,
+					["watchFriendly"] = true,
+					["disabledCategories"] = {
+						["Taunts"] = true,
+					},
+					["growDirection"] = "RIGHT",
+					["offsetX"] = 144,
 					["timerTextSize"] = 12,
 					["iconSize"] = 21,
-					["offsetY"] = 40,
+					["offsetY"] = 0,
 					["usePersonalNameplate"] = false,
 					["isEnabledForZone"] = false,
 				},
 				["focus"] = {
 					["enabled"] = false,
 					["anchorUIParent"] = false,
-					["iconPadding"] = 7,
+					["iconPadding"] = 10,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Taunts"] = false,
+						["Taunts"] = true,
 					},
 					["zones"] = {
-						["party"] = true,
+						["party"] = false,
 						["scenario"] = true,
 						["none"] = true,
-						["raid"] = true,
+						["raid"] = false,
 						["arena"] = false,
 						["pvp"] = true,
 					},
-					["offsetX"] = 104,
+					["offsetX"] = -75,
 					["growDirection"] = "RIGHT",
 					["iconSize"] = 22,
-					["offsetY"] = 23,
+					["offsetY"] = 2,
 					["timerTextSize"] = 12,
 					["isEnabledForZone"] = false,
 				},
 				["target"] = {
 					["enabled"] = false,
 					["anchorUIParent"] = false,
-					["iconPadding"] = 7,
+					["iconPadding"] = 10,
 					["watchFriendly"] = false,
 					["disabledCategories"] = {
-						["Taunts"] = false,
+						["Taunts"] = true,
 					},
 					["zones"] = {
-						["party"] = true,
+						["party"] = false,
 						["scenario"] = true,
 						["none"] = true,
-						["raid"] = true,
+						["raid"] = false,
 						["arena"] = false,
 						["pvp"] = true,
 					},
@@ -113,34 +107,20 @@ DiminishDB = {
 				},
 				["arena"] = {
 					["enabled"] = true,
-					["anchorUIParent"] = true,
-					["offsetsY"] = {
-						-181, -- [1]
-						-136, -- [2]
-						-92, -- [3]
-						-47, -- [4]
-						-3, -- [5]
-					},
-					["iconPadding"] = 5,
-					["offsetsX"] = {
-						701, -- [1]
-						701, -- [2]
-						699, -- [3]
-						697, -- [4]
-						697, -- [5]
-					},
+					["anchorUIParent"] = false,
+					["iconPadding"] = 6,
 					["disabledCategories"] = {
 						["Taunts"] = true,
 					},
 					["timerTextSize"] = 12,
-					["offsetX"] = -66,
+					["offsetX"] = 110,
 					["growDirection"] = "RIGHT",
-					["iconSize"] = 22,
-					["offsetY"] = 20,
+					["iconSize"] = 28,
+					["offsetY"] = 0,
 					["zones"] = {
 						["party"] = false,
 						["scenario"] = false,
-						["pvp"] = true,
+						["pvp"] = false,
 						["raid"] = false,
 						["arena"] = true,
 						["none"] = false,
@@ -150,7 +130,7 @@ DiminishDB = {
 				["party"] = {
 					["enabled"] = false,
 					["anchorUIParent"] = false,
-					["iconPadding"] = 6,
+					["iconPadding"] = 10,
 					["watchFriendly"] = true,
 					["disabledCategories"] = {
 						["Taunts"] = true,
@@ -171,13 +151,21 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["categoryTextMaxLines"] = 2,
-			["version"] = "1.8",
-			["showCategoryText"] = false,
+			["timerEdge"] = true,
+			["border"] = {
+				["edgeSize"] = 2.5,
+				["layer"] = "BORDER",
+				["name"] = "Default",
+				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
+			},
+			["announceDRs"] = false,
+			["version"] = "1.11",
+			["timerStartAuraEnd"] = false,
+			["showCategoryText"] = true,
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["trackNPCs"] = true,
-			["timerStartAuraEnd"] = false,
+			["timerText"] = true,
+			["timerSwipe"] = true,
 			["categoryFont"] = {
 				["size"] = 9,
 				["x"] = 0,

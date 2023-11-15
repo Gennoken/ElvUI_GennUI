@@ -20,38 +20,34 @@ BattleGroundEnemiesDB = {
 							["FontSize"] = 12,
 						},
 					},
-					["Position_X"] = 992.7108371861832,
 					["ButtonModules"] = {
 						["DRTracking"] = {
 							["Parent"] = "Racial",
+							["Points"] = {
+								{
+									["RelativeFrame"] = "Racial",
+									["OffsetX"] = 4,
+									["Point"] = "LEFT",
+									["RelativePoint"] = "RIGHT",
+								}, -- [1]
+							},
 							["Container"] = {
 								["HorizontalGrowDirection"] = "rightwards",
 								["IconSize"] = 22,
 								["VerticalGrowdirection"] = "downwards",
 							},
-							["Points"] = {
-								{
-									["OffsetX"] = 4,
-									["RelativeFrame"] = "Racial",
-									["Point"] = "LEFT",
-									["RelativePoint"] = "RIGHT",
-								}, -- [1]
-							},
-						},
-						["NonPriorityDebuffs"] = {
-							["Enabled"] = false,
 						},
 						["Racial"] = {
 							["Height"] = false,
 						},
 						["RaidTargetIcon"] = {
-							["Height"] = false,
 							["UseButtonHeightAsWidth"] = true,
+							["Height"] = false,
 							["UseButtonHeightAsHeight"] = true,
 						},
 						["Class"] = {
-							["Height"] = false,
 							["UseButtonHeightAsWidth"] = true,
+							["Height"] = false,
 							["UseButtonHeightAsHeight"] = true,
 						},
 						["PriorityBuffs"] = {
@@ -69,44 +65,43 @@ BattleGroundEnemiesDB = {
 						["Trinket"] = {
 							["Height"] = false,
 						},
-						["NonPriorityBuffs"] = {
-							["Enabled"] = false,
-						},
 						["Covenant"] = {
 							["Enabled"] = false,
 						},
 						["Name"] = {
-							["ShowRealmnames"] = false,
 							["Text"] = {
-								["FontOutline"] = "OUTLINE",
 								["FontSize"] = 12,
+								["FontOutline"] = "OUTLINE",
 								["JustifyV"] = "TOP",
 								["EnableShadow"] = false,
 							},
 							["Points"] = {
 								{
-									["OffsetY"] = -4,
 									["OffsetX"] = -8,
 									["RelativePoint"] = "TOPLEFT",
+									["OffsetY"] = -4,
 								}, -- [1]
 							},
+							["ShowRealmnames"] = false,
 						},
 						["TargetIndicatorNumeric"] = {
 							["Enabled"] = false,
 						},
 						["ObjectiveAndRespawn"] = {
-							["UseButtonHeightAsWidth"] = true,
 							["UseButtonHeightAsHeight"] = true,
+							["UseButtonHeightAsWidth"] = true,
 							["Height"] = false,
 						},
 						["PriorityDebuffs"] = {
 							["Enabled"] = false,
 						},
 					},
-					["Position_Y"] = 564.2667452001551,
+					["Position_Y"] = 574.9334246492363,
+					["Position_X"] = 1033.955133139301,
 					["BarWidth"] = 200,
 				},
 				["5"] = {
+					["enabled"] = false,
 					["BarHeight"] = 35,
 					["BarWidth"] = 200,
 					["ButtonModules"] = {
@@ -163,17 +158,10 @@ BattleGroundEnemiesDB = {
 							["Height"] = 4,
 							["Texture"] = "GennUI",
 						},
-						["Trinket"] = {
-							["Height"] = false,
-						},
-						["TargetIndicatorNumeric"] = {
-							["Enabled"] = false,
-						},
-						["NonPriorityBuffs"] = {
+						["PriorityDebuffs"] = {
 							["Enabled"] = false,
 						},
 						["Name"] = {
-							["ShowRealmnames"] = false,
 							["Text"] = {
 								["FontSize"] = 12,
 								["FontOutline"] = "OUTLINE",
@@ -184,25 +172,33 @@ BattleGroundEnemiesDB = {
 									["OffsetX"] = -12,
 								}, -- [1]
 							},
+							["ShowRealmnames"] = false,
+						},
+						["NonPriorityBuffs"] = {
+							["Enabled"] = false,
+						},
+						["TargetIndicatorNumeric"] = {
+							["Enabled"] = false,
 						},
 						["ObjectiveAndRespawn"] = {
 							["Text"] = {
 								["FontSize"] = 14,
 							},
 						},
-						["PriorityDebuffs"] = {
-							["Enabled"] = false,
+						["Trinket"] = {
+							["Height"] = false,
 						},
 					},
 					["BarVerticalGrowdirection"] = "upwards",
-					["Position_Y"] = 254.2222599426896,
+					["Position_Y"] = 315.3778445132557,
 					["BarVerticalSpacing"] = 10,
-					["Position_X"] = 989.1555247656506,
+					["Position_X"] = 973.5108376153366,
 				},
 			},
+			["Locked"] = true,
 			["Font"] = "GennUI",
 			["DisableArenaFramesInArena"] = true,
-			["lastReadVersion"] = "10.0.2.2",
+			["lastReadVersion"] = "10.0.2.6",
 			["Allies"] = {
 				["40"] = {
 					["Enabled"] = false,
@@ -214,7 +210,6 @@ BattleGroundEnemiesDB = {
 							["FontSize"] = 12,
 						},
 					},
-					["BarWidth"] = 200,
 					["ButtonModules"] = {
 						["DRTracking"] = {
 							["Enabled"] = false,
@@ -228,17 +223,16 @@ BattleGroundEnemiesDB = {
 								}, -- [1]
 							},
 							["Container"] = {
-								["IconSize"] = 22,
 								["VerticalGrowdirection"] = "downwards",
+								["IconSize"] = 22,
 							},
 						},
 						["NonPriorityDebuffs"] = {
-							["Enabled"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "BOTTOMLEFT",
 									["OffsetX"] = -8,
 									["Point"] = "BOTTOMRIGHT",
+									["RelativePoint"] = "BOTTOMLEFT",
 								}, -- [1]
 							},
 							["Container"] = {
@@ -249,14 +243,14 @@ BattleGroundEnemiesDB = {
 							["Height"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "TOPRIGHT",
 									["OffsetX"] = 1,
 									["Point"] = "TOPLEFT",
+									["RelativePoint"] = "TOPRIGHT",
 								}, -- [1]
 								{
-									["RelativePoint"] = "BOTTOMRIGHT",
 									["OffsetX"] = 1,
 									["Point"] = "BOTTOMLEFT",
+									["RelativePoint"] = "BOTTOMRIGHT",
 								}, -- [2]
 							},
 						},
@@ -275,8 +269,8 @@ BattleGroundEnemiesDB = {
 							["Points"] = {
 								{
 									["Point"] = "BOTTOMRIGHT",
-									["OffsetX"] = -2,
 									["RelativePoint"] = "BOTTOMLEFT",
+									["OffsetX"] = -2,
 								}, -- [1]
 							},
 							["Container"] = {
@@ -284,12 +278,11 @@ BattleGroundEnemiesDB = {
 							},
 						},
 						["NonPriorityBuffs"] = {
-							["Enabled"] = false,
 							["Points"] = {
 								{
 									["Point"] = "BOTTOMRIGHT",
-									["OffsetX"] = -2,
 									["RelativePoint"] = "BOTTOMLEFT",
+									["OffsetX"] = -2,
 								}, -- [1]
 							},
 							["Container"] = {
@@ -309,44 +302,37 @@ BattleGroundEnemiesDB = {
 							["Height"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "TOPRIGHT",
 									["OffsetX"] = 1,
 									["Point"] = "TOPLEFT",
+									["RelativePoint"] = "TOPRIGHT",
 								}, -- [1]
 								{
-									["RelativePoint"] = "BOTTOMRIGHT",
 									["OffsetX"] = 1,
 									["Point"] = "BOTTOMLEFT",
+									["RelativePoint"] = "BOTTOMRIGHT",
 								}, -- [2]
 							},
+						},
+						["TargetIndicatorNumeric"] = {
+							["Enabled"] = false,
+						},
+						["Covenant"] = {
+							["Enabled"] = false,
 						},
 						["PriorityDebuffs"] = {
 							["Enabled"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "BOTTOMLEFT",
 									["OffsetX"] = -8,
 									["Point"] = "BOTTOMRIGHT",
+									["RelativePoint"] = "BOTTOMLEFT",
 								}, -- [1]
 							},
 							["Container"] = {
 								["HorizontalGrowDirection"] = "leftwards",
 							},
 						},
-						["Covenant"] = {
-							["Enabled"] = false,
-						},
-						["TargetIndicatorNumeric"] = {
-							["Enabled"] = false,
-						},
 						["Name"] = {
-							["Points"] = {
-								{
-									["OffsetY"] = -4,
-									["RelativePoint"] = "TOPLEFT",
-									["OffsetX"] = -8,
-								}, -- [1]
-							},
 							["Text"] = {
 								["FontSize"] = 12,
 								["FontOutline"] = "OUTLINE",
@@ -354,23 +340,31 @@ BattleGroundEnemiesDB = {
 								["JustifyV"] = "TOP",
 							},
 							["ShowRealmnames"] = false,
+							["Points"] = {
+								{
+									["OffsetX"] = -8,
+									["RelativePoint"] = "TOPLEFT",
+									["OffsetY"] = -4,
+								}, -- [1]
+							},
 						},
 						["ObjectiveAndRespawn"] = {
+							["UseButtonHeightAsHeight"] = true,
 							["UseButtonHeightAsWidth"] = true,
 							["Height"] = false,
-							["UseButtonHeightAsHeight"] = true,
 						},
 						["CastBar"] = {
 							["Points"] = {
 								{
-									["RelativePoint"] = "LEFT",
 									["OffsetX"] = -3,
 									["Point"] = "RIGHT",
+									["RelativePoint"] = "LEFT",
 								}, -- [1]
 							},
 						},
 					},
 					["Position_Y"] = 566.3999873399734,
+					["BarWidth"] = 200,
 					["Position_X"] = 211.9112452634145,
 				},
 				["5"] = {
@@ -381,11 +375,6 @@ BattleGroundEnemiesDB = {
 						["DRTracking"] = {
 							["Enabled"] = false,
 							["Parent"] = "Spec",
-							["Container"] = {
-								["HorizontalGrowDirection"] = "leftwards",
-								["IconsPerRow"] = 4,
-								["IconSize"] = 30,
-							},
 							["Points"] = {
 								{
 									["Point"] = "RIGHT",
@@ -395,14 +384,19 @@ BattleGroundEnemiesDB = {
 									["RelativeFrame"] = "Spec",
 								}, -- [1]
 							},
+							["Container"] = {
+								["HorizontalGrowDirection"] = "leftwards",
+								["IconsPerRow"] = 4,
+								["IconSize"] = 30,
+							},
 						},
 						["NonPriorityDebuffs"] = {
 							["Enabled"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "BOTTOMLEFT",
 									["OffsetX"] = -8,
 									["Point"] = "BOTTOMRIGHT",
+									["RelativePoint"] = "BOTTOMLEFT",
 								}, -- [1]
 							},
 							["Container"] = {
@@ -413,43 +407,46 @@ BattleGroundEnemiesDB = {
 							["Height"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "TOPRIGHT",
 									["OffsetX"] = 1,
 									["Point"] = "TOPLEFT",
+									["RelativePoint"] = "TOPRIGHT",
 								}, -- [1]
 								{
-									["RelativePoint"] = "BOTTOMRIGHT",
 									["OffsetX"] = 1,
 									["Point"] = "BOTTOMLEFT",
+									["RelativePoint"] = "BOTTOMRIGHT",
 								}, -- [2]
 							},
 						},
 						["Class"] = {
-							["UseButtonHeightAsHeight"] = true,
 							["UseButtonHeightAsWidth"] = true,
 							["Height"] = false,
+							["UseButtonHeightAsHeight"] = true,
 						},
 						["PriorityBuffs"] = {
 							["Enabled"] = false,
 							["Points"] = {
 								{
 									["Point"] = "BOTTOMRIGHT",
-									["OffsetX"] = -2,
 									["RelativePoint"] = "BOTTOMLEFT",
+									["OffsetX"] = -2,
 								}, -- [1]
 							},
 							["Container"] = {
 								["HorizontalGrowDirection"] = "leftwards",
 							},
 						},
-						["CastBar"] = {
-							["Scale"] = 1,
+						["NonPriorityBuffs"] = {
+							["Enabled"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "LEFT",
-									["OffsetX"] = -3,
-									["Point"] = "RIGHT",
+									["Point"] = "BOTTOMRIGHT",
+									["RelativePoint"] = "BOTTOMLEFT",
+									["OffsetX"] = -2,
 								}, -- [1]
+							},
+							["Container"] = {
+								["HorizontalGrowDirection"] = "leftwards",
 							},
 						},
 						["Role"] = {
@@ -471,45 +468,42 @@ BattleGroundEnemiesDB = {
 							["Height"] = 4,
 							["Texture"] = "GennUI",
 						},
-						["Trinket"] = {
-							["Height"] = false,
-							["Points"] = {
-								{
-									["RelativePoint"] = "TOPRIGHT",
-									["OffsetX"] = 1,
-									["Point"] = "TOPLEFT",
-								}, -- [1]
-								{
-									["RelativePoint"] = "BOTTOMRIGHT",
-									["OffsetX"] = 1,
-									["Point"] = "BOTTOMLEFT",
-								}, -- [2]
-							},
-						},
 						["PriorityDebuffs"] = {
 							["Enabled"] = false,
 							["Points"] = {
 								{
-									["RelativePoint"] = "BOTTOMLEFT",
 									["OffsetX"] = -8,
 									["Point"] = "BOTTOMRIGHT",
+									["RelativePoint"] = "BOTTOMLEFT",
 								}, -- [1]
 							},
 							["Container"] = {
 								["HorizontalGrowDirection"] = "leftwards",
 							},
 						},
-						["Name"] = {
+						["CastBar"] = {
+							["Scale"] = 1,
 							["Points"] = {
 								{
-									["OffsetX"] = -12,
+									["OffsetX"] = -3,
+									["Point"] = "RIGHT",
+									["RelativePoint"] = "LEFT",
 								}, -- [1]
 							},
-							["ShowRealmnames"] = false,
-							["Text"] = {
-								["FontSize"] = 12,
-								["FontOutline"] = "OUTLINE",
-								["EnableShadow"] = false,
+						},
+						["Trinket"] = {
+							["Height"] = false,
+							["Points"] = {
+								{
+									["OffsetX"] = 1,
+									["Point"] = "TOPLEFT",
+									["RelativePoint"] = "TOPRIGHT",
+								}, -- [1]
+								{
+									["OffsetX"] = 1,
+									["Point"] = "BOTTOMLEFT",
+									["RelativePoint"] = "BOTTOMRIGHT",
+								}, -- [2]
 							},
 						},
 						["TargetIndicatorNumeric"] = {
@@ -520,17 +514,17 @@ BattleGroundEnemiesDB = {
 								["FontSize"] = 14,
 							},
 						},
-						["NonPriorityBuffs"] = {
-							["Enabled"] = false,
+						["Name"] = {
+							["ShowRealmnames"] = false,
+							["Text"] = {
+								["FontSize"] = 12,
+								["FontOutline"] = "OUTLINE",
+								["EnableShadow"] = false,
+							},
 							["Points"] = {
 								{
-									["Point"] = "BOTTOMRIGHT",
-									["OffsetX"] = -2,
-									["RelativePoint"] = "BOTTOMLEFT",
+									["OffsetX"] = -12,
 								}, -- [1]
-							},
-							["Container"] = {
-								["HorizontalGrowDirection"] = "leftwards",
 							},
 						},
 					},

@@ -24,6 +24,24 @@ E.db["general"]["autoRepair"] = "GUILD"
 E.db["general"]["autoTrackReputation"] = true
 E.db["general"]["bottomPanel"] = false
 E.db["general"]["font"] = "GennUI"
+E.db["general"]["fonts"]["cooldown"]["font"] = "GennUI"
+E.db["general"]["fonts"]["cooldown"]["outline"] = "OUTLINE"
+E.db["general"]["fonts"]["errortext"]["font"] = "GennUI"
+E.db["general"]["fonts"]["mailbody"]["font"] = "GennUI"
+E.db["general"]["fonts"]["objective"]["font"] = "GennUI"
+E.db["general"]["fonts"]["pvpsubzone"]["font"] = "GennUI"
+E.db["general"]["fonts"]["pvpzone"]["font"] = "GennUI"
+E.db["general"]["fonts"]["questsmall"]["font"] = "GennUI"
+E.db["general"]["fonts"]["questtext"]["font"] = "GennUI"
+E.db["general"]["fonts"]["questtitle"]["font"] = "GennUI"
+E.db["general"]["fonts"]["talkingtext"]["font"] = "GennUI"
+E.db["general"]["fonts"]["talkingtitle"]["font"] = "GennUI"
+E.db["general"]["fonts"]["worldsubzone"]["font"] = "GennUI"
+E.db["general"]["fonts"]["worldzone"]["font"] = "GennUI"
+E.db["general"]["guildBank"]["countFont"] = "GennUI"
+E.db["general"]["guildBank"]["countFontOutline"] = "OUTLINE"
+E.db["general"]["guildBank"]["itemLevelFont"] = "GennUI"
+E.db["general"]["guildBank"]["itemLevelFontOutline"] = "OUTLINE"
 E.db["general"]["interruptAnnounce"] = "SAY"
 E.db["general"]["itemLevel"]["itemLevelFont"] = "GennUI"
 E.db["general"]["loginmessage"] = false
@@ -39,17 +57,20 @@ E.db["general"]["minimap"]["timeFont"] = "GennUI"
 E.db["general"]["minimap"]["size"] = 175
 E.db["general"]["queueStatus"]["font"] = "GennUI"
 E.db["general"]["queueStatus"]["scale"] = 0.4
-E.db["general"]["talkingHeadFrameScale"] = 0.75
+E.db["general"]["talkingHeadFrameScale"] = 0.79
 
 -- Private
 E.private["general"]["chatBubbleFont"] = "GennUI"
 E.private["general"]["chatBubbleFontOutline"] = "OUTLINE"
 E.private["general"]["dmgfont"] = "GennUI"
 E.private["general"]["glossTex"] = "GennUI"
+E.private["general"]["minimap"]["hideClassHallReport"] = true
+E.private["general"]["minimap"]["hideTracking"] = true
 E.private["general"]["namefont"] = "GennUI"
 E.private["general"]["nameplateFont"] = "GennUI"
 E.private["general"]["nameplateLargeFont"] = "GennUI"
 E.private["general"]["normTex"] = "GennUI"
+E.private["general"]["replaceCombatText"] = true
 E.private["skins"]["parchmentRemoverEnable"] = true
 
 -- Global
