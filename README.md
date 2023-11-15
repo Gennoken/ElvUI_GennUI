@@ -34,14 +34,11 @@
 - Details
 - Diminish
 - Gladius
-- GladiusEx
-- GottaGoFast
 - Mik’s Scrolling Battle Text
 - OmniBar
 - OmniCD
 - Plater
 - ProjectAzilroka
-- Skada
 - WarpDeplete
 
 # « Special Thanks »
