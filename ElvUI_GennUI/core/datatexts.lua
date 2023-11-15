@@ -38,6 +38,7 @@ E.global["datatexts"]["settings"]["Friends"]["hideS2"] = true
 E.global["datatexts"]["settings"]["Friends"]["hideVIPR"] = true
 E.global["datatexts"]["settings"]["Friends"]["hideWTCG"] = true
 E.global["datatexts"]["settings"]["Gold"]["goldFormat"] = "SMART"
+E.global["datatexts"]["settings"]["Talent/Loot Specialization"]["iconOnly"] = true
 
 -- Custom Panels
 	if E.global["datatexts"]["customPanels"]["Coords"] or not E.global["datatexts"]["customPanels"]["Coords"] then
@@ -47,7 +48,7 @@ E.global["datatexts"]["settings"]["Gold"]["goldFormat"] = "SMART"
 		E.global["datatexts"]["customPanels"]["Coords"]["fonts"]["enable"] = true
 		E.global["datatexts"]["customPanels"]["Coords"]["fonts"]["font"] = "GennUI"
 		E.global["datatexts"]["customPanels"]["Coords"]["fonts"]["fontOutline"] = "OUTLINE"
-		E.global["datatexts"]["customPanels"]["Coords"]["fonts"]["fontSize"] = 12
+		E.global["datatexts"]["customPanels"]["Coords"]["fonts"]["fontSize"] = 11
 		E.global["datatexts"]["customPanels"]["Coords"]["frameLevel"] = 1
 		E.global["datatexts"]["customPanels"]["Coords"]["frameStrata"] = "HIGH"
 		E.global["datatexts"]["customPanels"]["Coords"]["growth"] = "HORIZONTAL"
@@ -72,7 +73,7 @@ E.global["datatexts"]["settings"]["Gold"]["goldFormat"] = "SMART"
 		E.global["datatexts"]["customPanels"]["Main DT"]["fonts"]["enable"] = true
 		E.global["datatexts"]["customPanels"]["Main DT"]["fonts"]["font"] = "GennUI"
 		E.global["datatexts"]["customPanels"]["Main DT"]["fonts"]["fontOutline"] = "OUTLINE"
-		E.global["datatexts"]["customPanels"]["Main DT"]["fonts"]["fontSize"] = 12
+		E.global["datatexts"]["customPanels"]["Main DT"]["fonts"]["fontSize"] = 11
 		E.global["datatexts"]["customPanels"]["Main DT"]["frameLevel"] = 1
 		E.global["datatexts"]["customPanels"]["Main DT"]["frameStrata"] = "HIGH"
 		E.global["datatexts"]["customPanels"]["Main DT"]["growth"] = "HORIZONTAL"

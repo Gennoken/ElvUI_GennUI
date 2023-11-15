@@ -31,9 +31,7 @@ BigDebuffsDB = {
 				["cooldownFont"] = "GennUI",
 				["tooltips"] = false,
 				["enemyAnchor"] = {
-					["anchor"] = "RIGHT",
 					["x"] = 2,
-					["size"] = 32,
 				},
 			},
 			["unitFrames"] = {
@@ -43,7 +41,7 @@ BigDebuffsDB = {
 					["anchorPoint"] = "RIGHT",
 					["x"] = 36,
 					["matchFrameHeight"] = false,
-					["size"] = 36,
+					["size"] = 40,
 				},
 				["arena2"] = {
 				},
@@ -51,17 +49,18 @@ BigDebuffsDB = {
 					["anchorPoint"] = "LEFT",
 					["x"] = -2,
 					["matchFrameHeight"] = false,
-					["size"] = 36,
+					["size"] = 40,
 				},
 				["target"] = {
 					["anchorPoint"] = "RIGHT",
 					["x"] = 2,
 					["matchFrameHeight"] = false,
+					["enabled"] = false,
 					["size"] = 36,
 				},
 				["arena5"] = {
 				},
-				["arena1"] = {
+				["arena4"] = {
 				},
 				["pet"] = {
 					["enabled"] = false,
@@ -74,20 +73,21 @@ BigDebuffsDB = {
 					["size"] = 36,
 				},
 				["arena"] = {
-					["anchorPoint"] = "CENTER",
+					["anchorPoint"] = "LEFT",
+					["x"] = -36,
 					["matchFrameHeight"] = false,
-					["enabled"] = false,
-					["size"] = 36,
+					["size"] = 40,
 				},
 				["arena3"] = {
 				},
-				["arena4"] = {
+				["arena1"] = {
 				},
 			},
 		},
 	},
 }
-if IsAddOnLoaded('Gladius') or IsAddOnLoaded('GladiusEx') then
+
+if IsAddOnLoaded('Gladius') or IsAddOnLoaded('GladiusEx') or IsAddOnLoaded('BattleGroundEnemies') then
 BigDebuffsDB["profiles"]["Default"]["unitFrames"]["arena"]["enabled"] = false;
 end
 end
