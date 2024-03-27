@@ -21,6 +21,7 @@ GNUI.Wrath = WOW_PROJECT_ID == WOW_PROJECT_WRATH_CLASSIC
 P['GNUI'] = {
 	['EasyDelete'] = true,
 	['TooltipIcons'] = true,
+	['LeaveSpamChannels'] = true,
 	['install_version'] = nil,
 }
 disctag = "Gennoken#4505"
