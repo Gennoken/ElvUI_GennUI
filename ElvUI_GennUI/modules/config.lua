@@ -52,6 +52,15 @@ local function ConfigTable()
 			get = function(info) return E.db.GNUI[ info[#info] ] end,
 			set = function(info, value) E.db.GNUI[ info[#info] ] = value; end,
 			},
+			--LeaveSpamChannels
+			LeaveSpamChannels = {
+			order = 17,
+			type = "toggle",
+			name = L['Leave Spam Channels'],
+			desc = L['Fix auto join spam channels bug introduced in 10.2.6'],
+			get = function(info) return E.db.GNUI[ info[#info] ] end,
+			set = function(info, value) E.db.GNUI[ info[#info] ] = value; E:StaticPopup_Show('PRIVATE_RL'); end,
+			},
 		},
 	}
 end

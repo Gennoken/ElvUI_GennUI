@@ -1,5 +1,10 @@
 # Changelog
 
+**v2.86 [25/03/2024]**
+- TOC Update.
+- AddOns profiles updated: OmniCD, Plater.
+- New module to fix auto join chat channels introduced in 10.2.6
+
 **v2.85 [15/11/2023]**
 - Many "small" changes to various elements of the UI.
 - AddOns profiles no longer supported: GladiusEx, GottaGoFast, Skada.

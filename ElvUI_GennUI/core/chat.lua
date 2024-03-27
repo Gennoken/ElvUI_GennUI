@@ -8,7 +8,7 @@ local _G = _G
 local unpack = unpack
 local format = format
 local pairs = pairs
-local ipairs = ipairs
+local ipairs, next = ipairs, next
 local tinsert = tinsert
 
 local SetCVar = SetCVar
@@ -19,8 +19,10 @@ local UIFrameFadeOut = UIFrameFadeOut
 local ChangeChatColor = ChangeChatColor
 local FCF_SetWindowName = FCF_SetWindowName
 local FCF_StopDragging = FCF_StopDragging
+local FCF_DockFrame = FCF_DockFrame
 local FCF_UnDockFrame = FCF_UnDockFrame
 local FCF_OpenNewWindow = FCF_OpenNewWindow
+local FCF_ResetChatWindow = FCF_ResetChatWindow
 local FCF_ResetChatWindows = FCF_ResetChatWindows
 local FCF_SetChatWindowFontSize = FCF_SetChatWindowFontSize
 local FCF_SavePositionAndDimensions = FCF_SavePositionAndDimensions
@@ -41,10 +43,11 @@ function GNUI:SetupChat()
 	FCF_ResetChatWindows()
 	FCF_OpenNewWindow(TRADE)
 	FCF_OpenNewWindow("Services")
+	
+	local chats = _G.CHAT_FRAMES
 
-	for _, name in ipairs(_G.CHAT_FRAMES) do
+	for id, name in next, chats do
 		local frame = _G[name]
-		local id = frame:GetID()
 
 		if E.private.chat.enable then
 			CH:FCFTab_UpdateColors(CH:GetTab(_G[name]))
@@ -73,54 +76,47 @@ function GNUI:SetupChat()
 	end
 
 	-- keys taken from `ChatTypeGroup` but doesnt add: 'OPENING', 'TRADESKILLS', 'PET_INFO', 'COMBAT_MISC_INFO', 'COMMUNITIES_CHANNEL', 'PET_BATTLE_COMBAT_LOG', 'PET_BATTLE_INFO', 'TARGETICONS'
-	local chatGroup = { 'SYSTEM', 'CHANNEL', 'SAY', 'EMOTE', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'INSTANCE_CHAT', 'INSTANCE_CHAT_LEADER', 'GUILD', 'OFFICER', 'MONSTER_SAY', 'MONSTER_YELL', 'MONSTER_EMOTE', 'MONSTER_WHISPER', 'MONSTER_BOSS_EMOTE', 'MONSTER_BOSS_WHISPER', 'ERRORS', 'AFK', 'DND', 'IGNORED', 'BG_HORDE', 'BG_ALLIANCE', 'BG_NEUTRAL', 'ACHIEVEMENT', 'GUILD_ACHIEVEMENT', 'BN_WHISPER', 'BN_INLINE_TOAST_ALERT', 'COMBAT_XP_GAIN', 'COMBAT_HONOR_GAIN', 'COMBAT_FACTION_CHANGE', 'SKILL', 'LOOT', 'CURRENCY', 'MONEY' }
+	local chatGroup = { 'SYSTEM', 'CHANNEL', 'SAY', 'EMOTE', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'INSTANCE_CHAT', 'INSTANCE_CHAT_LEADER', 'GUILD', E.ClassicHC and 'GUILD_DEATHS' or nil, 'OFFICER', 'MONSTER_SAY', 'MONSTER_YELL', 'MONSTER_EMOTE', 'MONSTER_WHISPER', 'MONSTER_BOSS_EMOTE', 'MONSTER_BOSS_WHISPER', 'ERRORS', 'AFK', 'DND', 'IGNORED', 'BG_HORDE', 'BG_ALLIANCE', 'BG_NEUTRAL', 'ACHIEVEMENT', 'GUILD_ACHIEVEMENT', 'BN_WHISPER', 'BN_INLINE_TOAST_ALERT' }
 	ChatFrame_RemoveAllMessageGroups(_G.ChatFrame1)
-	for _, v in ipairs(chatGroup) do
+	for _, v in next, chatGroup do
 		ChatFrame_AddMessageGroup(_G.ChatFrame1, v)
 	end
 	
 	-- keys added to TRADE
-	chatGroup = { 'SAY', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'LOOT', 'CURRENCY', 'MONEY' }
+	chatGroup = { E.Retail and 'PING' or nil, 'SAY', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'SKILL', 'LOOT', 'CURRENCY', 'MONEY' }
 	ChatFrame_RemoveAllMessageGroups(_G.ChatFrame4)
-	for _, v in ipairs(chatGroup) do
+	for _, v in next, chatGroup do
 		ChatFrame_AddMessageGroup(_G.ChatFrame4, v)
 	end
 	
 	-- keys added to SERVICES
 	chatGroup = { 'SAY', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING' }
 	ChatFrame_RemoveAllMessageGroups(_G.ChatFrame5)
-	for _, v in ipairs(chatGroup) do
+	for _, v in next, chatGroup do
 		ChatFrame_AddMessageGroup(_G.ChatFrame5, v)
 	end
 	
 	-- Channels
-	ChatFrame_RemoveAllChannels(_G.ChatFrame1)
-	ChatFrame_RemoveAllChannels(_G.ChatFrame4)
-	ChatFrame_RemoveAllChannels(_G.ChatFrame5)
 	ChatFrame_AddChannel(_G.ChatFrame1, GENERAL)
+	ChatFrame_RemoveChannel(_G.ChatFrame1, TRADE)
+	ChatFrame_RemoveChannel(_G.ChatFrame1, "Services")
+	
 	ChatFrame_AddChannel(_G.ChatFrame4, TRADE)
+	ChatFrame_RemoveChannel(_G.ChatFrame4, GENERAL)
+	ChatFrame_RemoveChannel(_G.ChatFrame4, "Services")
+	
 	ChatFrame_AddChannel(_G.ChatFrame5, "Services")
+	ChatFrame_RemoveChannel(_G.ChatFrame5, GENERAL)
+	ChatFrame_RemoveChannel(_G.ChatFrame5, TRADE)
 
 	-- set the chat groups names in class color to enabled for all chat groups which players names appear
 	chatGroup = { 'SAY', 'EMOTE', 'YELL', 'WHISPER', 'PARTY', 'PARTY_LEADER', 'RAID', 'RAID_LEADER', 'RAID_WARNING', 'INSTANCE_CHAT', 'INSTANCE_CHAT_LEADER', 'GUILD', 'OFFICER', 'ACHIEVEMENT', 'GUILD_ACHIEVEMENT', 'COMMUNITIES_CHANNEL' }
 	for i = 1, _G.MAX_WOW_CHAT_CHANNELS do
 		tinsert(chatGroup, 'CHANNEL'..i)
 	end
-	local function ToggleChatColorNamesByClassGroup(checked, group)
-	local info = _G.ChatTypeGroup[group]
-	if info then
-		for _, value in next, info do
-			SetChatColorNameByClass(strsub(value, 10), checked)
-		end
-	else
-		SetChatColorNameByClass(group, checked)
-	end
-end
-	for _, v in ipairs(chatGroup) do
+	for _, v in next, chatGroup do
 		ToggleChatColorNamesByClassGroup(true, v)
 	end
-
-E:SetupCVars()
 
 -- ElvUI Chat Settings
 E.db["chat"]["chatHistory"] = false
