@@ -62,7 +62,7 @@ ProjectAzilrokaDB = {
 				["Enable"] = false,
 			},
 			["EnhancedFriendsList"] = {
-				["Texture"] = "GennUI",
+				["Texture"] = "GennUI B",
 			},
 			["Cooldown"] = {
 				["Enable"] = false,

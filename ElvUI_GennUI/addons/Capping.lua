@@ -25,7 +25,7 @@ CappingSettings = {
 			},
 			["width"] = 240,
 			["font"] = "GennUI",
-			["barTexture"] = "GennUI",
+			["barTexture"] = "GennUI B",
 			["barOnControl"] = "NONE",
 		},
 	},

@@ -150,7 +150,7 @@ E.db["unitframe"]["fontSize"] = 12
 E.db["unitframe"]["smartRaidFilter"] = false
 E.db["unitframe"]["maxAllowedGroups"] = false
 E.db["unitframe"]["smoothbars"] = true
-E.db["unitframe"]["statusbar"] = "GennUI"
+E.db["unitframe"]["statusbar"] = "GennUI B"
 
 --- Custom Texts
 E.db["unitframe"]["units"]["player"]["customTexts"] = E.db["unitframe"]["units"]["player"]["customTexts"] or {}
