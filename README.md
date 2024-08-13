@@ -1,7 +1,7 @@
 # GennUI
 ## _A clean minimalistic ElvUI edit_
 
-[![N|Solid](https://cdn-wow.mmoui.com/preview/pvw75596.jpg)]
+![N|Solid](https://cdn-wow.mmoui.com/preview/pvw75596.jpg)
 
 [More screenshots on Curse](https://www.curseforge.com/wow/addons/elvui-gennui)
 
