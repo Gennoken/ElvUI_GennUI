@@ -16,7 +16,7 @@ E.db["nameplates"]["plateSize"]["enemyWidth"] = 200
 E.db["nameplates"]["plateSize"]["friendlyWidth"] = 60
 E.db["nameplates"]["plateSize"]["personalWidth"] = 220
 E.db["nameplates"]["smoothbars"] = true
-E.db["nameplates"]["statusbar"] = "GennUI"
+E.db["nameplates"]["statusbar"] = "GennUI B"
 E.db["nameplates"]["visibility"]["enemy"]["totems"] = true
 E.db["nameplates"]["visibility"]["friendly"]["npcs"] = true
 

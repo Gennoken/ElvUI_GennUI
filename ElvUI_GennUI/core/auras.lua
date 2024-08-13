@@ -9,7 +9,7 @@ function GNUI:SetupAuras()
 E.db["auras"]["buffs"]["barColor"]["b"] = classColor.b
 E.db["auras"]["buffs"]["barColor"]["g"] = classColor.g
 E.db["auras"]["buffs"]["barColor"]["r"] = classColor.r
-E.db["auras"]["buffs"]["barTexture"] = "GennUI"
+E.db["auras"]["buffs"]["barTexture"] = "GennUI B"
 E.db["auras"]["buffs"]["countFont"] = "GennUI"
 E.db["auras"]["buffs"]["countFontOutline"] = "OUTLINE"
 E.db["auras"]["buffs"]["countFontSize"] = 12
@@ -22,7 +22,7 @@ E.db["auras"]["cooldown"]["override"] = true
 E.db["auras"]["debuffs"]["barColor"]["b"] = classColor.b
 E.db["auras"]["debuffs"]["barColor"]["g"] = classColor.g
 E.db["auras"]["debuffs"]["barColor"]["r"] = classColor.r
-E.db["auras"]["debuffs"]["barTexture"] = "GennUI"
+E.db["auras"]["debuffs"]["barTexture"] = "GennUI B"
 E.db["auras"]["debuffs"]["countFont"] = "GennUI"
 E.db["auras"]["debuffs"]["countFontOutline"] = "OUTLINE"
 E.db["auras"]["debuffs"]["countFontSize"] = 12

@@ -1,6 +1,13 @@
 # Changelog
 
-**v2.86 [25/03/2024]**
+**v2.87 [13/08/2024]**
+- Bring back "GennUI B" texture. (Old one "GennUI M" still available)
+- AddOns profiles updated: OmniCD, Plater.
+- AddOns support removed: WarpDeplete.
+- Chat installer fix.
+- TWW/Cata/SoD TOC updates.
+
+**v2.86 [27/03/2024]**
 - TOC Update.
 - AddOns profiles updated: OmniCD, Plater.
 - New module to fix auto join chat channels introduced in 10.2.6

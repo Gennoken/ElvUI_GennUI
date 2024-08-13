@@ -69,11 +69,6 @@ if IsAddOnLoaded('Plater') then
 	GNUI:LoadPlaterProfile()
 	E:Print(L["'Plater' profile has been set. Note: ElvUI NamePlates have been disabled"])
 end
--- WarpDeplete
-if IsAddOnLoaded('WarpDeplete') then
-	GNUI:LoadWDProfile()
-	E:Print(L["'WarpDeplete' profile has been set."])
-end
 
 -- Update ElvUI
 	E:StaggeredUpdateAll(nil, true)

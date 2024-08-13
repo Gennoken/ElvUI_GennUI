@@ -3,7 +3,7 @@
 
 [![N|Solid](https://cdn-wow.mmoui.com/preview/pvw75596.jpg)](https://www.tukui.org/addons.php?id=221)
 
-[More screenshots on the ElvUI website](https://www.tukui.org/addons.php?id=221)
+[More screenshots on Curse](https://www.curseforge.com/wow/addons/elvui-gennui)
 
 # « Features »
 - Easy to use installer that set things automatically.
@@ -39,10 +39,9 @@
 - OmniCD
 - Plater
 - ProjectAzilroka
-- WarpDeplete
 
 # « Special Thanks »
 - Skullflower and Naowh for inspiration.
 - Blazeflack, Benik and Simpy for the great help and assistance.
 - Blinkii & Skullflower for the awesome textures.
-- Tweaks credits: Blazeflack, Kesava, Resike.
+- Tweaks credits: Blazeflack, Kesava, Resike, CrackedOrb.

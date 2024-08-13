@@ -57,7 +57,7 @@ BattleGroundEnemiesDB = {
 							["Enabled"] = false,
 						},
 						["healthBar"] = {
-							["Texture"] = "GennUI",
+							["Texture"] = "GennUI B",
 						},
 						["Power"] = {
 							["Enabled"] = false,
@@ -151,12 +151,12 @@ BattleGroundEnemiesDB = {
 								["JustifyH"] = "RIGHT",
 								["FontOutline"] = "OUTLINE",
 							},
-							["Texture"] = "GennUI",
+							["Texture"] = "GennUI B",
 							["HealthTextEnabled"] = false,
 						},
 						["Power"] = {
 							["Height"] = 4,
-							["Texture"] = "GennUI",
+							["Texture"] = "GennUI B",
 						},
 						["PriorityDebuffs"] = {
 							["Enabled"] = false,
@@ -293,7 +293,7 @@ BattleGroundEnemiesDB = {
 							["Enabled"] = false,
 						},
 						["healthBar"] = {
-							["Texture"] = "GennUI",
+							["Texture"] = "GennUI B",
 						},
 						["Power"] = {
 							["Enabled"] = false,
@@ -462,11 +462,11 @@ BattleGroundEnemiesDB = {
 								["FontOutline"] = "OUTLINE",
 							},
 							["HealthTextEnabled"] = false,
-							["Texture"] = "GennUI",
+							["Texture"] = "GennUI B",
 						},
 						["Power"] = {
 							["Height"] = 4,
-							["Texture"] = "GennUI",
+							["Texture"] = "GennUI B",
 						},
 						["PriorityDebuffs"] = {
 							["Enabled"] = false,
