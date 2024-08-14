@@ -1,5 +1,8 @@
 # Changelog
 
+**v2.88 [14/08/2024]**
+- Quick 11.0.2 fixes
+
 **v2.87 [13/08/2024]**
 - Bring back "GennUI B" texture. (Old one "GennUI M" still available)
 - AddOns profiles updated: OmniCD, Plater.

@@ -1,5 +1,5 @@
 local E, L, V, P, G = unpack(ElvUI)
-local IsAddOnLoaded = IsAddOnLoaded
+local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
 local format = string.format
 local MyPluginName = "GennUI"
 local GNUI = E:GetModule("GennUI");
