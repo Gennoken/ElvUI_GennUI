@@ -39,6 +39,7 @@
 - OmniCD
 - Plater
 - ProjectAzilroka
+- WarpDeplete
 
 # « Special Thanks »
 - Skullflower and Naowh for inspiration.
