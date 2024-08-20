@@ -1,5 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI);
 local GNUI = E:GetModule("GennUI");
+local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
 
 function GNUI:LoadBGEProfile()
 

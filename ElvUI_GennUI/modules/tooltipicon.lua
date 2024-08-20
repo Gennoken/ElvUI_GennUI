@@ -3,12 +3,13 @@ local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
 local MyPluginName = "GennUI"
 local GNUI = E:GetModule("GennUI");
 local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
+local GetSpellInfo = C_Spell.GetSpellInfo
 
 --[[ Credit: brykrys, Alason, Freddy, Amavana, Resike, Merathilis ]]--
-local VERSION = 1.90
+local VERSION = 1.92
 local VERSIONINFO = "X-Release"
 
-local NEWTOOLTIPS = (TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall) and true or false
+local NEWTOOLTIPS = (C_TooltipInfo and TooltipUtil and TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall) and true or false
 
 --------------------------------------------------------------------------------
 -- VARIABLES
@@ -42,15 +43,28 @@ local strmatch = strmatch
 local strfind = strfind
 local strsub = strsub
 local next = next
-local GetItemIcon = GetItemIcon
-local GetSpellInfo = GetSpellInfo
+local GetItemIcon = C_Item.GetItemIconByID or GetItemIcon
 local GetAchievementInfo = GetAchievementInfo
+local GetSpellTexture
+-- ### Hybrid GetSpellTexture until C_Spell.GetSpellTexture is migrated to all clients
+if C_Spell.GetSpellTexture then
+	GetSpellTexture = C_Spell.GetSpellTexture
+elseif GetSpellInfo then
+	GetSpellTexture = function(...)
+		local _, _, texture = GetSpellInfo(...)
+		return texture
+	end
+end
+
 
 local GetDisplayedItem, GetDisplayedSpell
 if TooltipUtil then
 	-- These are replacements for tooltip:GetItem and tooltip:GetSpell in 10.0.2
 	GetDisplayedItem = TooltipUtil.GetDisplayedItem
 	GetDisplayedSpell = TooltipUtil.GetDisplayedSpell
+else
+	GetDisplayedItem = function(tooltip) return tooltip:GetItem() end
+	GetDisplayedSpell = function(tooltip) return tooltip:GetSpell() end
 end
 
 --------------------------------------------------------------------------------
@@ -211,7 +225,7 @@ local function GetTextureFromLink(link)
 			return
 		elseif linkType == "spell" or linkType == "enchant" then
 			if options.spell then
-				local _, _, tpath = GetSpellInfo(id)
+				local tpath = GetSpellTexture(id)
 				return tpath
 			end
 			return
@@ -432,7 +446,6 @@ end
 -- Hook for when we know the frame contains an item
 -- (OnTooltipSetItem)
 local function HookItem(frame)
-	local text
 	if not options.item then
 		return
 	end
@@ -440,13 +453,7 @@ local function HookItem(frame)
 	if not data or data.disable or data.shown then
 		return
 	end
-	if GetDisplayedItem then
-		local _, t = GetDisplayedItem(frame)
-		text = t
-	else
-		local _, t = frame:GetItem()
-		text = t
-	end
+	local _, text = GetDisplayedItem(frame)
 	if text then
 		text = GetItemIcon(text)
 		if text then
@@ -513,13 +520,9 @@ local function HookSpell(frame)
 	if not data or data.disable or data.shown then
 		return
 	end
-	if GetDisplayedSpell then
-		name, spellID = GetDisplayedSpell(frame)
-	else
-		name, spellID = frame:GetSpell()
-	end
+	name, spellID = GetDisplayedSpell(frame)
 	if name then
-		local _, _, text = GetSpellInfo(spellID)
+		local text = GetSpellTexture(spellID)
 		if text then
 			DisplayIconDispatch(data, text)
 		end
@@ -631,7 +634,7 @@ local function HookMacro(frame, datatable)
 		if not options.spell then
 			return
 		end
-		local _, _, icon = GetSpellInfo(tooltipID)
+		local icon = GetSpellTexture(tooltipID)
 		if icon then
 			DisplayIconDispatch(data, icon)
 		end

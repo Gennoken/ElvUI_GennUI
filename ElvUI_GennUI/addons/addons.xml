@@ -12,4 +12,5 @@
 	<Script file="OmniBar.lua"/>
 	<Script file="OmniCD.lua"/>
 	<Script file="Plater.lua"/>
+	<Script file="WarpDeplete.lua"/>
 </Ui>

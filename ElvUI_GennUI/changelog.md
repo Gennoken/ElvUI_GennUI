@@ -1,12 +1,15 @@
 # Changelog
 
+**v2.89 [20/08/2024]**
+- More 11.0.2 fixes
+- AddOns profiles updated: Plater.
+
 **v2.88 [14/08/2024]**
 - Quick 11.0.2 fixes
 
 **v2.87 [13/08/2024]**
 - Bring back "GennUI B" texture. (Old one "GennUI M" still available)
 - AddOns profiles updated: OmniCD, Plater.
-- AddOns support removed: WarpDeplete.
 - Chat installer fix.
 - TWW/Cata/SoD TOC updates.
 
