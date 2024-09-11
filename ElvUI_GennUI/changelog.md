@@ -1,5 +1,10 @@
 # Changelog
 
+**v2.90 [11/09/2024]**
+- WindTools profile updates.
+- Tooltip Icons fix.
+- AddOns profiles updated: Plater (S1 Mob Colors)
+
 **v2.89 [20/08/2024]**
 - More 11.0.2 fixes
 - AddOns profiles updated: Plater.
