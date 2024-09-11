@@ -1,7 +1,7 @@
 ## Interface: 110002
 ## Title: |cff1784d1ElvUI |cffc31f3bGennUI
 ## Author: Gennoken
-## Version: 2.89
+## Version: 2.90
 ## Notes: A Clean Minimalistic ElvUI Edit by |cffc31f3bGennoken.
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled

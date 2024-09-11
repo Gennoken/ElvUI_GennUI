@@ -3,7 +3,6 @@ local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
 local MyPluginName = "GennUI"
 local GNUI = E:GetModule("GennUI");
 local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
-local GetSpellInfo = C_Spell.GetSpellInfo
 
 --[[ Credit: brykrys, Alason, Freddy, Amavana, Resike, Merathilis ]]--
 local VERSION = 1.92
