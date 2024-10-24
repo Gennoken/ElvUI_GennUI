@@ -1,5 +1,9 @@
 # Changelog
 
+**v2.91 [24/10/2024]**
+- WindTools profile updates.
+- AddOns profiles updated: Details, Plater
+
 **v2.90 [11/09/2024]**
 - WindTools profile updates.
 - Tooltip Icons fix.

@@ -1,7 +1,7 @@
 ## Interface: 40400
-## Title: |cff1784d1ElvUI |cffc31f3bGennUI |cff1784d1Wrath
+## Title: |cff1784d1ElvUI |cffc31f3bGenn|cff9c9c9cUI |cff1784d1Cata
 ## Author: Gennoken
-## Version: 2.90
+## Version: 2.91
 ## Notes: A Clean Minimalistic ElvUI Edit by |cffc31f3bGennoken.
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled
@@ -17,5 +17,6 @@ core.lua
 math.lua
 addons\addons.xml
 modules\modules.xml
+modules\taintless.xml
 
 
