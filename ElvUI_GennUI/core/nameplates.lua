@@ -318,24 +318,5 @@ for _, filterName in pairs({'Podtender', 'Totems'}) do
 	E.db["nameplates"]["filters"][filterName] = { triggers = { enable = true } }
 end
 
-E.global["nameplates"]["filters"]["Podtender"]["actions"]["color"]["health"] = true
-E.global["nameplates"]["filters"]["Podtender"]["actions"]["color"]["healthColor"]["r"] = 0
-E.global["nameplates"]["filters"]["Podtender"]["actions"]["scale"] = 1.15
-E.global["nameplates"]["filters"]["Podtender"]["actions"]["usePortrait"] = true
-E.global["nameplates"]["filters"]["Podtender"]["triggers"]["names"]["164589"] = true
-E.global["nameplates"]["filters"]["Podtender"]["triggers"]["priority"] = 2
-E.global["nameplates"]["filters"]["Totems"]["actions"]["color"]["health"] = true
-E.global["nameplates"]["filters"]["Totems"]["actions"]["color"]["healthColor"]["r"] = 0
-E.global["nameplates"]["filters"]["Totems"]["actions"]["scale"] = 1.15
-E.global["nameplates"]["filters"]["Totems"]["actions"]["usePortrait"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["nameplateType"]["enable"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["nameplateType"]["enemyNPC"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["nameplateType"]["enemyPlayer"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["names"]["105427"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["names"]["105451"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["names"]["59764"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["names"]["6112"] = true
-E.global["nameplates"]["filters"]["Totems"]["triggers"]["priority"] = 2
-
 NP:CVarReset()
 end

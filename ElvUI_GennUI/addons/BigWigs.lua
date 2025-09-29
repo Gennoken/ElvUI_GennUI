@@ -4,234 +4,224 @@ local GNUI = E:GetModule("GennUI");
 function GNUI:LoadBWProfile()
 if GNUI.Retail then
 BigWigs3DB = {
-	["namespaces"] = {
-		["BigWigs_Plugins_Victory"] = {
-		},
-		["BigWigs_Plugins_Alt Power"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["Default"] = {
-					["exitCombatOther"] = 1,
-					["disabled"] = false,
-					["exitCombat"] = 1,
-					["modeOther"] = 2,
+		["namespaces"] = {
+			["BigWigs_Plugins_Victory"] = {
+				["profiles"] = {
+					["Default"] = {
+						["soundName"] = "None",
+					},
 				},
 			},
-		},
-		["BigWigs_Plugins_Countdown"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontName"] = "GennUI",
+			["BigWigs_Plugins_Messages"] = {
+				["profiles"] = {
+					["Default"] = {
+						["outline"] = "OUTLINE",
+						["emphOutline"] = "OUTLINE",
+						["emphFontName"] = "GennUI",
+						["fontName"] = "GennUI",
+						["chat"] = true,
+					},
 				},
 			},
-		},
-		["BigWigs_Plugins_AltPower"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontName"] = "GennUI",
-					["lock"] = true,
-					["position"] = {
-						"BOTTOMLEFT", -- [1]
-						"BOTTOMLEFT", -- [2]
-						442.2230224609375, -- [3]
-						18.99969100952148, -- [4]
+			["BigWigs_Plugins_Proximity"] = {
+				["profiles"] = {
+					["Default"] = {
+						["posx"] = 450.8449117978307,
+						["fontSize"] = 14,
+						["lock"] = true,
+						["height"] = 119.9999771118164,
+						["posy"] = 163.5558459536169,
+						["fontName"] = "GennUI",
+						["width"] = 140.0001678466797,
+					},
+				},
+			},
+			["BigWigs_Plugins_AutoReply"] = {
+				["profiles"] = {
+					["Default"] = {
+						["exitCombat"] = 1,
+						["exitCombatOther"] = 1,
+						["disabled"] = false,
+						["modeOther"] = 2,
+					},
+				},
+			},
+			["BigWigs_Plugins_Nameplates"] = {
+				["profiles"] = {
+					["Default"] = {
+						["textFontName"] = "GennUI",
+						["textOutline"] = "OUTLINE",
+					},
+				},
+			},
+			["BigWigs_Plugins_Bars"] = {
+				["profiles"] = {
+					["Default"] = {
+						["outline"] = "OUTLINE",
+						["fontSizeEmph"] = 11,
+						["expPosition"] = {
+							"BOTTOM",
+							"BOTTOM",
+							363,
+							265,
+						},
+						["expHeight"] = 14,
+						["normalPosition"] = {
+							"TOP",
+							"TOP",
+							-402,
+							-74,
+						},
+						["expWidth"] = 176,
+						["fontName"] = "GennUI",
+						["normalHeight"] = 12,
+						["barStyle"] = "MonoUI",
+						["texture"] = "GennUI B",
+					},
+				},
+			},
+			["BigWigs_Plugins_AltPower"] = {
+				["profiles"] = {
+					["Default"] = {
+						["position"] = {
+							"BOTTOMLEFT",
+							"BOTTOMLEFT",
+							388.6161193847656,
+							223.5813598632813,
+						},
+						["fontName"] = "GennUI",
+						["lock"] = true,
+					},
+				},
+			},
+			["BigWigs_Plugins_Countdown"] = {
+				["profiles"] = {
+					["Default"] = {
+						["fontName"] = "GennUI",
 					},
 				},
 			},
 		},
-		["BigWigs_Plugins_Colors"] = {
+		["profileKeys"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 346.6666328763968,
-					["posy"] = 155.7334633159608,
-				},
+		["profiles"] = {
+			["Default"] = {
+				["fakeDBMVersion"] = true,
 			},
 		},
-		["BigWigs_Plugins_Bars"] = {
-			["profiles"] = {
-				["Default"] = {
-					["outline"] = "OUTLINE",
-					["BigWigsAnchor_width"] = 179.9999847412109,
-					["BigWigsEmphasizeAnchor_height"] = 11.00000476837158,
-					["fontName"] = "GennUI",
-					["BigWigsAnchor_height"] = 8.000030517578125,
-					["BigWigsAnchor_y"] = 721.2088901297248,
-					["spacing"] = 10,
-					["BigWigsAnchor_x"] = 257.4224161211605,
-					["barStyle"] = "AddOnSkins Half-Bar",
-					["BigWigsEmphasizeAnchor_y"] = 182.6846052916808,
-					["fontSizeEmph"] = 10,
-					["BigWigsEmphasizeAnchor_x"] = 841.955215555834,
-					["BigWigsEmphasizeAnchor_width"] = 215.5558471679688,
-				},
-			},
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphFontName"] = "GennUI",
-					["fontName"] = "GennUI",
-				},
-			},
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 14,
-					["fontName"] = "GennUI",
-					["width"] = 140.0001678466797,
-					["posy"] = 163.5558459536169,
-					["posx"] = 450.8449117978307,
-					["lock"] = true,
-					["height"] = 119.9999771118164,
-				},
-			},
-		},
-	},
-	["profileKeys"] = {
-	},
-	["profiles"] = {
-		["Default"] = {
-			["fakeDBMVersion"] = true,
-		},
-	},
-}
+	}
 BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 }
 else
 BigWigsClassicDB = {
-	["namespaces"] = {
-		["BigWigs_Plugins_Victory"] = {
-		},
-		["BigWigs_Plugins_Alt Power"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["Default"] = {
-					["exitCombatOther"] = 1,
-					["disabled"] = false,
-					["exitCombat"] = 1,
-					["modeOther"] = 2,
+		["namespaces"] = {
+			["BigWigs_Plugins_Victory"] = {
+				["profiles"] = {
+					["Default"] = {
+						["soundName"] = "None",
+					},
 				},
 			},
-		},
-		["BigWigs_Plugins_Countdown"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontName"] = "GennUI",
+			["BigWigs_Plugins_Messages"] = {
+				["profiles"] = {
+					["Default"] = {
+						["outline"] = "OUTLINE",
+						["emphOutline"] = "OUTLINE",
+						["emphFontName"] = "GennUI",
+						["fontName"] = "GennUI",
+						["chat"] = true,
+					},
 				},
 			},
-		},
-		["BigWigs_Plugins_AltPower"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontName"] = "GennUI",
-					["lock"] = true,
-					["position"] = {
-						"BOTTOMLEFT", -- [1]
-						"BOTTOMLEFT", -- [2]
-						442.2230224609375, -- [3]
-						18.99969100952148, -- [4]
+			["BigWigs_Plugins_Proximity"] = {
+				["profiles"] = {
+					["Default"] = {
+						["posx"] = 450.8449117978307,
+						["fontSize"] = 14,
+						["lock"] = true,
+						["height"] = 119.9999771118164,
+						["posy"] = 163.5558459536169,
+						["fontName"] = "GennUI",
+						["width"] = 140.0001678466797,
+					},
+				},
+			},
+			["BigWigs_Plugins_AutoReply"] = {
+				["profiles"] = {
+					["Default"] = {
+						["exitCombat"] = 1,
+						["exitCombatOther"] = 1,
+						["disabled"] = false,
+						["modeOther"] = 2,
+					},
+				},
+			},
+			["BigWigs_Plugins_Nameplates"] = {
+				["profiles"] = {
+					["Default"] = {
+						["textFontName"] = "GennUI",
+						["textOutline"] = "OUTLINE",
+					},
+				},
+			},
+			["BigWigs_Plugins_Bars"] = {
+				["profiles"] = {
+					["Default"] = {
+						["outline"] = "OUTLINE",
+						["fontSizeEmph"] = 11,
+						["expPosition"] = {
+							"BOTTOM",
+							"BOTTOM",
+							363,
+							265,
+						},
+						["expHeight"] = 14,
+						["normalPosition"] = {
+							"TOP",
+							"TOP",
+							-402,
+							-74,
+						},
+						["expWidth"] = 176,
+						["fontName"] = "GennUI",
+						["normalHeight"] = 12,
+						["barStyle"] = "MonoUI",
+						["texture"] = "GennUI B",
+					},
+				},
+			},
+			["BigWigs_Plugins_AltPower"] = {
+				["profiles"] = {
+					["Default"] = {
+						["position"] = {
+							"BOTTOMLEFT",
+							"BOTTOMLEFT",
+							388.6161193847656,
+							223.5813598632813,
+						},
+						["fontName"] = "GennUI",
+						["lock"] = true,
+					},
+				},
+			},
+			["BigWigs_Plugins_Countdown"] = {
+				["profiles"] = {
+					["Default"] = {
+						["fontName"] = "GennUI",
 					},
 				},
 			},
 		},
-		["BigWigs_Plugins_Colors"] = {
+		["profileKeys"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 346.6666328763968,
-					["posy"] = 155.7334633159608,
-				},
+		["profiles"] = {
+			["Default"] = {
+				["fakeDBMVersion"] = true,
 			},
 		},
-		["BigWigs_Plugins_Bars"] = {
-			["profiles"] = {
-				["Default"] = {
-					["outline"] = "OUTLINE",
-					["BigWigsAnchor_width"] = 179.9999847412109,
-					["BigWigsEmphasizeAnchor_height"] = 11.00000476837158,
-					["fontName"] = "GennUI",
-					["BigWigsAnchor_height"] = 8.000030517578125,
-					["BigWigsAnchor_y"] = 721.2088901297248,
-					["spacing"] = 10,
-					["BigWigsAnchor_x"] = 257.4224161211605,
-					["barStyle"] = "AddOnSkins Half-Bar",
-					["BigWigsEmphasizeAnchor_y"] = 182.6846052916808,
-					["fontSizeEmph"] = 10,
-					["BigWigsEmphasizeAnchor_x"] = 841.955215555834,
-					["BigWigsEmphasizeAnchor_width"] = 215.5558471679688,
-				},
-			},
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphFontName"] = "GennUI",
-					["fontName"] = "GennUI",
-				},
-			},
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 14,
-					["fontName"] = "GennUI",
-					["width"] = 140.0001678466797,
-					["posy"] = 163.5558459536169,
-					["posx"] = 450.8449117978307,
-					["lock"] = true,
-					["height"] = 119.9999771118164,
-				},
-			},
-		},
-	},
-	["profileKeys"] = {
-	},
-	["profiles"] = {
-		["Default"] = {
-			["fakeDBMVersion"] = true,
-		},
-	},
-}
+	}
 BigWigsIconClassicDB = {
 }
 BigWigsStatsClassicDB = {
