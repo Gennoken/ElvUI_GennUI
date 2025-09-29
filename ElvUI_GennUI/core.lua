@@ -17,10 +17,10 @@ function GNUI:ProfileCheck(new)
 		hideOnEscape = 1,
 		timeout = 0,
 		OnShow = function(self, data)
-		  self.editBox:SetText(E.mynameRealm);
+		  self.EditBox:SetText(E.mynameRealm);
 		end,
 		OnAccept = function(self, data, data2)
-		  local text = self.editBox:GetText()
+		  local text = self.EditBox:GetText()
 		  ElvUI[1].data:SetProfile(text)
 		  E:Print(L["Profile created"])
 		  PluginInstallStepComplete.message = "Profile Created"

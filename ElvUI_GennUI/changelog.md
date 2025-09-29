@@ -1,5 +1,12 @@
 # Changelog
 
+**v2.92 [29/09/2025]**
+**<< THIS IS A QUICK AND LAST FIX TO MAKE THINGS WORK, I'M NO LONGER PLAYING WITH ELVUI >>**
+**<< PROBABLY WILL FIX IT AGAIN FOR MIDNIGHT >>**
+- ElvUI 14 Updates.
+- 11.2/Mists TOC Updates.
+- All AddOns profiles updated
+
 **v2.91 [24/10/2024]**
 - WindTools profile updates.
 - AddOns profiles updated: Details, Plater
