@@ -5,7 +5,7 @@
 - Complete code rework to make it a standalone addon.
 - Updated for ElvUI 15 and Midnight
 - Many many addons profiles updated/added/removed. (See description for full list)
-- AddOns are actively updating since 12.0, please report any bugs especially CLassic/Anniversary as I dont play them.
+- AddOns are actively updating since 12.0, please report any bugs especially Classic/Anniversary as I dont play them.
 
 **v2.92 [29/09/2025]**
 - ElvUI 14 Updates.
