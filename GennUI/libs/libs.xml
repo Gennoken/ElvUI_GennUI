@@ -1,0 +1,4 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Include file="Ace3\Ace3.xml"/>
+	<Script file="LibSharedMedia-3.0.lua"/>
+</Ui>

@@ -1,5 +1,0 @@
-﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="AddOnSkins.lua"/>
-	<Script file="PA.lua"/>
-	<Script file="WT.lua"/>
-</Ui>

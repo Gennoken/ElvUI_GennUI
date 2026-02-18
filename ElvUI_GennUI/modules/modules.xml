@@ -1,7 +1,0 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="customtags.lua"/>
-	<Script file="easydelete.lua"/>
-	<Script file="tooltipicon.lua"/>
-	<Script file="leavespamchannels.lua"/>
-	<Script file="config.lua"/>
-</Ui>
