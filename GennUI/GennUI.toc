@@ -1,0 +1,18 @@
+## Title: |cffc31f3bGenn|cff9c9c9cUI
+## Notes: |cffc31f3bGenn|cff9c9c9cUI|r|r, is a One-Click AddOn Profile Installer for a clean minimalistic UI suited for any spec, role or activity.
+## Version: 3.0
+## Author: Gennoken
+## IconTexture: Interface\AddOns\GennUI\media\logo\AddonIcon.png
+
+## DefaultState: Enabled
+## SavedVariables: GennUIDB
+
+## Interface: 11508, 20505, 50503, 120001
+
+libs\libs.xml
+media\media.xml
+init.lua
+core\core.xml
+core.lua
+profiles\profiles.xml
+modules\modules.xml

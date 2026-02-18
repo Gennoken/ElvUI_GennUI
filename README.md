@@ -1,48 +1,59 @@
 # GennUI
-## _A clean minimalistic ElvUI edit_
 
-![N|Solid](https://cdn-wow.mmoui.com/preview/pvw75596.jpg)
+## _GennUI is a One-Click AddOns Profile Installer for a clean minimalistic UI suited for any spec, role or activity._
 
-[More screenshots on Curse](https://www.curseforge.com/wow/addons/elvui-gennui)
+![N|Solid](https://cdn-wow.mmoui.com/preview/pvw77343.jpg)
+
+[More screenshots on Curse](https://www.curseforge.com/wow/addons/gennui)
 
 # « Features »
-- Easy to use installer that set things automatically.
-- Adds custom tags, textures and fonts.
-- 2 Themes: Dark and Class Colored.
-- Tweaks: Easy Delete, Tooltip Icons.
-- Set up supported AddOns automatically, matching the UI style.
 
-# « Requirements »
-- [ElvUI](https://www.tukui.org/download.php?ui=elvui)
+*   Easy to use one click installer.
+*   Adds custom textures and fonts.
+*   Custom Tweaks: EasyDelete, TooltipItemIcons
+*   Set up supported AddOns automatically, matching the UI style
 
-# « Highly recommended »
-- [AddOnSkins](https://www.curseforge.com/wow/addons/addonskins)
-- [WindTools](https://www.curseforge.com/wow/addons/elvui-windtools) (For Retails only)
+# « Installation »
+
+*   Upon login GennUI GUI should pop up, otherwise type in /gnui
+*   Import the given Edit Mode String.
+*   Click the Install/Update button.
+*   Reload.
 
 # « Note »
-- The UI is optimized for 1920×1080 resolution and 0.64 UI Scale, if you have different settings you may want to move some things around.
-- Please consider backup any AddOns settings that you may want to keep.
-- For bug reports or requests please use the issues tracker above.
+
+*   The UI is optimized for **1920×1080** resolution and **0.64 UI Scale** AND the given **Edit Mode** string, if you have different settings you may want to move some things around.
+*   Please consider backup any AddOns settings that you may want to keep.
+*   For bug reports or requests please use the issues tracker above.
 
 # « Supported AddOns »
-- AddOnSkins
-- BattleGround Eenemies
-- BigDebuffs
-- BigWigs
-- Capping
-- Deadly Boss Mods
-- Details
-- Diminish
-- Gladius
-- Mik’s Scrolling Battle Text
-- OmniBar
-- OmniCD
-- Plater
-- ProjectAzilroka
-- WarpDeplete
+
+*   BattleGroundEenemies Fixed
+*   BetterBlizzFrames
+*   BetterBlizzPlates
+*   BigWigs
+*   Capping
+*   Chattynator
+*   Cooldown Manager Control
+*   Danders Frames
+*   Deadly Boss Mods
+*   Details
+*   **ElvUI (Inc WindTools)**
+*   FrameColor
+*   FrameSort
+*   Leatrix Plus
+*   Mouseover Action Settings
+*   MPlusTimer
+*   Plater
+*   Platynator
+*   sArena Reloaded
+*   Simple Datatexts
+*   TinyTooltip Remake
+*   WarpDeplete
 
 # « Special Thanks »
-- Skullflower and Naowh for inspiration.
-- Blazeflack, Benik and Simpy for the great help and assistance.
-- Blinkii & Skullflower for the awesome textures.
-- Tweaks credits: Blazeflack, Kesava, Resike, CrackedOrb.
+
+*   Skullflower and Naowh for inspiration.
+*   Blazeflack, Benik and Simpy for the great help and assistance.
+*   Blinkii & Skullflower for the awesome textures.
+*   Tweaks credits: Kesava, brykrys.

@@ -1,0 +1,24 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Addons.lua"/>
+	<Script file="BattleGroundEnemiesFixed.lua"/>
+	<Script file="BetterBlizzFrames.lua"/>
+	<Script file="BetterBlizzPlates.lua"/>
+	<Script file="BigWigs.lua"/>
+	<Script file="Capping.lua"/>
+	<Script file="Chattynator.lua"/>
+	<Script file="CooldownManagerControl.lua"/>
+	<Script file="DandersFrames.lua"/>
+	<Script file="DBM.lua"/>
+	<Script file="Details.lua"/>
+	<Script file="ElvUI.lua"/>
+	<Script file="FrameColor.lua"/>
+	<Script file="FrameSort.lua"/>
+	<Script file="Leatrix_Plus.lua"/>
+	<Script file="MouseoverActionSettings.lua"/>
+	<Script file="Plater.lua"/>
+	<Script file="Platynator.lua"/>
+	<Script file="sArena_Reloaded.lua"/>
+	<Script file="SimpleDatatexts.lua"/>
+	<Script file="TinyTooltip-Remake.lua"/>
+	<Script file="WarpDeplete.lua"/>
+</Ui>
