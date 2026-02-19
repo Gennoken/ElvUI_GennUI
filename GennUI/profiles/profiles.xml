@@ -19,6 +19,6 @@
 	<Script file="Platynator.lua"/>
 	<Script file="sArena_Reloaded.lua"/>
 	<Script file="SimpleDatatexts.lua"/>
-	<Script file="TinyTooltip-Remake.lua"/>
+	<Script file="TipTac.lua"/>
 	<Script file="WarpDeplete.lua"/>
 </Ui>

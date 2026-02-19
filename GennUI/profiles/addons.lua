@@ -24,7 +24,7 @@ function GennUI:SetupAddons()
 		['Platynator'] = { 'LoadPlatyProfile' },
 		['sArena_Reloaded'] = { 'LoadsArenaProfile' },
 		['SimpleDatatexts'] = { 'LoadSDTProfile' },
-		['TinyTooltip-Remake'] = { 'LoadTTTRProfile' },
+		['TipTac'] = { 'LoadTTRProfile' },
 		['WarpDeplete'] = { 'LoadWDProfile' },
 	}
 

@@ -51,7 +51,7 @@ local addons = {
 	{ name = "Platynator",               var = "platy" },
 	{ name = "sArena Reloaded",          var = "sarena", check = "sArena_Reloaded" },
 	{ name = "SimpleDatatexts",          var = "sdt" },
-	{ name = "TinyTooltip-Remake",       var = "tttr" },
+	{ name = "TipTac Reborn",            var = "tttr",   check = "TipTac" },
 	{ name = "WarpDeplete",              var = "wd" },
 }
 
