@@ -1,5 +1,9 @@
 # Changelog
 
+**v3.01 [19/02/2026]**
+- Swaped back to TipTac Reborn as it's now updated for Midnight, profile added.
+- Removed TinyTooltip-Remake profile.
+
 **v3.00 [18/02/2026]**
 **<< NOW A STANDALONE ADDON, ElvUI is still supported ! >>**
 - Complete code rework to make it a standalone addon.
