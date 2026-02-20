@@ -140,6 +140,7 @@ local function SetChatFont()
 end
 
 function GennUI:SetupFonts()
+    if GennUIDB.ChangeSystemFonts ~= true then return end
     for i, FontObject in pairs(FontObjects) do
         local _, size, style = FontObject:GetFont()
         FontObject:SetFont(GennUIFont, ForcedFontSize[i] or size, style)

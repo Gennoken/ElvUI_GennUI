@@ -22,6 +22,7 @@ if not GennUIDB then
 		},
 		["EasyDelete"] = true,
 		["TooltipIcons"] = true,
+		["ChangeSystemFonts"] = true,
 	}
 end
 
@@ -238,19 +239,19 @@ local GennUIConfigTable = {
 				GennUIDB[info[#info]] = value; StaticPopup_Show("GENNUI_RELOAD");
 			end
 		},
-		-- LeaveSpamChannels
-		--LeaveSpamChannels = {
-		--	order = 28,
-		--	type = "toggle",
-		--	name = "Leave Spam Channels",
-		--	desc = "Fix auto join spam channels bug introduced in 10.2.6",
-		--	get = function(info)
-		--		return GennUIDB[info[#info]]
-		--	end,
-		--	set = function(info, value)
-		--		GennUIDB[info[#info]] = value; StaticPopup_Show("GENNUI_RELOAD");
-		--	end
-		--},
+		-- ChangeSystemFonts
+		ChangeSystemFonts = {
+			order = 28,
+			type = "toggle",
+			name = "Change System Fonts",
+			desc = "Change various system fonts to GennUI Font",
+			get = function(info)
+				return GennUIDB[info[#info]]
+			end,
+			set = function(info, value)
+				GennUIDB[info[#info]] = value; StaticPopup_Show("GENNUI_RELOAD");
+			end
+		},
 		contactheader = {
 			order = 95,
 			type = "header",

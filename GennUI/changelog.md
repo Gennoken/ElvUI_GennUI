@@ -1,5 +1,8 @@
 # Changelog
 
+**v3.02 [20/02/2026]**
+- Changing verious system fonts is now optional and toggable in GennUI options.
+
 **v3.01 [19/02/2026]**
 - Swaped back to TipTac Reborn as it's now updated for Midnight, profile added.
 - Removed TinyTooltip-Remake profile.
