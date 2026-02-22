@@ -6,7 +6,7 @@
 	<Script file="BigWigs.lua"/>
 	<Script file="Capping.lua"/>
 	<Script file="Chattynator.lua"/>
-	<Script file="CooldownManagerControl.lua"/>
+	<Script file="CooldownManagerCentered.lua"/>
 	<Script file="DandersFrames.lua"/>
 	<Script file="DBM.lua"/>
 	<Script file="Details.lua"/>
@@ -14,6 +14,7 @@
 	<Script file="FrameColor.lua"/>
 	<Script file="FrameSort.lua"/>
 	<Script file="Leatrix_Plus.lua"/>
+	<Script file="MiniCC.lua"/>
 	<Script file="MouseoverActionSettings.lua"/>
 	<Script file="Plater.lua"/>
 	<Script file="Platynator.lua"/>

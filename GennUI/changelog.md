@@ -1,5 +1,10 @@
 # Changelog
 
+**v3.03 [22/02/2026]**
+- Swaped Cooldown Manager Control for Cooldown Manager Centered, more rebust.
+- MiniCC profile added
+- Updated Edit Mode String for Cooldown Manager Centered compatibility.
+
 **v3.02 [20/02/2026]**
 - Changing verious system fonts is now optional and togglable in GennUI options.
 
