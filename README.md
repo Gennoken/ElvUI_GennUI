@@ -34,7 +34,7 @@
 *   BigWigs
 *   Capping
 *   Chattynator
-*   Cooldown Manager Control
+*   Cooldown Manager Centered
 *   Danders Frames
 *   Deadly Boss Mods
 *   Details
@@ -42,6 +42,7 @@
 *   FrameColor
 *   FrameSort
 *   Leatrix Plus
+*   MiniCC
 *   Mouseover Action Settings
 *   MPlusTimer
 *   Plater
