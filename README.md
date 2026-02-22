@@ -1,4 +1,4 @@
-# GennUI
+# GennUI (With ElvUI Support)
 
 ## _GennUI is a One-Click AddOns Profile Installer for a clean minimalistic UI suited for any spec, role or activity._
 

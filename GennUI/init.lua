@@ -30,30 +30,31 @@ local disctag = "Gennoken#4505"
 local repolink = "https://github.com/Gennoken/GennUI"
 
 local editmodelayoutstring =
-"2 50 0 0 0 7 7 UIParent -6.8 32.8 -1 ##$$%/&&'%)$+$,$ 0 1 0 0 0 UIParent 818.7 -1074.7 -1 ##$$%/&&'%(#,$ 0 2 0 0 0 UIParent 620.7 -1112.7 -1 ##$%%/&%'%(#,$ 0 3 0 0 0 UIParent 1270.3 -1112.7 -1 ##$%%/&%'%(#,$ 0 4 1 2 0 MultiBarRight -5.0 0.0 -1 #$$$%/&&'%(#,$ 0 5 0 0 0 UIParent 769.3 -600.8 -1 ##$$%/&&'%(#,$ 0 6 0 0 0 UIParent 769.3 -640.8 -1 ##$$%/&&'%(#,$ 0 7 0 0 0 UIParent 633.9 -1083.7 -1 ##$$%)&$'%(#,# 0 10 0 0 0 UIParent 1270.3 -1089.7 -1 ##$$&%'% 0 11 0 1 1 UIParent -360.0 -892.8 -1 ##$$&$'%,$ 0 12 0 0 0 UIParent 1272.3 -1064.4 -1 ##$$&%'% 1 -1 0 4 4 UIParent 0.0 -105.1 -1 ##$#%# 2 -1 1 2 2 UIParent 0.0 0.0 -1 ##$#%& 3 0 0 1 1 UIParent -360.0 -725.4 -1 $#3% 3 1 0 1 1 UIParent 357.8 -723.2 -1 %$3% 3 2 0 0 0 UIParent 1319.3 -282.8 -1 %$&$3# 3 3 0 0 0 UIParent 480.3 -352.8 -1 '$(#)#-k.C/#1$3#5%6,7-7$ 3 4 0 0 0 UIParent 818.5 -840.2 -1 ,%-K.#/#0&1$2(5%6(7-7$ 3 5 0 2 2 UIParent -341.1 -373.2 -1 &$*$3' 3 6 0 2 2 UIParent -443.3 -472.8 -1 -k.#/#4$5%607-7$ 3 7 0 3 3 UIParent 588.3 -275.5 -1 3# 4 -1 0 0 0 UIParent 935.3 -275.8 -1 # 5 -1 0 7 7 UIParent -347.0 112.8 -1 # 6 0 1 2 0 MinimapCluster -10.0 -10.0 -1 ##$#%#&.(()( 6 1 1 2 8 BuffFrame -13.0 -15.0 -1 ##$#%#'+(()(-$ 6 2 0 0 0 UIParent 1027.3 -505.5 -1 ##$#%$&((.)(+#,-,$ 7 -1 0 3 3 UIParent 2.0 -255.2 -1 # 8 -1 0 3 3 UIParent 34.3 -494.2 -1 #($0%$&7 9 -1 0 5 5 UIParent -367.2 706.0 -1 # 10 -1 1 0 0 UIParent 16.0 -116.0 -1 # 11 -1 0 7 7 UIParent 873.0 392.8 -1 # 12 -1 0 0 2 DurabilityFrame 34.0 0.0 -1 #;$#%# 13 -1 0 0 0 UIParent 31.2 -934.3 -1 ##$#%%&) 14 -1 0 0 0 UIParent 1473.5 -1131.5 -1 ##$$%$ 15 0 0 8 2 TalkingHeadFrame 0.0 4.0 -1 # 15 1 0 8 2 MainStatusTrackingBarContainer 0.0 4.0 -1 # 16 -1 0 5 5 UIParent -337.2 296.6 -1 #( 17 -1 1 1 1 UIParent 0.0 -100.0 -1 ## 18 -1 0 5 5 UIParent -471.7 286.8 -1 #' 19 -1 0 1 1 UIParent 2.0 -652.8 -1 ## 20 0 0 1 7 UIParent 0.0 415.9 -1 ##$-%$&&'$(-($)$+$,$-# 20 1 0 1 7 UIParent 0.1 375.7 -1 ##$-%$&('%(-($)$+$,$-# 20 2 0 1 7 UIParent 0.0 452.2 -1 ##$$%$&&'%(-($)$+#,$-# 20 3 0 0 0 UIParent 653.9 -701.4 -1 #$$$%#&&'#(-($)#*#+$,$-#.A 21 -1 0 4 4 UIParent 0.0 93.0 -1 ##$$ 22 0 0 7 7 UIParent -6.0 912.4 -1 ##$$%#&('&(#)U*$+$,$-#.#/U0% 22 1 0 0 0 UIParent 750.3 -369.8 -1 &('()U*#+$ 22 2 0 0 0 UIParent 775.3 -343.8 -1 &('()U*#+$ 22 3 0 0 0 UIParent 800.3 -311.8 -1 &('()U*#+$ 23 -1 0 0 0 UIParent 1788.3 -1016.8 -1 ##$#%$&#'K(%)U+$,$-$.(/U"
+"2 50 0 0 0 7 7 UIParent -6.8 32.8 -1 ##$$%/&&'%)$+$,$ 0 1 0 0 0 UIParent 818.7 -1074.7 -1 ##$$%/&&'%(#,$ 0 2 0 0 0 UIParent 620.7 -1112.7 -1 ##$%%/&%'%(#,$ 0 3 0 0 0 UIParent 1270.3 -1112.7 -1 ##$%%/&%'%(#,$ 0 4 1 2 0 MultiBarRight -5.0 0.0 -1 #$$$%/&&'%(#,$ 0 5 0 0 0 UIParent 769.3 -600.8 -1 ##$$%/&&'%(#,$ 0 6 0 0 0 UIParent 769.3 -640.8 -1 ##$$%/&&'%(#,$ 0 7 0 0 0 UIParent 633.9 -1083.7 -1 ##$$%)&$'%(#,# 0 10 0 0 0 UIParent 1270.3 -1089.7 -1 ##$$&%'% 0 11 0 1 1 UIParent -360.0 -892.8 -1 ##$$&$'%,$ 0 12 0 0 0 UIParent 1272.3 -1064.4 -1 ##$$&%'% 1 -1 0 4 4 UIParent 0.0 -105.1 -1 ##$#%# 2 -1 1 2 2 UIParent 0.0 0.0 -1 ##$#%& 3 0 0 1 1 UIParent -360.0 -725.4 -1 $#3% 3 1 0 1 1 UIParent 357.8 -723.2 -1 %$3% 3 2 0 0 0 UIParent 1319.3 -282.8 -1 %$&$3# 3 3 0 0 0 UIParent 480.3 -352.8 -1 '$(#)#-k.C/#1$3#5%6,7-7$ 3 4 0 0 0 UIParent 818.5 -840.2 -1 ,%-K.#/#0&1$2(5%6(7-7$ 3 5 0 2 2 UIParent -341.1 -373.2 -1 &$*$3' 3 6 0 2 2 UIParent -443.3 -472.8 -1 -k.#/#4$5%607-7$ 3 7 0 3 3 UIParent 588.3 -275.5 -1 3# 4 -1 0 0 0 UIParent 935.3 -275.8 -1 # 5 -1 0 7 7 UIParent -347.0 112.8 -1 # 6 0 1 2 0 MinimapCluster -10.0 -10.0 -1 ##$#%#&.(()( 6 1 1 2 8 BuffFrame -13.0 -15.0 -1 ##$#%#'+(()(-$ 6 2 0 0 0 UIParent 1027.3 -505.5 -1 ##$#%$&((.)(+#,-,$ 7 -1 0 3 3 UIParent 2.0 -255.2 -1 # 8 -1 0 3 3 UIParent 34.3 -494.2 -1 #($0%$&7 9 -1 0 4 4 UIParent 0.0 -71.8 -1 # 10 -1 1 0 0 UIParent 16.0 -116.0 -1 # 11 -1 0 7 7 UIParent 873.0 392.8 -1 # 12 -1 0 0 2 DurabilityFrame 34.0 0.0 -1 #;$#%# 13 -1 0 0 0 UIParent 31.2 -934.3 -1 ##$#%%&) 14 -1 0 0 0 UIParent 1473.5 -1131.5 -1 ##$$%$ 15 0 0 8 2 TalkingHeadFrame 0.0 4.0 -1 # 15 1 0 8 2 MainStatusTrackingBarContainer 0.0 4.0 -1 # 16 -1 0 5 5 UIParent -337.2 296.6 -1 #( 17 -1 1 1 1 UIParent 0.0 -100.0 -1 ## 18 -1 0 5 5 UIParent -471.7 286.8 -1 #' 19 -1 0 1 1 UIParent 2.0 -652.8 -1 ## 20 0 0 1 7 UIParent 0.0 415.9 -1 ##$-%$&%''(-($)#+$,$-# 20 1 0 1 7 UIParent -1.0 379.9 -1 ##$-%$&'''(-($)#+$,$-# 20 2 0 1 7 UIParent 0.0 452.2 -1 ##$$%$&%''(-($)#+$,$-# 20 3 0 0 0 UIParent 653.9 -701.4 -1 #$$$%#&&'#(-($)#*#+$,$-#.A 21 -1 0 4 4 UIParent 0.0 93.0 -1 ##$$ 22 0 0 7 7 UIParent -6.0 912.4 -1 ##$$%#&('&(#)U*$+$,$-#.#/U0% 22 1 0 0 0 UIParent 750.3 -369.8 -1 &('()U*#+$ 22 2 0 0 0 UIParent 775.3 -343.8 -1 &('()U*#+$ 22 3 0 0 0 UIParent 800.3 -311.8 -1 &('()U*#+$ 23 -1 0 0 0 UIParent 1788.3 -1016.8 -1 ##$#%$&#'K(%)U+$,$-$.(/U"
 
 local addons = {
-	{ name = "BattleGroundEnemiesFixed", var = "bge" },
-	{ name = "BetterBlizzFrames",        var = "bbf" },
-	{ name = "BetterBlizzPlates",        var = "bbp" },
-	{ name = "BigWigs",                  var = "bw" },
-	{ name = "Capping",                  var = "cap" },
-	{ name = "Chattynator",              var = "chatty" },
-	{ name = "CooldownManagerControl",   var = "cdmc" },
-	{ name = "Danders Frames",           var = "df",     check = "DandersFrames" },
-	{ name = "Deadly Boss Mods",         var = "dbm",    check = "DBM-Core" },
-	{ name = "Details",                  var = "dtl" },
-	{ name = "ElvUI",                    var = "elv" },
-	{ name = "FrameColor",               var = "fc" },
-	{ name = "FrameSort",                var = "fs" },
-	{ name = "Leatrix Plus",             var = "ltp",    check = "Leatrix_Plus" },
-	{ name = "MouseoverActionSettings",  var = "mas" },
-	{ name = "Plater",                   var = "pltr" },
-	{ name = "Platynator",               var = "platy" },
-	{ name = "sArena Reloaded",          var = "sarena", check = "sArena_Reloaded" },
-	{ name = "SimpleDatatexts",          var = "sdt" },
-	{ name = "TipTac Reborn",            var = "tttr",   check = "TipTac" },
-	{ name = "WarpDeplete",              var = "wd" },
+	{ name = "BattleGroundEnemiesFixed",  var = "bge" },
+	{ name = "BetterBlizzFrames",         var = "bbf" },
+	{ name = "BetterBlizzPlates",         var = "bbp" },
+	{ name = "BigWigs",                   var = "bw" },
+	{ name = "Capping",                   var = "cap" },
+	{ name = "Chattynator",               var = "chatty" },
+	{ name = "Cooldown Manager Centered", var = "cdmc",   check = "CooldownManagerCentered" },
+	{ name = "Danders Frames",            var = "df",     check = "DandersFrames" },
+	{ name = "Deadly Boss Mods",          var = "dbm",    check = "DBM-Core" },
+	{ name = "Details",                   var = "dtl" },
+	{ name = "ElvUI",                     var = "elv" },
+	{ name = "FrameColor",                var = "fc" },
+	{ name = "FrameSort",                 var = "fs" },
+	{ name = "Leatrix Plus",              var = "ltp",    check = "Leatrix_Plus" },
+	{ name = "MiniCC",                    var = "mcc" },
+	{ name = "MouseoverActionSettings",   var = "mas" },
+	{ name = "Plater",                    var = "pltr" },
+	{ name = "Platynator",                var = "platy" },
+	{ name = "sArena Reloaded",           var = "sarena", check = "sArena_Reloaded" },
+	{ name = "SimpleDatatexts",           var = "sdt" },
+	{ name = "TipTac Reborn",             var = "ttr",    check = "TipTac" },
+	{ name = "WarpDeplete",               var = "wd" },
 }
 
 -- Function to dynamically generate the addon list with correct colors
@@ -78,7 +79,7 @@ do
 	local separator = " • "
 
 	local supaddons = {
-		bge, bbf, bbp, bw, cap, chatty, cdmc, df, dbm, dtl, elv, fc, fs, ltp, mas, pltr, platy, sarena, sdt, tttr, wd
+		bge, bbf, bbp, bw, cap, chatty, cdmc, df, dbm, dtl, elv, fc, fs, ltp, mcc, mas, pltr, platy, sarena, sdt, ttr, wd
 	}
 
 	supportedAddons = concat(supaddons, separator)

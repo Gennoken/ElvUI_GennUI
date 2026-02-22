@@ -1,7 +1,12 @@
 # Changelog
 
+**v3.03 [22/02/2026]**
+- Swaped Cooldown Manager Control for Cooldown Manager Centered, more rebust.
+- MiniCC profile added
+- Updated Edit Mode String for Cooldown Manager Centered compatibility.
+
 **v3.02 [20/02/2026]**
-- Changing verious system fonts is now optional and toggable in GennUI options.
+- Changing verious system fonts is now optional and togglable in GennUI options.
 
 **v3.01 [19/02/2026]**
 - Swaped back to TipTac Reborn as it's now updated for Midnight, profile added.
