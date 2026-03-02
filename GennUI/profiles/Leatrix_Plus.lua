@@ -212,7 +212,7 @@ function GennUI:LoadLTPProfile()
         ["TransMining"] = "On",
         ["ControlScale"] = 1,
         ["MuteInterface"] = "Off",
-        ["MiniExcludeList"] = "AlterEgo",
+        ["MiniExcludeList"] = "AlterEgo,SavedInstances,Socialite",
         ["SetChatFontSize"] = "Off",
         ["MuteOttuks"] = "Off",
         ["AutoResNoAfterlife"] = "Off",
