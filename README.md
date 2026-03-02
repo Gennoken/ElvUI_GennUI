@@ -42,7 +42,7 @@
 *   FrameColor
 *   FrameSort
 *   Leatrix Plus
-*	MiniCC
+*   MiniCC
 *   Mouseover Action Settings
 *   MPlusTimer
 *   Plater
