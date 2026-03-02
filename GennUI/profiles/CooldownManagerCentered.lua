@@ -10,32 +10,26 @@ function GennUI:LoadCDMCProfile()
             ["Default"] = {
                 ["cooldownManager_squareIconsZoom_BuffIcons"] = 0.09999999403953552,
                 ["cooldownManager_customActiveColor_b"] = 0.5686274766921997,
+                ["_tracker_filled_with_defaults"] = true,
                 ["cooldownManager_keybindFontName"] = "GennUI",
                 ["cooldownManager_squareIconsZoom_Essential"] = 0.09999999403953552,
                 ["cooldownManager_customActiveColor_g"] = 0.9490196704864502,
                 ["cooldownManager_squareIcons_BuffIcons"] = true,
                 ["cooldownManager_visibility_enabled_rules"] = {
                     ["HIDE_OUT_OF_COMBAT"] = true,
-                    ["HIDE_IN_VEHICLES"] = true,
                 },
-                ["cooldownManager_squareIcons_Essential"] = true,
                 ["cooldownManager_squareIconsZoom_Utility"] = 0.09999999403953552,
+                ["cooldownManager_cooldownFontName"] = "GennUI",
+                ["cooldownManager_squareIcons_Essential"] = true,
+                ["cooldownManager_cooldownFontSizeEssential_enabled"] = true,
+                ["cooldownManager_cooldownFontSizeUtility_enabled"] = true,
                 ["cooldownManager_squareIcons_Utility"] = true,
+                ["cooldownManager_cooldownFontSizeBuffIcons_enabled"] = true,
+                ["cooldownManager_cooldownFontSizeTracker_enabled"] = true,
                 ["cooldownManager_customActiveColor_a"] = 0.2209940701723099,
                 ["cooldownManager_customSwipeColor_enabled"] = true,
                 ["trinketRacialTracker_squareIcons"] = true,
                 ["editMode"] = {
-                    ["tracker1"] = {
-                        ["strata"] = "MEDIUM",
-                        ["point"] = "TOP",
-                        ["scale"] = 0.800000011920929,
-                        ["alpha"] = 1,
-                        ["y"] = -934.249885559082,
-                        ["x"] = -292.2500305175781,
-                        ["iconSize"] = 42,
-                        ["orientation"] = "Vertical Down",
-                        ["iconPadding"] = 2,
-                    },
                     ["tracker2"] = {
                         ["strata"] = "MEDIUM",
                         ["point"] = "LEFT",
@@ -44,10 +38,22 @@ function GennUI:LoadCDMCProfile()
                         ["y"] = -94.79692077636719,
                         ["x"] = 1003.964412689209,
                         ["iconSize"] = 42,
-                        ["orientation"] = "Horizontal Right",
                         ["iconPadding"] = 2,
+                        ["orientation"] = "Horizontal Right",
+                    },
+                    ["tracker1"] = {
+                        ["strata"] = "MEDIUM",
+                        ["point"] = "TOP",
+                        ["scale"] = 0.800000011920929,
+                        ["alpha"] = 1,
+                        ["y"] = -934.249885559082,
+                        ["x"] = -292.2500305175781,
+                        ["iconSize"] = 42,
+                        ["iconPadding"] = 2,
+                        ["orientation"] = "Vertical Down",
                     },
                 },
+                ["_bug_warning_displayed"] = 20260301,
                 ["cooldownManager_stackFontName"] = "GennUI",
                 ["tracker"] = {
                     ["wildcardSlotSettings"] = {
@@ -109,9 +115,9 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "hidden",
                             ["order"] = 3,
                         },
-                        [33702] = {
+                        [25046] = {
                             ["state"] = "tracker1",
-                            ["order"] = 16,
+                            ["order"] = 3,
                         },
                         [59542] = {
                             ["state"] = "tracker1",
@@ -133,9 +139,9 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 21,
                         },
-                        [202719] = {
-                            ["state"] = "tracker1",
-                            ["order"] = 10,
+                        [125439] = {
+                            ["state"] = "hidden",
+                            ["order"] = 4,
                         },
                         [69070] = {
                             ["state"] = "tracker1",
@@ -149,17 +155,17 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 57,
                         },
-                        [107079] = {
-                            ["state"] = "tracker1",
-                            ["order"] = 43,
-                        },
-                        [59545] = {
-                            ["state"] = "tracker1",
-                            ["order"] = 29,
-                        },
                         [83958] = {
                             ["state"] = "hidden",
                             ["order"] = 5,
+                        },
+                        [155145] = {
+                            ["state"] = "tracker1",
+                            ["order"] = 9,
+                        },
+                        [107079] = {
+                            ["state"] = "tracker1",
+                            ["order"] = 43,
                         },
                         [20589] = {
                             ["state"] = "tracker1",
@@ -173,9 +179,9 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 5,
                         },
-                        [382499] = {
-                            ["state"] = "hidden",
-                            ["order"] = 6,
+                        [68992] = {
+                            ["state"] = "tracker1",
+                            ["order"] = 18,
                         },
                         [312411] = {
                             ["state"] = "tracker1",
@@ -185,9 +191,9 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 49,
                         },
-                        [68992] = {
-                            ["state"] = "tracker1",
-                            ["order"] = 18,
+                        [382499] = {
+                            ["state"] = "hidden",
+                            ["order"] = 6,
                         },
                         [368970] = {
                             ["state"] = "tracker1",
@@ -197,13 +203,13 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 1,
                         },
-                        [121093] = {
+                        [260364] = {
                             ["state"] = "tracker1",
-                            ["order"] = 32,
+                            ["order"] = 2,
                         },
-                        [232633] = {
+                        [1237885] = {
                             ["state"] = "tracker1",
-                            ["order"] = 11,
+                            ["order"] = 53,
                         },
                         [287712] = {
                             ["state"] = "tracker1",
@@ -213,6 +219,10 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 15,
                         },
+                        [26297] = {
+                            ["state"] = "tracker1",
+                            ["order"] = 14,
+                        },
                         [382501] = {
                             ["state"] = "hidden",
                             ["order"] = 7,
@@ -221,21 +231,17 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 4,
                         },
-                        [26297] = {
-                            ["state"] = "tracker1",
-                            ["order"] = 14,
-                        },
                         [370626] = {
                             ["state"] = "tracker1",
                             ["order"] = 33,
                         },
-                        [1237885] = {
+                        [232633] = {
                             ["state"] = "tracker1",
-                            ["order"] = 53,
+                            ["order"] = 11,
                         },
-                        [260364] = {
+                        [121093] = {
                             ["state"] = "tracker1",
-                            ["order"] = 2,
+                            ["order"] = 32,
                         },
                         [6603] = {
                             ["state"] = "hidden",
@@ -245,9 +251,9 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 27,
                         },
-                        [155145] = {
+                        [59545] = {
                             ["state"] = "tracker1",
-                            ["order"] = 9,
+                            ["order"] = 29,
                         },
                         [59547] = {
                             ["state"] = "tracker1",
@@ -261,13 +267,13 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 17,
                         },
-                        [125439] = {
-                            ["state"] = "hidden",
-                            ["order"] = 4,
-                        },
-                        [25046] = {
+                        [202719] = {
                             ["state"] = "tracker1",
-                            ["order"] = 3,
+                            ["order"] = 10,
+                        },
+                        [33702] = {
+                            ["state"] = "tracker1",
+                            ["order"] = 16,
                         },
                     },
                     ["itemSettings"] = {
@@ -303,9 +309,9 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "hidden",
                             ["order"] = 12,
                         },
-                        [241304] = {
+                        [212265] = {
                             ["state"] = "tracker1",
-                            ["order"] = 47,
+                            ["order"] = 52,
                         },
                         [224464] = {
                             ["state"] = "tracker1",
@@ -327,32 +333,31 @@ function GennUI:LoadCDMCProfile()
                             ["state"] = "tracker1",
                             ["order"] = 39,
                         },
-                        [244839] = {
-                            ["state"] = "tracker1",
-                            ["order"] = 40,
+                        [222728] = {
+                            ["state"] = "hidden",
+                            ["order"] = 11,
                         },
                         [224107] = {
                             ["state"] = "hidden",
                             ["order"] = 2,
                         },
-                        [222728] = {
-                            ["state"] = "hidden",
-                            ["order"] = 11,
+                        [244839] = {
+                            ["state"] = "tracker1",
+                            ["order"] = 40,
                         },
                         [212282] = {
                             ["state"] = "hidden",
                             ["order"] = 10,
                         },
-                        [212265] = {
+                        [241304] = {
                             ["state"] = "tracker1",
-                            ["order"] = 52,
+                            ["order"] = 47,
                         },
                     },
                     ["itemViewerLayouts"] = {
                     },
                     ["showUnusable"] = false,
                 },
-                ["_tracker_filled_with_defaults"] = true,
             },
         },
     }

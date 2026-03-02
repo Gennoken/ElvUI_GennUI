@@ -1,5 +1,8 @@
 # Changelog
 
+**v3.04 [02/03/2026]**
+- Addons profiles updated: BetterBlizzPlates, Cooldown Manager Centered, DandersFrames, Deadly Boss Mods, MiniCC.
+
 **v3.03 [22/02/2026]**
 - Swaped Cooldown Manager Control for Cooldown Manager Centered, more rebust.
 - MiniCC profile added
